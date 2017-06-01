@@ -16,15 +16,24 @@
         }
         img {
             height: 100px;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px 1px 0px 1px;
         }
     </style>
     <meta charset="utf-8">
     <title>CH Hikes</title>
+    <script src="jquery-2.2.4.min.js"></script>
+    <script src="hikes.js"></script>
+    <script>
+        $(function() {
+            hikes.init();
+        });
+    </script>
 
 </head>
 
 <body>
-
     <table>
         <tr>
             <th>Date</th>
@@ -35,241 +44,9 @@
             <th>Conditons</th>
             <th>Photos</th>
         </tr>
-        <tr>
-            <td class="date">5/29/2017</td>
-            <td class='duration'>3:21</td>
-            <td class="miles">8.9</td>
-            <td class="mph">2.6</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--107'>Santiago Oaks</a></td>
-            <td class="conditions">Cloudy 60-68 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19223331/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19223331/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19223330/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19223330/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td class="date">5/20/2017</td>
-            <td class='duration'>3:22</td>
-            <td class="miles">9.0</td>
-            <td class="mph">2.7</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/wier-santiago'>Weir Santiago</a></td>
-            <td class="conditions">Sunny 72-90 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19186885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19186885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/19186886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19186886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">5/06/2017</td>
-            <td class='duration'>2:32</td>
-            <td class="miles">7.5</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--106'>Santiago Oaks</a></td>
-            <td class="conditions">Cloudy 65 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19145615/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19145615/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/19145617/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19145617/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">4/29/2017</td>
-            <td class='duration'>3:33</td>
-            <td class="miles">10.6</td>
-            <td class="mph">3.0</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/carbon-canyon--32'>Carbon Canyon</a></td>
-            <td class="conditions">Sunny, windy, 75 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19126227/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19126227/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/19126218/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19126218/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">4/21/2017</td>
-            <td class='duration'>3:26</td>
-            <td class="miles">9.4</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2141671064'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 65-85 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-pW7Nm8s/0/c4fd0a79/X2/IMG_3527-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-pW7Nm8s/0/c4fd0a79/X2/IMG_3527-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">4/15/2017</td>
-            <td class='duration'>3:36</td>
-            <td class="miles">10.0</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2128475384'>Weir Santiago</a></td>
-            <td class="conditions"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="date">4/9/2017</td>
-            <td class='duration'>1:49</td>
-            <td class="miles">4.0</td>
-            <td class="mph">2.2</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2114944868'>Charleston, SC</a></td>
-            <td class="conditions"></td>
-            <td>
-                <a href='https://photos.smugmug.com/Charleston-2017/i-PZPv3Gz/0/be4cc1e1/X2/IMG_3485-X2.jpg'><img src='https://photos.smugmug.com/Charleston-2017/i-PZPv3Gz/0/be4cc1e1/X2/IMG_3485-X2.jpg'></a>&nbsp;
-                <a href='https://photos.smugmug.com/Charleston-2017/i-fWwRncm/0/e8a14dc9/X2/IMG_3479-X2.jpg'><img src='https://photos.smugmug.com/Charleston-2017/i-fWwRncm/0/e8a14dc9/X2/IMG_3479-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">4/1/2017</td>
-            <td class='duration'>3:19</td>
-            <td class="miles">9.7</td>
-            <td class="mph">3.0</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2097822530'>Weir Santiago</a></td>
-            <td class="conditions">Sunny 65 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-Z2PTnh3/0/2e4ab7bf/X2/IMG_3287-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-Z2PTnh3/0/2e4ab7bf/X2/IMG_3287-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/26/2017</td>
-            <td class='duration'>3:16</td>
-            <td class="miles">8.9</td>
-            <td class="mph">2.7</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/weir-santiago--4'>Weir Santiago</a></td>
-            <td class="conditions">Partly cloudy 62 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/19029413/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19029413/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/19029412/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/19029412/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/20/2017</td>
-            <td class='duration'>3:54</td>
-            <td class="miles">10.7</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2073413747'>Santiago Oaks</a></td>
-            <td class="conditions">Cloudy 60 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-HKvmmVn/0/6ac1fc44/X2/IMG_3240-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-HKvmmVn/0/6ac1fc44/X2/IMG_3240-X2.jpg'></a>&nbsp;
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-8MCBsnk/0/fe88de43/X2/IMG_3255-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-8MCBsnk/0/fe88de43/X2/IMG_3255-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/18/2017</td>
-            <td class='duration'>2:54</td>
-            <td class="miles">8.3</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2069622365'>Santiago Oaks</a></td>
-            <td class="conditions">Mostly sunny 70 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-vWVS49G/0/72f9cdda/X2/IMG_3207-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-vWVS49G/0/72f9cdda/X2/IMG_3207-X2.jpg'></a>&nbsp;
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-ntrRJ5j/0/8d320a8b/X2/IMG_3203-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-ntrRJ5j/0/8d320a8b/X2/IMG_3203-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/12/2017</td>
-            <td class='duration'>2:59</td>
-            <td class="miles">8.5</td>
-            <td class="mph">2.9</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2058980468/'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 70 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-fsLJp2p/0/edb35366/X2/IMG_3191-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-fsLJp2p/0/edb35366/X2/IMG_3191-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/6/2017</td>
-            <td class='duration'>2:49</td>
-            <td class="miles">7.9</td>
-            <td class="mph">2.8</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2047464806'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 60 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-QVCLn4K/0/6a3521c7/X2/IMG_3181-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-QVCLn4K/0/6a3521c7/X2/IMG_3181-X2.jpg'></a>&nbsp;
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-7JpCLBv/0/70a26eb0/X2/IMG_3172-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-7JpCLBv/0/70a26eb0/X2/IMG_3172-X2.jpg'>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">3/4/2017</td>
-            <td class='duration'>3:13</td>
-            <td class="miles">10.0</td>
-            <td class="mph">3.1</td>
-            <td class="trail"><a href='http://www.mapmyhike.com/workout/2043857987'>Weir Santiago</a></td>
-            <td class="conditions">Overcast 63 degrees</td>
-            <td>
-                <a href='https://photos.smugmug.com/Santiago-Oaks-2017/i-fg4L3BC/0/efbf0a66/X2/IMG_3156-X2.jpg'><img src='https://photos.smugmug.com/Santiago-Oaks-2017/i-fg4L3BC/0/efbf0a66/X2/IMG_3156-X2.jpg'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">2/25/2017</td>
-            <td class='duration'>3:14</td>
-            <td class="miles">9.0</td>
-            <td class="mph">2.8</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/weir-santiago--3'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 48 to 60 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/18218531/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/18218531/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/18218525/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/18218525/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">2/12/2017</td>
-            <td class='duration'>2:39</td>
-            <td class="miles">5.8</td>
-            <td class="mph">2.2</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--98'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 68 degrees, muddy</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/18012764/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/18012764/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/18012750/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/18012750/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">2/5/2017</td>
-            <td class='duration'>3:18</td>
-            <td class="miles">8.9</td>
-            <td class="mph">2.7</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/weir-santiago--2'>Weir Santiago</a></td>
-            <td class="conditions">Cloudy misty 57 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/17821656/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17821656/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/17821655/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17821655/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">1/29/2017</td>
-            <td class='duration'>2:54</td>
-            <td class="miles">7.4</td>
-            <td class="mph">2.6</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--96'>Santiago Oaks</a></td>
-            <td class="conditions">Sunny 77 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/17729885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17729885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/17729886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17729886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">1/15/2017</td>
-            <td class='duration'>2:53</td>
-            <td class="miles">7.5</td>
-            <td class="mph">2.6</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--89'>Santiago Oaks</a></td>
-            <td class="conditions">Mostly cloudy 58 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/17188161/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17188161/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/17188154/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/17188154/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'>
-            </td>
-        </tr>
-        <tr>
-            <td class="date">1/8/2017</td>
-            <td class='duration'>2:40</td>
-            <td class="miles">7.2</td>
-            <td class="mph">2.7</td>
-            <td class="trail"><a href='https://www.alltrails.com/explore/recording/santiago-oaks--86'>Santiago Oaks</a></td>
-            <td class="conditions">Mostly sunny 72 degrees</td>
-            <td>
-                <a href='https://www.alltrails.com/api/alltrails/photos/16799731/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/16799731/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'></a>&nbsp;
-                <a href='https://www.alltrails.com/api/alltrails/photos/16799727/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'><img src='https://www.alltrails.com/api/alltrails/photos/16799727/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i'>
-            </td>
-        </tr>
+        <tbody id="tdata">
+        </tbody>
     </table>
-
 </body>
 
 </html>
