@@ -3,19 +3,16 @@ var hikes = hikes || new Hikes();
 function Hikes() {
     this.init = function () {
         for (var i = 0; i < data.length; i++) {
-            var photos = "";
+            var photos = "<td>";
             if (data[i].photos && data[i].photos.length > 0) {
-                photos = "<td>";
                 for (j = 0; j < data[i].photos.length; j++) {
                     photos += "<a href='" + data[i].photos[j] +
                         "'><img src='" + data[i].photos[j] +
                         "'></a>";
                 }
-                photos += "</td>";
             }
-            else {
-                photos = "<td></td>";
-            }
+            photos += "</td>";
+
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
                 "<td class='duration'>" + data[i].duration + "</td>" +
@@ -31,6 +28,16 @@ function Hikes() {
 }
 
 var data = [
+    {
+        date: '6/3/2017',
+        duration: '2:27',
+        miles: 7.3,
+        mph: 3.0,
+        trail: 'Santiago Oaks',
+        url: 'https://www.alltrails.com/explore/recording/santiago-oaks--108',
+        conditions: 'Partly cloudy 68-72 degrees',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19241263/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19241261/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '5/29/2017',
         duration: '3:21',
