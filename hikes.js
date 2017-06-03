@@ -35,7 +35,7 @@ var data = [
         mph: 3.0,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--108',
-        conditions: 'Partly cloudy 68-72 degrees',
+        conditions: 'Partly cloudy 68&deg;-72&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19241263/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19241261/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -45,7 +45,7 @@ var data = [
         mph: 2.6,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--107',
-        conditions: 'Cloudy 60-68 degrees',
+        conditions: 'Cloudy 60&deg;-68&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19223331/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19223330/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -55,7 +55,7 @@ var data = [
         mph: 2.7,
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/wier-santiago',
-        conditions: 'Sunny 72-90 degrees',
+        conditions: 'Sunny 72&deg;-90&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19186885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19186886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -65,7 +65,7 @@ var data = [
         mph: 2.9,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--106',
-        conditions: 'Cloudy 65 degrees',
+        conditions: 'Cloudy 65&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19145615/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19145617/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -75,7 +75,7 @@ var data = [
         mph: 3.0,
         trail: 'Carbon Canyon',
         url: 'https://www.alltrails.com/explore/recording/carbon-canyon--32',
-        conditions: 'Sunny, windy, 75 degrees',
+        conditions: 'Sunny, windy, 75&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19126227/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19126218/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -85,7 +85,7 @@ var data = [
         mph: 2.9,
         trail: 'Santiago Oaks',
         url: 'http://www.mapmyhike.com/workout/2141671064',
-        conditions: 'Sunny 65-85 degrees',
+        conditions: 'Sunny 65&deg;-85&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-pW7Nm8s/0/c4fd0a79/X2/IMG_3527-X2.jpg']
     },
     {
@@ -115,7 +115,7 @@ var data = [
         mph: 3.0,
         trail: 'Weir Santiago',
         url: 'http://www.mapmyhike.com/workout/2097822530',
-        conditions: 'Sunny 65 degrees',
+        conditions: 'Sunny 65&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-Z2PTnh3/0/2e4ab7bf/X2/IMG_3287-X2.jpg']
     },
     {
@@ -125,7 +125,7 @@ var data = [
         mph: 2.7,
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/weir-santiago--4',
-        conditions: 'Partly cloudy 62 degrees',
+        conditions: 'Partly cloudy 62&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/19029413/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19029412/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -135,7 +135,7 @@ var data = [
         mph: 2.9,
         trail: 'Santiago Oaks',
         url: 'http://www.mapmyhike.com/workout/2073413747',
-        conditions: 'Cloudy 60 degrees',
+        conditions: 'Cloudy 60&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-HKvmmVn/0/6ac1fc44/X2/IMG_3240-X2.jpg','https://photos.smugmug.com/Santiago-Oaks-2017/i-8MCBsnk/0/fe88de43/X2/IMG_3255-X2.jpg']
     },
     {
@@ -145,7 +145,7 @@ var data = [
         mph: 2.9,
         trail: 'Santiago Oaks',
         url: 'http://www.mapmyhike.com/workout/2069622365',
-        conditions: 'Mostly sunny 70 degrees',
+        conditions: 'Mostly sunny 70&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-vWVS49G/0/72f9cdda/X2/IMG_3207-X2.jpg','https://photos.smugmug.com/Santiago-Oaks-2017/i-ntrRJ5j/0/8d320a8b/X2/IMG_3203-X2.jpg']
     },
     {
@@ -155,7 +155,7 @@ var data = [
         mph: 2.9,
         trail: 'Santiago Oaks',
         url: 'http://www.mapmyhike.com/workout/2058980468/',
-        conditions: 'Sunny 70 degrees',
+        conditions: 'Sunny 70&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-fsLJp2p/0/edb35366/X2/IMG_3191-X2.jpg']
     },
     {
@@ -165,7 +165,7 @@ var data = [
         mph: 2.8,
         trail: 'Santiago Oaks',
         url: 'http://www.mapmyhike.com/workout/2047464806',
-        conditions: 'Sunny 60 degrees',
+        conditions: 'Sunny 60&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-QVCLn4K/0/6a3521c7/X2/IMG_3181-X2.jpg','https://photos.smugmug.com/Santiago-Oaks-2017/i-7JpCLBv/0/70a26eb0/X2/IMG_3172-X2.jpg']
     },
     {
@@ -175,7 +175,7 @@ var data = [
         mph: 3.1,
         trail: 'Weir Santiago',
         url: 'http://www.mapmyhike.com/workout/2043857987',
-        conditions: 'Overcast 63 degrees',
+        conditions: 'Overcast 63&deg;',
         photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-fg4L3BC/0/efbf0a66/X2/IMG_3156-X2.jpg']
     },
     {
@@ -185,7 +185,7 @@ var data = [
         mph: 2.8,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/weir-santiago--3',
-        conditions: 'Sunny 48 to 60 degrees',
+        conditions: 'Sunny 48&deg;-60&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/18218531/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/18218525/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -195,7 +195,7 @@ var data = [
         mph: 2.2,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--98',
-        conditions: 'Sunny 68 degrees, muddy',
+        conditions: 'Sunny 68&deg;, muddy',
         photos: ['https://www.alltrails.com/api/alltrails/photos/18012764/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/18012750/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -205,7 +205,7 @@ var data = [
         mph: 2.7,
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/weir-santiago--2',
-        conditions: 'Cloudy misty 57 degrees',
+        conditions: 'Cloudy misty 57&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/17821656/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/17821655/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -215,7 +215,7 @@ var data = [
         mph: 2.6,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--96',
-        conditions: 'Sunny 77 degrees',
+        conditions: 'Sunny 77&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/17729885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/17729886/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -225,7 +225,7 @@ var data = [
         mph: 2.6,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--89',
-        conditions: 'Mostly cloudy 58 degrees',
+        conditions: 'Mostly cloudy 58&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/17188161/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/17188154/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -235,7 +235,7 @@ var data = [
         mph: 2.7,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--86',
-        conditions: 'Mostly sunny 72 degrees',
+        conditions: 'Mostly sunny 72&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/16799731/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/16799727/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
 
