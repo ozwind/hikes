@@ -95,8 +95,8 @@ var data = [
         mph: 2.9,
         trail: 'Weir Santiago',
         url: 'http://www.mapmyhike.com/workout/2128475384',
-        conditions: '',
-        photos: []
+        conditions: 'Sunny',
+        photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-pKGNnwh/0/080d0888/X2/IMG_3504-X2.jpg']
     },
     {
         date: '4/9/2017',
@@ -105,7 +105,7 @@ var data = [
         mph: 2.2,
         trail: 'Charleston, SC',
         url: 'http://www.mapmyhike.com/workout/2114944868',
-        conditions: '',
+        conditions: 'Sunny',
         photos: ['https://photos.smugmug.com/Charleston-2017/i-PZPv3Gz/0/be4cc1e1/X2/IMG_3485-X2.jpg','https://photos.smugmug.com/Charleston-2017/i-fWwRncm/0/e8a14dc9/X2/IMG_3479-X2.jpg']
     },
     {
