@@ -238,5 +238,55 @@ var data = [
         conditions: 'Mostly sunny 72&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/16799731/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/16799727/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
+    {
+        date: '9/10/2016',
+        duration: '2:52',
+        miles: 7.2,
+        mph: 2.5,
+        trail: 'Jones',
+        url: 'https://www.alltrails.com/explore/recording/jones--10',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/13360607/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/13360612/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '8/18/2016',
+        duration: '6:27',
+        miles: 13.9,
+        mph: 2.1,
+        trail: 'Mt. Whitney',
+        url: 'https://www.alltrails.com/explore/recording/whitney-4--2',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/12134576/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/12134571/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '8/14/2016',
+        duration: '2:16',
+        miles: 5.3,
+        mph: 2.3,
+        trail: 'Onion Valley',
+        url: 'https://www.alltrails.com/explore/recording/onion-valley--10',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/12135505/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/12135500/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '7/2/2016',
+        duration: '3:58',
+        miles: 9.7,
+        mph: 2.4,
+        trail: 'Mt. Baldy',
+        url: 'https://www.alltrails.com/explore/recording/baldy--66',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/11680953/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/11680952/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '6/19/2016',
+        duration: '1:15',
+        miles: 3.3,
+        mph: 2.7,
+        trail: 'Castlewood',
+        url: 'https://www.alltrails.com/explore/recording/castlewood--33',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/11602608/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/11602607/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
 
 ];
