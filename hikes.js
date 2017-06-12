@@ -13,12 +13,16 @@ function Hikes() {
             }
             photos += "</td>";
 
+            var trailPhotos = "";
+            if (data[i].trailPhotos && data[i].trailPhotos.length > 0) {
+                trailPhotos = "<br><a href='" + data[i].trailPhotos + "'>Trail photos</a>";
+            }
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
                 "<td class='duration'>" + data[i].duration + "</td>" +
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
                 "<td class='mph'>" + data[i].mph.toFixed(1) + "</td>" +
-                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a></td>" +
+                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a>" + trailPhotos + "</td>" +
                 "<td class='conditions'>" + data[i].conditions + "</td>" +
                 photos +
                 "</tr>";
@@ -28,6 +32,17 @@ function Hikes() {
 }
 
 var data = [
+    {
+        date: '6/12/2017',
+        duration: '3:13',
+        miles: 8.9,
+        mph: 2.8,
+        trail: 'Pipeline',
+        url: 'https://www.alltrails.com/explore/recording/pipeline--65',
+        trailPhotos: 'https://chewi0.smugmug.com/Pipeline-2017/',
+        conditions: 'Mostly sunny 59&deg;-75&deg;',
+        photos: ['https://photos.smugmug.com/Pipeline-2017/i-K9sWpqJ/0/c6d9d65d/X2/IMG_3658-X2.jpg','https://photos.smugmug.com/Pipeline-2017/i-RgWkpmV/0/a0e3225d/X2/IMG_3639-X2.jpg']
+    },
     {
         date: '6/3/2017',
         duration: '2:27',
