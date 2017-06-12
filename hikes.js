@@ -270,6 +270,7 @@ var data = [
         mph: 2.1,
         trail: 'Mt. Whitney',
         url: 'https://www.alltrails.com/explore/recording/whitney-4--2',
+        trailPhotos: 'https://chewi0.smugmug.com/Whitney-2016/',
         conditions: 'Sunny',
         photos: ['https://www.alltrails.com/api/alltrails/photos/12134576/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/12134571/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
@@ -290,6 +291,7 @@ var data = [
         mph: 2.4,
         trail: 'Mt. Baldy',
         url: 'https://www.alltrails.com/explore/recording/baldy--66',
+        trailPhotos: 'https://chewi0.smugmug.com/Baldy-2016/',
         conditions: 'Sunny',
         photos: ['https://www.alltrails.com/api/alltrails/photos/11680953/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/11680952/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
