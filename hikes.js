@@ -13,17 +13,18 @@ function Hikes() {
             }
             photos += "</td>";
 
-            var trailPhotos = "";
-            if (data[i].trailPhotos && data[i].trailPhotos.length > 0) {
-                trailPhotos = "<br><a href='" + data[i].trailPhotos + "'>Trail photos</a>";
+            var morePhotos = "";
+            if (data[i].morePhotos && data[i].morePhotos.length > 0) {
+                morePhotos = "<br><br><a href='" + data[i].morePhotos + "'>Photos</a>";
             }
+
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
                 "<td class='duration'>" + data[i].duration + "</td>" +
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
                 "<td class='mph'>" + data[i].mph.toFixed(1) + "</td>" +
-                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a>" + trailPhotos + "</td>" +
-                "<td class='conditions'>" + data[i].conditions + "</td>" +
+                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a></td>" +
+                "<td class='conditions'>" + data[i].conditions + morePhotos + "</td>" +
                 photos +
                 "</tr>";
             $("#tdata").append(html);
@@ -39,7 +40,7 @@ var data = [
         mph: 2.8,
         trail: 'Pipeline',
         url: 'https://www.alltrails.com/explore/recording/pipeline--65',
-        trailPhotos: 'https://chewi0.smugmug.com/Pipeline-2017/',
+        morePhotos: 'https://chewi0.smugmug.com/Pipeline-2017/',
         conditions: 'Mostly sunny 59&deg;-75&deg;',
         photos: ['https://photos.smugmug.com/Pipeline-2017/i-K9sWpqJ/0/c6d9d65d/X2/IMG_3658-X2.jpg','https://photos.smugmug.com/Pipeline-2017/i-RgWkpmV/0/a0e3225d/X2/IMG_3639-X2.jpg']
     },
@@ -119,6 +120,7 @@ var data = [
         miles: 4.0,
         mph: 2.2,
         trail: 'Charleston, SC',
+        morePhotos: 'https://chewi0.smugmug.com/Charleston-2017/',
         url: 'http://www.mapmyhike.com/workout/2114944868',
         conditions: 'Sunny',
         photos: ['https://photos.smugmug.com/Charleston-2017/i-PZPv3Gz/0/be4cc1e1/X2/IMG_3485-X2.jpg','https://photos.smugmug.com/Charleston-2017/i-fWwRncm/0/e8a14dc9/X2/IMG_3479-X2.jpg']
@@ -270,7 +272,7 @@ var data = [
         mph: 2.1,
         trail: 'Mt. Whitney',
         url: 'https://www.alltrails.com/explore/recording/whitney-4--2',
-        trailPhotos: 'https://chewi0.smugmug.com/Whitney-2016/',
+        morePhotos: 'https://chewi0.smugmug.com/Whitney-2016/',
         conditions: 'Sunny',
         photos: ['https://www.alltrails.com/api/alltrails/photos/12134576/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/12134571/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
@@ -291,7 +293,7 @@ var data = [
         mph: 2.4,
         trail: 'Mt. Baldy',
         url: 'https://www.alltrails.com/explore/recording/baldy--66',
-        trailPhotos: 'https://chewi0.smugmug.com/Baldy-2016/',
+        morePhotos: 'https://chewi0.smugmug.com/Baldy-2016/',
         conditions: 'Sunny',
         photos: ['https://www.alltrails.com/api/alltrails/photos/11680953/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/11680952/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
