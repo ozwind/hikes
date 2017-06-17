@@ -305,6 +305,7 @@ var data = [
         trail: 'Castlewood',
         url: 'https://www.alltrails.com/explore/recording/castlewood--33',
         conditions: 'Sunny',
+        morePhotos: 'https://chewi0.smugmug.com/St-Louis-2016/',
         photos: ['https://www.alltrails.com/api/alltrails/photos/11602608/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/11602607/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
 
