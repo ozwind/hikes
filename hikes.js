@@ -32,8 +32,10 @@ function Hikes() {
 }
 
 function mouseover(img) {
+    var windowpos = $(window).scrollTop();
     $("#rollImg").attr("src", img.src);
     $("#rollImg").css("display", "flex");
+    $(".image").css("top", windowpos);
 }
 
 function mouseout() {
