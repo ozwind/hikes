@@ -3,6 +3,9 @@
 
 <head>
     <style>
+        table {
+            float: left;
+        }
         table, th, td {
             border: 1px solid black;
         }
@@ -14,11 +17,17 @@
             text-align: right;
             padding-right: 4px;
         }
-        img {
+        .thumb {
             height: 100px;
             border-style: solid;
             border-color: white;
             border-width: 3px 1px 0px 1px;
+        }
+        .image {
+            overflow: hidden;
+        }
+        .image > img {
+            width: 100%
         }
     </style>
     <meta charset="utf-8">
@@ -47,6 +56,10 @@
         <tbody id="tdata">
         </tbody>
     </table>
+    <div class="image">
+        <img id="rollImg">
+    </div>
+    
 </body>
 
 </html>

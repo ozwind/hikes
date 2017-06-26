@@ -7,8 +7,7 @@ function Hikes() {
             if (data[i].photos && data[i].photos.length > 0) {
                 for (j = 0; j < data[i].photos.length; j++) {
                     photos += "<a href='" + data[i].photos[j] +
-                        "'><img src='" + data[i].photos[j] +
-                        "'></a>";
+                        "'><img class='thumb' onmouseover='mouseover(this)' onmouseout='mouseout(this)' src='" + data[i].photos[j] + "'></a>";
                 }
             }
             photos += "</td>";
@@ -30,6 +29,15 @@ function Hikes() {
             $("#tdata").append(html);
         }
     }
+}
+
+function mouseover(img) {
+    $("#rollImg").attr("src", img.src);
+    $("#rollImg").css("display", "flex");
+}
+
+function mouseout() {
+    $("#rollImg").css("display", "none");
 }
 
 var data = [
