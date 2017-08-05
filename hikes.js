@@ -44,6 +44,16 @@ function mouseout() {
 
 var data = [
     {
+        date: '8/5/2017',
+        duration: '2:41',
+        miles: 7.4,
+        mph: 2.8,
+        trail: 'Santiago Oaks',
+        url: 'https://www.alltrails.com/explore/recording/santiago-oaks--115',
+        conditions: 'Sunny 68&deg;-79&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19520353/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19520354/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '7/31/2017',
         duration: '3:10',
         miles: 8.5,
