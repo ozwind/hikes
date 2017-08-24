@@ -44,6 +44,17 @@ function mouseout() {
 
 var data = [
     {
+        date: '8/18/2017',
+        duration: '0:33',
+        miles: 1.5,
+        mph: 2.7,
+        trail: 'Jefferson Barracks',
+        url: 'https://www.alltrails.com/explore/recording/jefferson--22',
+        morePhotos: 'https://chewi0.smugmug.com/St-Louis-2017/',
+        conditions: 'Sunny',
+        photos: ['https://photos.smugmug.com/St-Louis-2017/i-HWtLCBP/0/aa658dc8/X3/IMG_3805-X3.jpg']
+    },
+    {
         date: '8/12/2017',
         duration: '3:18',
         miles: 9.2,
