@@ -52,7 +52,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/jefferson--22',
         morePhotos: 'https://chewi0.smugmug.com/St-Louis-2017/',
         conditions: 'Sunny',
-        photos: ['https://photos.smugmug.com/St-Louis-2017/i-HWtLCBP/0/aa658dc8/X3/IMG_3805-X3.jpg']
+        photos: ['https://photos.smugmug.com/St-Louis-2017/i-HWtLCBP/0/aa658dc8/X3/IMG_3805-X3.jpg','https://www.alltrails.com/api/alltrails/photos/19611717/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
         date: '8/12/2017',
