@@ -44,6 +44,16 @@ function mouseout() {
 
 var data = [
     {
+        date: '9/4/2017',
+        duration: '2:56',
+        miles: 6.1,
+        mph: 2.1,
+        trail: 'Santiago Oaks',
+        url: 'https://www.alltrails.com/explore/recording/mon-04-sep-2017-18-22',
+        conditions: 'Clouds 72&deg;-79&deg;',
+        photos: ['https://photos.smugmug.com/Santiago-Oaks-2017/i-kNhFszx/0/266c015f/X2/IMG_3934-X2.jpg','https://photos.smugmug.com/Santiago-Oaks-2017/i-g2GTBVK/0/3d469f9c/X2/IMG_3936-X2.jpg']
+    },
+    {
         date: '8/26/2017',
         duration: '3:06',
         miles: 8.0,
