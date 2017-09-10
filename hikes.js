@@ -38,11 +38,21 @@ function mouseover(img) {
     $(".image").css("top", windowpos);
 }
 
-function mouseout() {
+function mouseout(img) {
     $("#rollImg").css("display", "none");
 }
 
 var data = [
+    {
+        date: '9/10/2017',
+        duration: '1:57',
+        miles: 4.2,
+        mph: 2.1,
+        trail: 'Coachwhip',
+        url: 'https://www.alltrails.com/explore/recording/coachwhip--2',
+        conditions: 'Sunny 68&deg;-79&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19690301/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19690300/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '9/4/2017',
         duration: '2:56',
