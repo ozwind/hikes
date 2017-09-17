@@ -19,9 +19,9 @@ function Hikes() {
 
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
-                "<td class='duration'>" + data[i].duration + "</td>" +
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
                 "<td class='mph'>" + data[i].mph.toFixed(1) + "</td>" +
+                "<td class='duration'>" + data[i].duration + "</td>" +
                 "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a></td>" +
                 "<td class='conditions'>" + data[i].conditions + morePhotos + "</td>" +
                 photos +
@@ -43,6 +43,16 @@ function mouseout(img) {
 }
 
 var data = [
+    {
+        date: '9/17/2017',
+        duration: '3:09',
+        miles: 9.1,
+        mph: 2.9,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--5',
+        conditions: 'Clouds 70&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19718835/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19718836/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '9/10/2017',
         duration: '1:57',
