@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/23/2017',
+        duration: '2:30',
+        miles: 7.6,
+        mph: 3.0,
+        trail: 'Bumble Bee',
+        url: 'https://www.alltrails.com/explore/recording/bumble-bee--5',
+        conditions: 'Sunny 55&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19739711/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19739712/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/17/2017',
         duration: '3:09',
         miles: 9.1,
@@ -147,7 +157,7 @@ var data = [
     {
         date: '6/26/2017',
         duration: '3:27',
-        miles: 9.2,
+        miles: 9.1,
         mph: 2.6,
         trail: 'Santiago Oaks',
         url: 'https://www.alltrails.com/explore/recording/santiago-oaks--112',
