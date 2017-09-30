@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/30/2017',
+        duration: '3:18',
+        miles: 9.5,
+        mph: 2.9,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/weir-santiago-oaks',
+        conditions: 'Sunny 61&deg;-73&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19768093/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19768094/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/23/2017',
         duration: '2:30',
         miles: 7.6,
