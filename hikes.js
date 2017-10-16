@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/16/2017',
+        duration: '1:52',
+        miles: 5.5,
+        mph: 3.0,
+        trail: 'Carbon Canyon',
+        url: 'https://www.alltrails.com/explore/recording/carbon-canyon--36',
+        conditions: 'Sunny 61&deg;-82&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19830880/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19830878/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/9/2017',
         duration: '4:08',
         miles: 12.1,
