@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/21/2017',
+        duration: '3:30',
+        miles: 11.0,
+        mph: 3.2,
+        trail: 'Black Star',
+        url: 'https://www.alltrails.com/explore/recording/black-star--39',
+        conditions: 'Sunny 46&deg;-72&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19845356/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19845357/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/16/2017',
         duration: '1:52',
         miles: 5.5,
