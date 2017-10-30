@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/30/2017',
+        duration: '5:13',
+        miles: 16.5,
+        mph: 3.2,
+        trail: 'Beeks Place',
+        url: 'https://www.alltrails.com/explore/recording/beeks-place--2',
+        conditions: 'Cloudy 59&deg;-68&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19876838/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19876843/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/21/2017',
         duration: '3:30',
         miles: 11.0,
