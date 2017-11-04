@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '11/4/2017',
+        duration: '4:23',
+        miles: 13.7,
+        mph: 3.1,
+        trail: 'Chino Hills',
+        url: 'https://www.alltrails.com/explore/recording/chino-hills--28',
+        conditions: 'Sunny 52&deg;-72&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19888067/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19888068/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/30/2017',
         duration: '5:13',
         miles: 16.5,
