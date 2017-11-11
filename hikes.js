@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '11/11/2017',
+        duration: '3.48',
+        miles: 9.3,
+        mph: 2.4,
+        trail: 'Mystic Canyon',
+        url: 'https://www.alltrails.com/explore/recording/mystic-canyon--3',
+        conditions: 'Sunny 52&deg;-73&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19907320/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19907317/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '11/4/2017',
         duration: '4:23',
         miles: 13.7,
