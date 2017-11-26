@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '11/25/2017',
+        duration: '7:23',
+        miles: 15.0,
+        mph: 2.0,
+        trail: 'Mount Wilson',
+        url: 'https://www.alltrails.com/explore/recording/mount-wilson--51',
+        conditions: 'Sunny 63&deg;-78&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19947069/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19947068/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '11/20/2017',
         duration: '4:23',
         miles: 12.4,
