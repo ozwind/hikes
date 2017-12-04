@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/4/2017',
+        duration: '4:09',
+        miles: 12.0,
+        mph: 2.9,
+        trail: 'Skyline',
+        url: 'https://www.alltrails.com/explore/recording/skyline--316',
+        conditions: 'Windy 57&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19970478/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19970469/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '11/25/2017',
         duration: '7:23',
         miles: 15.0,
