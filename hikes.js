@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/9/2017',
+        duration: '4:11',
+        miles: 7.5,
+        mph: 1.8,
+        trail: 'Islip',
+        url: 'https://www.alltrails.com/explore/recording/islip--18',
+        conditions: 'Sunny 57&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19977284/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19977279/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/4/2017',
         duration: '4:09',
         miles: 12.0,
