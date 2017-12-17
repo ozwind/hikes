@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/16/2017',
+        duration: '2:47',
+        miles: 7.7,
+        mph: 2.8,
+        trail: 'Eagle Rock',
+        url: 'https://www.alltrails.com/explore/recording/eagle-rock--228',
+        conditions: 'Cloudy 46&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/19988182/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/19988193/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/9/2017',
         duration: '4:11',
         miles: 7.5,
