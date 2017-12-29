@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/29/2017',
+        duration: '4:15',
+        miles: 11.6,
+        mph: 2.7,
+        trail: 'Blue Sky',
+        url: 'https://www.alltrails.com/explore/recording/blue-sky--39',
+        conditions: 'Sunny 57&deg;-81&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20011216/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20011221/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/22/2017',
         duration: '4:16',
         miles: 10.0,
