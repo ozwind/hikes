@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '1/20/2018',
+        duration: '2:21',
+        miles: 6.8,
+        mph: 2.9,
+        trail: 'Hawk',
+        url: 'https://www.alltrails.com/explore/recording/hawk--20',
+        conditions: 'Sunny 48&deg;-55&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20065167/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20065164/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '1/13/2018',
         duration: '3:18',
         miles: 9.5,
