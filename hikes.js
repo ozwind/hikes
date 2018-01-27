@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '1/27/2018',
+        duration: '2:18',
+        miles: 6.8,
+        mph: 3.0,
+        trail: 'Peralta Hills',
+        url: 'https://www.alltrails.com/explore/recording/peralta-hills--2',
+        conditions: 'Sunny 63&deg;-68&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20084444/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20084443/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '1/20/2018',
         duration: '2:21',
         miles: 6.8,
