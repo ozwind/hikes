@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '2/2/2018',
+        duration: '4:39',
+        miles: 13.8,
+        mph: 3.0,
+        trail: 'Fremont Canyon',
+        url: 'https://www.alltrails.com/explore/recording/fremont--35',
+        conditions: 'Sunny 60&deg;-82&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20100414/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20100421/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '1/27/2018',
         duration: '2:18',
         miles: 6.8,
