@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '2/17/2018',
+        duration: '2:27',
+        miles: 7.1,
+        mph: 2.9,
+        trail: 'Grasshopper',
+        url: 'https://www.alltrails.com/explore/recording/grasshopper--4',
+        conditions: 'Sunny 54&deg;-68&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20136884/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20136885/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '2/10/2018',
         duration: '2:04',
         miles: 6.1,
