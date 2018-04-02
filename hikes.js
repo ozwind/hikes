@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/2/2018',
+        duration: '2:59',
+        miles: 8.9,
+        mph: 3.0,
+        trail: 'Egret',
+        url: 'https://www.alltrails.com/explore/recording/egret--2',
+        conditions: 'Cloudy 55&deg;-61&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20276474/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20276473/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '3/26/2018',
         duration: '4:46',
         miles: 13.3,
