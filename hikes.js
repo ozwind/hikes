@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/16/2018',
+        duration: '4:06',
+        miles: 11.5,
+        mph: 2.8,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--7',
+        conditions: 'Clouds 55&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20325256/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20325258/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/9/2018',
         duration: '4:08',
         miles: 11.6,
