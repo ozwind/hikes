@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/23/2018',
+        duration: '3:19',
+        miles: 9.3,
+        mph: 2.8,
+        trail: 'Coachwhip',
+        url: 'https://www.alltrails.com/explore/recording/coachwhip--4',
+        conditions: 'Sunny 54&deg;-70&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20353423/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20353425/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/16/2018',
         duration: '4:06',
         miles: 11.5,
