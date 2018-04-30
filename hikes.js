@@ -44,6 +44,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/30/2018',
+        duration: '1:18',
+        miles: 2.9,
+        mph: 2.3,
+        trail: 'Deer',
+        url: 'https://www.alltrails.com/explore/recording/deer--105',
+        conditions: 'Cloudy 57&deg;-59&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20385323/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20385328/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/23/2018',
         duration: '3:19',
         miles: 9.3,
