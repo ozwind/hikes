@@ -2,6 +2,11 @@ var hikes = hikes || new Hikes();
 
 function Hikes() {
     this.init = function () {
+        var furthest = 0;
+        var fastest = 0;
+        var longest = 0;
+        var coldest = 0;
+        var warmest = 0;
         for (var i = 0; i < data.length; i++) {
             var photos = "<td>";
             if (data[i].photos && data[i].photos.length > 0) {
@@ -27,7 +32,44 @@ function Hikes() {
                 photos +
                 "</tr>";
             $("#tdata").append(html);
+
+            if (data[i].miles > data[furthest].miles) {
+                furthest = i;
+            }
+            if (data[i].mph > data[fastest].mph) {
+                fastest = i;
+            }
+            if (data[i].duration > data[longest].duration) {
+                longest = i;
+            }
+            var low = 100;
+            var high = 0;
+            var temps = data[i].conditions.match(/\d+/g);
+            temps = temps ? temps.map(Number) : undefined;
+            if (temps) {
+                if (temps.length == 1) {
+                    low = temps[0];
+                    high = low;
+                }
+                else if (temps.length > 1) {
+                    low = temps[0];
+                    high = temps[1];
+                }
+            }
+            data[i].low = low;
+            data[i].high = high;
+            if (data[i].low < data[coldest].low) {
+                coldest = i;
+            }
+            if (data[i].high > data[warmest].high) {
+                warmest = i;
+            }
         }
+        $("#thMiles").attr("title", data[furthest].date + " " + data[furthest].miles);
+        $("#thMPH").attr("title", data[fastest].date + " " + data[fastest].mph);
+        $("#thDuration").attr("title", data[longest].date + " " + data[longest].duration);
+        $("#thCond").attr("title", data[coldest].date + " " + data[coldest].low + "°\n"
+                         + data[warmest].date + " " + data[warmest].high + "°");
     }
 }
 
