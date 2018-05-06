@@ -65,11 +65,13 @@ function Hikes() {
                 warmest = i;
             }
         }
-        $("#thMiles").attr("title", data[furthest].date + " " + data[furthest].miles);
-        $("#thMPH").attr("title", data[fastest].date + " " + data[fastest].mph);
-        $("#thDuration").attr("title", data[longest].date + " " + data[longest].duration);
-        $("#thCond").attr("title", data[coldest].date + " " + data[coldest].low + "°\n"
-                         + data[warmest].date + " " + data[warmest].high + "°");
+
+        var spaces = "&nbsp;&nbsp;&nbsp;";
+        $("#thMiles").html(data[furthest].miles + spaces + data[furthest].date);
+        $("#thMPH").html(data[fastest].mph + spaces + data[fastest].date);
+        $("#thDuration").html(data[longest].duration + spaces + data[longest].date);
+        $("#thCond").html(data[coldest].low + "°" + spaces + data[coldest].date + "\n"
+                         + data[warmest].high + "°" + spaces + data[warmest].date);
     }
 }
 

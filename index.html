@@ -6,39 +6,79 @@
         table {
             float: left;
         }
-        table, th, td {
+        
+        table,
+        th,
+        td {
             border: 1px solid gray;
         }
+        
         th {
             background: #f0f0e0;
         }
-        .date, .trail, .conditions {
+        
+        .date,
+        .trail,
+        .conditions {
             padding-left: 4px;
             padding-right: 4px;
             background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
         }
-        .mph, .miles, .duration {
+        
+        .mph,
+        .miles,
+        .duration {
             text-align: right;
             padding-right: 4px;
             background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
         }
+        
         .thumb {
             height: 100px;
             border-style: solid;
             border-color: white;
             border-width: 3px 3px 0px 3px;
         }
+        
         .image {
             overflow: hidden;
             position: relative;
         }
-        .image > img {
+        
+        .image>img {
             width: 100%;
             margin-left: 2px;
         }
+        
         a {
             text-decoration: none;
         }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+        
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            background-color: black;
+            color: #f0f0e0;
+            text-align: left;
+            border-radius: 6px;
+            padding: 5px;
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: 100%;
+            left: 50%;
+            margin-left: -60px;
+        }
+        
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
     </style>
     <meta charset="utf-8">
     <title>CH Hikes</title>
@@ -48,6 +88,7 @@
         $(function() {
             hikes.init();
         });
+
     </script>
 
 </head>
@@ -56,11 +97,11 @@
     <table>
         <tr>
             <th>Date</th>
-            <th id="thMiles">Miles</th>
-            <th id="thMPH">MPH</th>
-            <th id="thDuration">Duration</th>
+            <th><div class="tooltip">Miles<span id="thMiles" class="tooltiptext"></span></div></th>
+            <th><div class="tooltip">MPH<span id="thMPH" class="tooltiptext"></span></div></th>
+            <th><div class="tooltip">Duration<span id="thDuration" class="tooltiptext"></span></div></th>
             <th>Trail</th>
-            <th id="thCond">Conditons</th>
+            <th><div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div></th>
             <th>Photos</th>
         </tr>
         <tbody id="tdata">
@@ -69,7 +110,7 @@
     <div class="image">
         <img id="rollImg">
     </div>
-    
+
 </body>
 
 </html>
