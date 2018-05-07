@@ -88,6 +88,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '5/7/2018',
+        duration: '1:21',
+        miles: 2.9,
+        mph: 2.1,
+        trail: 'Weir Canyon',
+        url: 'https://www.alltrails.com/explore/recording/weir-canyon--23',
+        conditions: 'Sunny 57&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20421559/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20421561/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/30/2018',
         duration: '1:18',
         miles: 2.9,
