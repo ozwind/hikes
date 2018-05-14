@@ -22,6 +22,12 @@ function Hikes() {
                 morePhotos = "<br><br><a href='" + data[i].morePhotos + "'>Photos</a>";
             }
 
+            if (data[i].videos) {
+                for (var j = 0; j < data[i].videos.length; j++) {
+                    morePhotos += "<br><br><a href='" + data[i].videos[j] + "'>Video</a>";
+                }
+            }
+
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
@@ -87,6 +93,16 @@ function mouseout(img) {
 }
 
 var data = [
+    {
+        date: '5/14/2018',
+        duration: '3:04',
+        miles: 8.9,
+        mph: 2.9,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--8',
+        conditions: 'Sunny 57&deg;-68&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20458443/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20458446/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '5/7/2018',
         duration: '1:21',
@@ -446,6 +462,7 @@ var data = [
         trail: 'Jefferson Barracks',
         url: 'https://www.alltrails.com/explore/recording/jefferson--22',
         morePhotos: 'https://chewi0.smugmug.com/St-Louis-2017/',
+        videos: ['https://photos.smugmug.com/St-Louis-2017/i-HpdXRH6/0/e60ef611/960/eclipse-960.mp4'],
         conditions: 'Clouds',
         photos: ['https://photos.smugmug.com/St-Louis-2017/i-HWtLCBP/0/aa658dc8/X3/IMG_3805-X3.jpg','https://www.alltrails.com/api/alltrails/photos/19611717/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
