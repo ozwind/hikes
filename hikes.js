@@ -28,6 +28,12 @@ function Hikes() {
                 }
             }
 
+            if (!data[i].mph) {
+                var dur = data[i].duration.split(":");
+                var time = parseInt(dur[0]) + parseInt(dur[1]) / 60.0;
+                data[i].mph = data[i].miles / time;
+            }
+
             var html = "<tr>" +
                 "<td class='date'>" + data[i].date + "</td>" +
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
@@ -93,6 +99,15 @@ function mouseout(img) {
 }
 
 var data = [
+    {
+        date: '5/21/2018',
+        duration: '4:20',
+        miles: 11.9,
+        trail: 'Horseshoe Loop',
+        url: 'https://www.alltrails.com/explore/recording/horseshoe-loop--24',
+        conditions: 'Misty cloudy 57&deg;-63&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20494795/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20494804/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '5/14/2018',
         duration: '3:04',
