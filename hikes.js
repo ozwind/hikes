@@ -100,6 +100,33 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '6/9/2018',
+        duration: '1:10',
+        miles: 2.2,
+        trail: 'Yehliu',
+        url: 'https://www.alltrails.com/explore/recording/yehliu',
+        conditions: 'Cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20685711/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20685713/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '6/7/2018',
+        duration: '2:49',
+        miles: 4.5,
+        trail: 'Zhuilu',
+        url: 'https://www.alltrails.com/explore/recording/zhuilu',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20685657/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20685665/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '6/5/2018',
+        duration: '1:33',
+        miles: 2.0,
+        trail: 'Xiaoyoukeng',
+        url: 'https://www.alltrails.com/explore/recording/xiaoyoukeng',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20685593/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20685588/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '5/28/2018',
         duration: '2:15',
         miles: 6.5,
