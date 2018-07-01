@@ -100,6 +100,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/1/2018',
+        duration: '1:20',
+        miles: 2.9,
+        trail: 'Deer',
+        url: 'https://www.alltrails.com/explore/recording/deer--112',
+        conditions: 'Cloudy  63&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20769153/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20769160/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '6/23/2018',
         duration: '3:18',
         miles: 9.1,
@@ -123,7 +132,7 @@ var data = [
         miles: 4.5,
         trail: 'Zhuilu',
         url: 'https://www.alltrails.com/explore/recording/zhuilu',
-        conditions: 'Sunny',
+        conditions: 'Partly cloudy',
         photos: ['https://www.alltrails.com/api/alltrails/photos/20685657/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20685665/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
@@ -132,7 +141,7 @@ var data = [
         miles: 2.0,
         trail: 'Xiaoyoukeng',
         url: 'https://www.alltrails.com/explore/recording/xiaoyoukeng',
-        conditions: 'Sunny',
+        conditions: 'Partly cloudy',
         photos: ['https://www.alltrails.com/api/alltrails/photos/20685593/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20685588/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
