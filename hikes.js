@@ -100,12 +100,21 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/8/2018',
+        duration: '3:16',
+        miles: 8.8,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--11',
+        conditions: 'Sunny 84&deg;-95&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/20833717/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20833719/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '7/1/2018',
         duration: '1:20',
         miles: 2.9,
         trail: 'Deer',
         url: 'https://www.alltrails.com/explore/recording/deer--112',
-        conditions: 'Cloudy  63&deg;-66&deg;',
+        conditions: 'Cloudy 63&deg;-66&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/20769153/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/20769160/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
