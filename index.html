@@ -73,6 +73,7 @@
             top: 100%;
             left: 50%;
             margin-left: -60px;
+            cursor: pointer;
         }
         
         .tooltip:hover .tooltiptext {
@@ -97,11 +98,19 @@
     <table>
         <tr>
             <th>Date</th>
-            <th><div class="tooltip">Miles<span id="thMiles" class="tooltiptext"></span></div></th>
-            <th><div class="tooltip">MPH<span id="thMPH" class="tooltiptext"></span></div></th>
-            <th><div class="tooltip">Duration<span id="thDuration" class="tooltiptext"></span></div></th>
+            <th>
+                <div class="tooltip">Miles<span id="thmiles" class="tooltiptext"></span></div>
+            </th>
+            <th>
+                <div class="tooltip">MPH<span id="thmph" class="tooltiptext"></span></div>
+            </th>
+            <th>
+                <div class="tooltip">Duration<span id="thduration" class="tooltiptext"></span></div>
+            </th>
             <th>Trail</th>
-            <th><div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div></th>
+            <th>
+                <div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div>
+            </th>
             <th>Photos</th>
         </tr>
         <tbody id="tdata">

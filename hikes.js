@@ -1,4 +1,6 @@
 var hikes = hikes || new Hikes();
+const spaces = "&nbsp;&nbsp;&nbsp;";
+
 
 function Hikes() {
     this.init = function () {
@@ -78,13 +80,38 @@ function Hikes() {
             }
         }
 
-        var spaces = "&nbsp;&nbsp;&nbsp;";
-        $("#thMiles").html(data[furthest].miles + spaces + data[furthest].date);
-        $("#thMPH").html(data[fastest].mph + spaces + data[fastest].date);
-        $("#thDuration").html(data[longest].duration + spaces + data[longest].date);
-        $("#thCond").html(data[coldest].low + "°" + spaces + data[coldest].date + "\n"
-                         + data[warmest].high + "°" + spaces + data[warmest].date);
+        tooltip(furthest, "miles");
+        tooltip(fastest, "mph");
+        tooltip(longest, "duration");
+        conditionTooltip(coldest, warmest);
     }
+}
+
+function tooltip(index, type) {
+    var tooltip = type + "Tooltip";
+    var date = data[index].date;
+    var html = "<div id='" + tooltip + "'>" + data[index][type] + spaces + date + "</div>";
+    $("#th" + type).html(html);
+    animate(tooltip, date);
+}
+
+function conditionTooltip(coldest, warmest) {
+    var coldTooltip = "coldTooltip";
+    var warmTooltip = "warmTooltip";
+    var coldDate = data[coldest].date;
+    var warmDate = data[warmest].date;
+    var html = "<div id='" + coldTooltip + "'>" + data[coldest].low + "°" + spaces + coldDate + "</div>"
+             + "<div id='" + warmTooltip + "'>" + data[warmest].low + "°" + spaces + warmDate + "</div>";
+    $("#thCond").html(html);
+    animate(coldTooltip, coldDate);
+    animate(warmTooltip, warmDate);
+}
+
+function animate(tooltip, date) {
+    $("#" + tooltip).on('click', function() {
+        var elem = $("td:contains('" + date + "')");
+        $('html, body').animate({scrollTop: elem.offset().top - 2}, 1000);
+    });    
 }
 
 function mouseover(img) {
