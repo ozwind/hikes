@@ -101,7 +101,7 @@ function conditionTooltip(coldest, warmest) {
     var coldDate = data[coldest].date;
     var warmDate = data[warmest].date;
     var html = "<div id='" + coldTooltip + "'>" + data[coldest].low + "°" + spaces + coldDate + "</div>"
-             + "<div id='" + warmTooltip + "'>" + data[warmest].low + "°" + spaces + warmDate + "</div>";
+             + "<div id='" + warmTooltip + "'>" + data[warmest].high + "°" + spaces + warmDate + "</div>";
     $("#thCond").html(html);
     animate(coldTooltip, coldDate);
     animate(warmTooltip, warmDate);
