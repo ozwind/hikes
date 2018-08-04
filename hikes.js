@@ -41,8 +41,8 @@ function Hikes() {
                 "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
                 "<td class='mph'>" + data[i].mph.toFixed(1) + "</td>" +
                 "<td class='duration'>" + data[i].duration + "</td>" +
-                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a></td>" +
                 "<td class='conditions'>" + data[i].conditions + morePhotos + "</td>" +
+                "<td class='trail'><a href='" + data[i].url + "'>" + data[i].trail + "</a></td>" +
                 photos +
                 "</tr>";
             $("#tdata").append(html);
@@ -126,6 +126,15 @@ function mouseout(img) {
 }
 
 var data = [
+    {
+        date: '8/4/2018',
+        duration: '2:40',
+        miles: 7.4,
+        trail: 'Cactus Canyon',
+        url: 'https://www.alltrails.com/explore/recording/cactus--12',
+        conditions: 'Sunny 68&deg;-79&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21040997/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21040992/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '7/28/2018',
         duration: '3:10',
