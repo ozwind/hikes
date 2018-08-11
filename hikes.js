@@ -127,6 +127,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/11/2018',
+        duration: '4:17',
+        miles: 11.7,
+        trail: 'Blue Sky',
+        url: 'https://www.alltrails.com/explore/recording/blue-sky--50',
+        conditions: 'Sunny 73&deg;-90&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21096059/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21096062/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '8/4/2018',
         duration: '2:40',
         miles: 7.4,
