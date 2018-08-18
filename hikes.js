@@ -127,6 +127,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/18/2018',
+        duration: '2:55',
+        miles: 8.8,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--12',
+        conditions: 'Cloudy 70&deg;-77&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21147687/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21147689/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '8/11/2018',
         duration: '4:17',
         miles: 11.7,
