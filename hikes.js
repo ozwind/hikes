@@ -14,7 +14,7 @@ function Hikes() {
             if (data[i].photos && data[i].photos.length > 0) {
                 for (j = 0; j < data[i].photos.length; j++) {
                     photos += "<a href='" + data[i].photos[j] +
-                        "'><img class='thumb' onmouseover='mouseover(this)' onmouseout='mouseout(this)' src='" + data[i].photos[j] + "'></a>";
+                        "'><img class='thumb' onmouseover='mouseover(this)' onmouseout='mouseout(this)' data-src='" + data[i].photos[j] + "'></a>";
                 }
             }
             photos += "</td>";
