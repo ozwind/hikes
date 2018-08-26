@@ -127,6 +127,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/26/2018',
+        duration: '1:22',
+        miles: 3.5,
+        trail: 'Irvine Park',
+        url: 'https://www.alltrails.com/explore/recording/irvine-park--27',
+        conditions: 'Cloudy 70&deg;-75&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21209026/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21209062/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '8/18/2018',
         duration: '2:55',
         miles: 8.8,
