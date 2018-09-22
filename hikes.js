@@ -127,6 +127,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/22/2018',
+        duration: '2:31',
+        miles: 7.5,
+        trail: 'Mountain Goat',
+        url: 'https://www.alltrails.com/explore/recording/mountain-goat--2',
+        conditions: 'Sunny 63&deg;-77&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21397625/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21397629/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/15/2018',
         duration: '3:08',
         miles: 9.1,
@@ -151,7 +160,7 @@ var data = [
         trail: 'Horseshoe Loop',
         url: 'https://www.alltrails.com/explore/recording/horseshoe-loop--34',
         conditions: 'Cloudy 64&deg;-77&deg;',
-        photos: ['https://www.alltrails.com/api/alltrails/photos/21249406/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21249402/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21249406/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21249398/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
         date: '8/26/2018',
