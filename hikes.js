@@ -127,6 +127,112 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/4/2018',
+        duration: '2:36',
+        miles: 5.5,
+        trail: 'Dead Horse',
+        url: 'https://www.alltrails.com/explore/recording/dead-horse--29',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-9x5RhX8',
+        conditions: 'Partly cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21491757/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21491774/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/4/2018',
+        duration: '1:37',
+        miles: 3.4,
+        trail: 'Delicate Arch',
+        url: 'https://www.alltrails.com/explore/recording/delicate-arch--353',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-LPJMJsh',
+        conditions: 'Partly cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21491596/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21491602/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/3/2018',
+        duration: '1:58',
+        miles: 3.6,
+        trail: 'Cassidy Arch',
+        url: 'https://www.alltrails.com/explore/recording/cassidy-arch--45',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-nmScNfG',
+        conditions: 'Partly cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21491430/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21491416/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/3/2018',
+        duration: '3:19',
+        miles: 6.7,
+        trail: 'Lower Calf',
+        url: 'https://www.alltrails.com/explore/recording/lower-calf-falls--4',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-5M4ZNxk',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21490700/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21490701/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/1/2018',
+        duration: '3:34',
+        miles: 6.8,
+        trail: 'Panorama',
+        url: 'https://www.alltrails.com/explore/recording/panorama--64',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-t6mJKnw',
+        conditions: 'Partly Cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21490428/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21490462/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/30/2018',
+        duration: '3:48',
+        miles: 6.8,
+        trail: 'East Rim',
+        url: 'https://www.alltrails.com/explore/recording/east-rim--17',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-5kzXcT6',
+        conditions: 'Partly Cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21490014/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21490020/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/30/2018',
+        duration: '2:47',
+        miles: 5.2,
+        trail: 'Angels Landing',
+        url: 'https://www.alltrails.com/explore/recording/angels-landing--472',
+        morePhotos: 'https://chewi0.smugmug.com/Vacation/Utah-2018/i-NMxq2kZ',
+        conditions: 'Partly Cloudy',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21489826/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21489813/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/29/2018',
+        duration: '0:10',
+        miles: 0.3,
+        trail: 'Elephant Rock',
+        url: 'https://www.alltrails.com/explore/recording/elephant-rock--81',
+        conditions: 'Sunny 96&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21489742/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21489744/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/29/2018',
+        duration: '0:21',
+        miles: 0.6,
+        trail: 'Rainbow Vista',
+        url: 'https://www.alltrails.com/explore/recording/rainbow-vista--19',
+        conditions: 'Sunny 96&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21489710/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21489711/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/29/2018',
+        duration: '0:38',
+        miles: 1.2,
+        trail: 'White Domes',
+        url: 'https://www.alltrails.com/explore/recording/white-domes--24',
+        conditions: 'Sunny 96&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21489617/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21489622/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '9/29/2018',
+        duration: '0:17',
+        miles: 0.4,
+        trail: 'Bowl of Fire',
+        url: 'https://www.alltrails.com/explore/recording/bowl-of-fire--24',
+        conditions: 'Sunny 96&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21489432/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21489435/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/22/2018',
         duration: '2:31',
         miles: 7.5,
