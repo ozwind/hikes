@@ -107,8 +107,9 @@ function conditionTooltip(coldest, warmest) {
     animate(warmTooltip, warmDate);
 }
 
-function animate(tooltip, date) {
-    $("#" + tooltip).on('click', function() {
+//function animate(tooltip, date) {
+const animate = (tooltip, date) => {
+    $("#" + tooltip).on('click', () => {
         var elem = $("td:contains('" + date + "')");
         $('html, body').animate({scrollTop: elem.offset().top - 2}, 1000);
     });    
@@ -126,6 +127,15 @@ function mouseout(img) {
 }
 
 var data = [
+    {
+        date: '11/3/2018',
+        duration: '3:02',
+        miles: 8.9,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/willows--14',
+        conditions: 'Sunny 64&deg;-75&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21651342/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21651341/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
     {
         date: '10/27/2018',
         duration: '2:57',
