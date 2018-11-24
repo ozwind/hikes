@@ -128,7 +128,7 @@ function mouseout(img) {
 
 var data = [
     {
-        date: '11/123/2018',
+        date: '11/23/2018',
         duration: '2:41',
         miles: 7.6,
         trail: 'Bumblebee',
