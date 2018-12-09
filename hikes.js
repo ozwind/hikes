@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/9/2018',
+        duration: '1:18',
+        miles: 3.6,
+        trail: 'Weir',
+        url: 'https://www.alltrails.com/explore/recording/weir--20',
+        conditions: 'Sunny 59&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21798392/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21798394/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '11/23/2018',
         duration: '2:41',
         miles: 7.6,
