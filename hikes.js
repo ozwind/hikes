@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/15/2018',
+        duration: '2:23',
+        miles: 6.9,
+        trail: 'Hidden Canyon',
+        url: 'https://www.alltrails.com/explore/recording/hidden-canyon--166',
+        conditions: 'Sunny 50&deg;-61&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21812401/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21812402/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/9/2018',
         duration: '1:18',
         miles: 3.6,
