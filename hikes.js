@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '1/5/2019',
+        duration: '1:54',
+        miles: 4.6,
+        trail: 'Elementary',
+        url: 'https://www.alltrails.com/explore/recording/elementary--5',
+        conditions: 'Cloudy 50&deg;-55&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/21907387/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/21907390/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/31/2018',
         duration: '4:19',
         miles: 12.1,
