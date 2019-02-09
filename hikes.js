@@ -134,7 +134,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/puma-ridge--6',
         conditions: 'Windy 68&deg;-77&deg;',
-        photos: ['https://www.alltrails.com/api/alltrails/photos/22002483/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22002484/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22002483/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22060594/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
         date: '1/5/2019',
