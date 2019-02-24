@@ -128,6 +128,16 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '2/24/2019',
+        duration: '1:41',
+        miles: 4.3,
+        trail: 'Weir',
+        url: 'https://www.alltrails.com/explore/recording/weir--22',
+        morePhotos: 'https://chewi0.smugmug.com/Nature/Socal-2019/',
+        conditions: 'Sunny 48&deg;-57&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22123761/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22123784/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '1/26/2019',
         duration: '4:14',
         miles: 12.0,
