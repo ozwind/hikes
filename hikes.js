@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '3/24/2019',
+        duration: '3:57',
+        miles: 10.8,
+        trail: 'Horseshoe Loop',
+        url: 'https://www.alltrails.com/explore/recording/horseshoe-loop--63',
+        conditions: 'Sunny 55&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22268239/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22268242/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '3/17/2019',
         duration: '3:14',
         miles: 8.3,
