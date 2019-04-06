@@ -133,7 +133,7 @@ var data = [
         miles: 8.2,
         trail: 'Egret trail',
         url: 'https://www.alltrails.com/explore/recording/egret--5',
-        conditions: 'Sunny 57&deg;-64&deg;',
+        conditions: 'Clouds 57&deg;-64&deg;',
         photos: ['https://www.alltrails.com/api/alltrails/photos/22354058/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22354062/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
     },
     {
