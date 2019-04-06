@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/6/2019',
+        duration: '2:54',
+        miles: 8.2,
+        trail: 'Egret trail',
+        url: 'https://www.alltrails.com/explore/recording/egret--5',
+        conditions: 'Sunny 57&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22354058/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22354062/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '3/30/2019',
         duration: '3:36',
         miles: 9.6,
