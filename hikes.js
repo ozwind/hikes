@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/20/2019',
+        duration: '2:44',
+        miles: 7.6,
+        trail: 'Coachwhip',
+        url: 'https://www.alltrails.com/explore/recording/coachwhip--7',
+        conditions: 'Cloudy 57&deg;-61&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22453378/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22453377/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/13/2019',
         duration: '3:40',
         miles: 10.6,
