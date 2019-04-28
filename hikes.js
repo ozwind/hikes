@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/28/2019',
+        duration: '3:05',
+        miles: 8.4,
+        trail: 'Yucca Ridge',
+        url: 'https://www.alltrails.com/explore/recording/yucca-ridge',
+        conditions: 'Cloudy 59&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22532229/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22532216/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/20/2019',
         duration: '2:44',
         miles: 7.6,
