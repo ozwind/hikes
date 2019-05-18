@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '5/18/2019',
+        duration: '3:05',
+        miles: 8.3,
+        trail: 'Bumblebee',
+        url: 'https://www.alltrails.com/explore/recording/bumblebee--10',
+        conditions: 'Clouds 57&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22675887/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22675894/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '5/11/2019',
         duration: '4:37',
         miles: 12.5,
