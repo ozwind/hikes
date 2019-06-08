@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '6/8/2019',
+        duration: '2:17',
+        miles: 6.7,
+        trail: 'Deer Trail',
+        url: 'https://www.alltrails.com/explore/recording/recording-jun-08-9-36-am--2',
+        conditions: 'Overcast 63&deg;-66&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/22871082/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/22871083/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '6/1/2019',
         duration: '3:45',
         miles: 10.6,
