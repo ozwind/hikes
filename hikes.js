@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/5/2019',
+        duration: '3:00',
+        miles: 8.1,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-05-10-37-am--4',
+        conditions: 'Overcast 65&deg;-74&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23140828/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23140813/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '6/28/2019',
         duration: '2:28',
         miles: 7.0,
