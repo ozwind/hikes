@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/14/2019',
+        duration: '3:52',
+        miles: 10.9,
+        trail: 'Deer Den',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-14-11-15-am--6',
+        conditions: 'Sunny 66&deg;-86&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23235981/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23235984/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '7/5/2019',
         duration: '3:00',
         miles: 8.1,
