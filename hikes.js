@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/20/2019',
+        duration: '3:49',
+        miles: 8.0,
+        trail: 'Baden-Powell',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-20-1-17-pm--2',
+        conditions: 'Sunny 62&deg;-82&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23296550/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23296549/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '7/14/2019',
         duration: '3:52',
         miles: 10.9,
