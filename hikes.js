@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/2/2019',
+        duration: '3:13',
+        miles: 9.1,
+        trail: 'Irvine Park',
+        url: 'https://www.alltrails.com/explore/recording/recording-aug-02-10-45-am--2',
+        conditions: 'Sunny 64&deg;-83&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23482202/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23482211/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '7/27/2019',
         duration: '4:01',
         miles: 11.2,
