@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/24/2019',
+        duration: '3:53',
+        miles: 10.9,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/recording-aug-24-11-08-am--4',
+        conditions: 'Sunny 64&deg;-87&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23801279/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23801281/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '8/16/2019',
         duration: '3:30',
         miles: 10.0,
