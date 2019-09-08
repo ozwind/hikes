@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/8/2019',
+        duration: '2:07',
+        miles: 5.0,
+        trail: 'Elementary',
+        url: 'https://www.alltrails.com/explore/recording/recording-sep-08-9-47-am--6',
+        conditions: 'Sunny 66&deg;-78&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/23987643/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/23987651/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '8/30/2019',
         duration: '3:23',
         miles: 10.0,
