@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/13/2019',
+        duration: '3:28',
+        miles: 9.9,
+        trail: 'Puma Ridge',
+        url: 'https://www.alltrails.com/explore/recording/recording-sep-13-11-01-am--2',
+        conditions: 'Sunny 67&deg;-78&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24035632/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24035620/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/8/2019',
         duration: '2:07',
         miles: 5.0,
