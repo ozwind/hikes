@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/5/2019',
+        duration: '2:35',
+        miles: 7.5,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/recording-oct-05-9-51-am--4',
+        conditions: 'Sunny 56&deg;-72&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24265884/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24265893/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '9/27/2019',
         duration: '2:49',
         miles: 8.3,
