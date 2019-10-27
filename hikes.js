@@ -128,6 +128,33 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/23/2019',
+        duration: '2:43',
+        miles: 6.0,
+        trail: 'Green Gulch',
+        url: 'https://www.alltrails.com/explore/recording/recording-oct-23-12-37-pm--7',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24465122/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24465120/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/22/2019',
+        duration: '2:08',
+        miles: 4.1,
+        trail: "Pirate's Cove",
+        url: 'https://www.alltrails.com/explore/recording/recording-oct-22-4-03-pm',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24464891/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24464899/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
+        date: '10/21/2019',
+        duration: '1:34',
+        miles: 2.8,
+        trail: 'Shell Beach',
+        url: 'https://www.alltrails.com/explore/recording/recording-oct-21-10-39-am--3',
+        conditions: 'Sunny',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24464055/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24464066/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/12/2019',
         duration: '3:35',
         miles: 10.1,
