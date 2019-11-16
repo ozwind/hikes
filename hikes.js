@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '11/16/2019',
+        duration: '1:41',
+        miles: 4.8,
+        trail: 'Barham Ridge',
+        url: 'https://www.alltrails.com/explore/recording/recording-nov-16-9-22-am--3',
+        conditions: 'Sunny 56&deg;-65&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24606479/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24606488/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '10/23/2019',
         duration: '2:43',
         miles: 6.0,
