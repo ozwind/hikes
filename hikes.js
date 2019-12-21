@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '12/21/2019',
+        duration: '1:51',
+        miles: 4.9,
+        trail: 'Elementary',
+        url: 'https://www.alltrails.com/explore/recording/recording-dec-21-1228-pm--3',
+        conditions: 'High clouds 64&deg;-71&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/24881034/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/24881043/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '12/14/2019',
         duration: '3:37',
         miles: 10.1,
