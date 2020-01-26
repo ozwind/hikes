@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '1/26/2020',
+        duration: '2:23',
+        miles: 4.9,
+        trail: 'Elementary',
+        url: 'https://www.alltrails.com/explore/recording/recording-jan-26-1033-am--4',
+        conditions: 'Foggy 53&deg;-58&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/25305061/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/25305065/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '1/19/2020',
         duration: '3:23',
         miles: 9.9,
