@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/4/2020',
+        duration: '3:30',
+        miles: 10.1,
+        trail: 'Horseshoe Loop',
+        url: 'https://www.alltrails.com/explore/recording/recording-apr-04-11-04-am-a9a1d53',
+        conditions: 'Clouds 55&deg;-64&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/25883354/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/25883352/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '3/28/2020',
         duration: '3:51',
         miles: 10.4,
