@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '4/25/2020',
+        duration: '4:50',
+        miles: 13.1,
+        trail: 'Hidden Canyon',
+        url: 'https://www.alltrails.com/explore/recording/recording-apr-25-11-56-am-0172d28',
+        conditions: 'Sunny 64&deg;-88&deg;',
+        photos: ['https://www.alltrails.com/api/alltrails/photos/26128760/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i','https://www.alltrails.com/api/alltrails/photos/26128798/image?size=extra_large&api_key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i']
+    },
+    {
         date: '4/4/2020',
         duration: '3:30',
         miles: 10.1,
