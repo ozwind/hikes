@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '5/23/2020',
+        duration: '2:07',
+        miles: 6.0,
+        trail: 'Weir Canyon',
+        url: 'https://www.alltrails.com/explore/recording/recording-may-23-9-46-am-b096577',
+        conditions: 'Clouds 63°-70°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26585747/extra_large_e4ab10a7725a3a3ef4012ae6bed9169a.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26585750/extra_large_73167f0d04a8f58990c716b834cc7dde.jpg']
+    },
+    {
         date: '5/17/2020',
         duration: '1:12',
         miles: 2.6,
