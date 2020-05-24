@@ -137,7 +137,7 @@ var data = [
         photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26585747/extra_large_e4ab10a7725a3a3ef4012ae6bed9169a.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26585750/extra_large_73167f0d04a8f58990c716b834cc7dde.jpg']
     },
     {
-        date: '5/17/2020',
+        date: '5/14/2020',
         duration: '1:12',
         miles: 2.6,
         trail: 'Castlewood',
