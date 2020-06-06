@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '6/6/2020',
+        duration: '3:32',
+        miles: 10.6,
+        trail: 'Horseshoe loop',
+        url: 'https://www.alltrails.com/explore/recording/recording-jun-06-10-42-am-58238e9',
+        conditions: 'Drizzle 64°-66°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26884405/extra_large_cf7afd0f1c3cf06019c40b2edb7e86c6.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26884349/extra_large_f4bcc9ba2cb4e87cd680fab79e79035a.jpg']
+    },
+    {
         date: '5/30/2020',
         duration: '3:53',
         miles: 11.0,
