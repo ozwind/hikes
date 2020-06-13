@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '6/13/2020',
+        duration: '3:37',
+        miles: 10.3,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/recording-jun-13-10-45-am-6ea2ef7',
+        conditions: 'Clouds 61°-72°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27024158/extra_large_557312fbc6a114a2220954d5e15107a0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27024055/extra_large_3973ca3a4703afc2ea7f770bc488a04c.jpg']
+    },
+    {
         date: '6/6/2020',
         duration: '3:32',
         miles: 10.6,
