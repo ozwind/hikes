@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '6/20/2020',
+        duration: '2:47',
+        miles: 7.5,
+        trail: 'Coachwhip',
+        url: 'https://www.alltrails.com/explore/recording/recording-jun-20-9-54-am-87ec2f4',
+        conditions: 'Overcast 64°-65°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27170226/extra_large_e8bbf5307e0196374a9276f0baa336ab.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27170262/extra_large_2b10162003d9f502dfaaf9ff6ffe410a.jpg']
+    },
+    {
         date: '6/13/2020',
         duration: '3:37',
         miles: 10.3,
