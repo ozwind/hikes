@@ -128,6 +128,65 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/3/2020',
+        duration: '2:49',
+        miles: 6.6,
+        trail: 'Lower Calf Creek',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-03-10-33-am-1368ba1',
+        morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-BX8mFXN',
+        conditions: 'Cloudy',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484419/extra_large_cc151db843cf65ce6ee97a9557423a52.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484384/extra_large_8b7a9cee0bedfa2bdb62152f43a2ee9c.jpg']
+    },
+    {
+        date: '7/2/2020',
+        duration: '1:04',
+        miles: 2.3,
+        trail: 'Grand Parade',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-02-9-37-am-eae27d7',
+        morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-mqs72SX',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484339/extra_large_88cdbdb71858937197067185e9afc303.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484346/extra_large_1b24830b449819dc7430c65056759b5e.jpg']
+    },
+    {
+        date: '7/1/2020',
+        duration: '0:52',
+        miles: 2.3,
+        trail: 'Tanks',
+        url: 'https://www.alltrails.com/explore/recording/capitol-gorge-to-tanks-trail-dd1016d',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484265/extra_large_e470a01db4a02ed3a69e2a1e8c5a2799.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484261/extra_large_2af6b935d63922dc1196500d9eb6dd79.jpg']
+    },
+    {
+        date: '7/1/2020',
+        duration: '1:58',
+        miles: 3.9,
+        trail: 'Golden Throne',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-01-11-42-am-42c8938',
+        morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-G5C76w7',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484108/extra_large_af2ec6098e59308b33f9f1d3ea2e4052.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484178/extra_large_56925adc57bbaa2144a44635dc55d35d.jpg']
+    },
+    {
+        date: '6/30/2020',
+        duration: '1:22',
+        miles: 2.9,
+        trail: 'Navajo Loop',
+        url: 'https://www.alltrails.com/explore/recording/navajo-loop-and-queen-s-garden-trail-1fd09c5',
+        morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-DVPS6c8',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27483918/extra_large_5146a2dadab8d14d22923d27becd3536.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27483998/extra_large_d4d394bf78e1fd796c35304c149483aa.jpg']
+    },
+    {
+        date: '6/29/2020',
+        duration: '1:44',
+        miles: 3.1,
+        trail: 'Fire Wave',
+        url: 'https://www.alltrails.com/explore/recording/recording-jun-29-10-22-am-0d770c4',
+        morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-hNFKPjc',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27483797/extra_large_a9bdfccda5c4476aeec251bef634521d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27483686/extra_large_bc1c45071fadf901383d20d511eaebb6.jpg']
+    },
+    {
         date: '6/20/2020',
         duration: '2:47',
         miles: 7.5,
