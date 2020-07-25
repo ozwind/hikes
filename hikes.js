@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '7/25/2020',
+        duration: '3:39',
+        miles: 9.5,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/recording-jul-25-10-47-am-7380ad8',
+        conditions: 'Cloudy 64°-76°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27921872/extra_large_17cf73d194d2cf2dde5a3555cb000240.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27921904/extra_large_2e405d6b72ad0a367ce4866731772b9e.jpg']
+    },
+    {
         date: '7/19/2020',
         duration: '1:48',
         miles: 4.3,
