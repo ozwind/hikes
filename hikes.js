@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/1/2020',
+        duration: '4:23',
+        miles: 12.3,
+        trail: 'Blue Sky',
+        url: 'https://www.alltrails.com/explore/recording/recording-aug-01-11-19-am-dc36381',
+        conditions: 'Sunny 70°-92°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28091348/extra_large_55f37d9221c43a0793604dd88b797f9e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28091373/extra_large_6ab99f11698bf459b061d1b863e7d612.jpg']
+    },
+    {
         date: '7/25/2020',
         duration: '3:39',
         miles: 9.5,
