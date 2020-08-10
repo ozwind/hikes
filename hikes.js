@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/10/2020',
+        duration: '5:00',
+        miles: 12.7,
+        trail: 'Sierra Peak',
+        url: 'https://www.alltrails.com/explore/recording/sierra-peak-via-pipeline-trail-and-coal-canyon-trail-36e729e',
+        conditions: 'Sunny 59°-85°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28421025/extra_large_203f7107533ce2cd89b6df11c6315777.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28421100/extra_large_1c32ab531fcce14694ec23d4e6c8120c.jpg']
+    },
+    {
         date: '8/1/2020',
         duration: '4:23',
         miles: 12.3,
