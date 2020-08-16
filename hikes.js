@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '8/15/2020',
+        duration: '6:05',
+        miles: 10.7,
+        trail: 'Baldy',
+        url: 'https://www.alltrails.com/explore/recording/mount-san-antonio-and-mount-baldy-notch-trail-275d7fb',
+        conditions: 'Clouds 75°-94°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28575708/extra_large_874892e2e4c8ca6fcc4e7f75a9a029c4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28575849/extra_large_a7554e05bc741f716b9820e19e932ad4.jpg']
+    },
+    {
         date: '8/10/2020',
         duration: '5:00',
         miles: 12.7,
