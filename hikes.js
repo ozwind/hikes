@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/5/2020',
+        duration: '2:43',
+        miles: 7.7,
+        trail: 'Egret',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-a8345c3--7',
+        conditions: 'Sunny 73°-92°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29221204/extra_large_fd6e3d1dad936f11fc0eaac1703c5064.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29221573/extra_large_4654d8a74e92838f24d2d03099185731.jpg']
+    },
+    {
         date: '8/22/2020',
         duration: '3:25',
         miles: 10.2,
