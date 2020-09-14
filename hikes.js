@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/14/2020',
+        duration: '3:26',
+        miles: 9.5,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-4aaa761--9',
+        conditions: 'Hazy 63°-80°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29574256/extra_large_64ef23655fdac3c6f8f3ef3b9ff3825d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29574258/extra_large_23d1684f3084f0619d71f8bf9468578c.jpg']
+    },
+    {
         date: '9/5/2020',
         duration: '2:43',
         miles: 7.7,
