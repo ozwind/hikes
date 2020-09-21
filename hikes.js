@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/21/2020',
+        duration: '3:32',
+        miles: 9.9,
+        trail: 'Horeseshoe Loop',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-d28d296--10',
+        conditions: 'Overcast 63°-71°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29804859/extra_large_20449d6ac281c8ba8e1079a9750223b7.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29804853/extra_large_8d6c54f415a27d7021df727cad126ce5.jpg']
+    },
+    {
         date: '9/14/2020',
         duration: '3:26',
         miles: 9.5,
