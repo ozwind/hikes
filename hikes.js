@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '9/28/2020',
+        duration: '3:43',
+        miles: 10.4,
+        trail: 'Puma Ridge',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-c22ad2b--23',
+        conditions: 'Sunny 61°-73°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30046361/extra_large_de2b941d5c08bc1d8d5cbc1f767bd5fc.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30046501/extra_large_b105ffa7a81a962942a469bfb50abcf5.jpg']
+    },
+    {
         date: '9/21/2020',
         duration: '3:32',
         miles: 9.9,
