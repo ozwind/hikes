@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/5/2020',
+        duration: '4:26',
+        miles: 12.6,
+        trail: 'Irvine Weir',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-90a82bf--13',
+        conditions: 'High Clouds 64°-81°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30276132/extra_large_be6107b86c5b17eac65a11ada3c5dff2.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30276128/extra_large_926309150ff1eef8cbd6b44ba7362265.jpg']
+    },
+    {
         date: '9/28/2020',
         duration: '3:43',
         miles: 10.4,
