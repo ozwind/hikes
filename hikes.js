@@ -128,6 +128,15 @@ function mouseout(img) {
 
 var data = [
     {
+        date: '10/12/2020',
+        duration: '3:05',
+        miles: 6.4,
+        trail: 'Chutes',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-e58cc5c--24',
+        conditions: 'Sunny 61°-73°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30506736/extra_large_29e1ef46dae6fa1762c3d16e6084b0fd.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30506769/extra_large_9860c45e5b9a6f999962c7c8d99eadad.jpg']
+    },
+    {
         date: '10/5/2020',
         duration: '4:26',
         miles: 12.6,
