@@ -7,7 +7,9 @@
             float: left;
         }
         
-        table, th, td {
+        table,
+        th,
+        td {
             border: 1px solid gray;
         }
         
@@ -71,11 +73,18 @@
             top: 100%;
             left: 50%;
             margin-left: -60px;
-            cursor: pointer;
         }
         
         .tooltip:hover .tooltiptext {
             visibility: visible;
+        }
+
+        .pointer,  .tooltiptext {
+            cursor: pointer;
+        }
+
+        .waiting {
+            cursor: progress;
         }
 
     </style>
@@ -97,13 +106,13 @@
     <table>
         <tr>
             <th>Date</th>
-            <th>
+            <th onclick="sort(1)" class="pointer">
                 <div class="tooltip">Miles<span id="thmiles" class="tooltiptext"></span></div>
             </th>
-            <th>
+            <th onclick="sort(2)" class="pointer">
                 <div class="tooltip">MPH<span id="thmph" class="tooltiptext"></span></div>
             </th>
-            <th>
+            <th onclick="sort(3)" class="pointer">
                 <div class="tooltip">Duration<span id="thduration" class="tooltiptext"></span></div>
             </th>
             <th>

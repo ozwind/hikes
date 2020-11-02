@@ -84,6 +84,9 @@ function Hikes() {
         tooltip(fastest, "mph");
         tooltip(longest, "duration");
         conditionTooltip(coldest, warmest);
+        setTimeout(()=>{
+            $('html, body').scrollTop(0);            
+        },0);
     }
 }
 
@@ -126,7 +129,77 @@ function mouseout(img) {
     $("#rollImg").css("display", "none");
 }
 
+function sort(n) {
+    var rows;
+    var shouldSwitch;
+    var switchCount = 0;
+    var table = $("table")[0];
+    var switching = true;
+    var dir = "desc";
+
+    if (!this.sortDir) {
+        this.sortDir = {};
+    }
+    if (this.sortDir[n]) {
+        dir = this.sortDir[n] === "desc" ? "asc" : "desc";
+    }
+    this.sortDir[n] = dir;
+
+    $('body').addClass('waiting');
+
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            var x = rows[i].getElementsByTagName("TD")[n];
+            var y = rows[i + 1].getElementsByTagName("TD")[n];
+            var xVal = n == 3 ? toHours(x.innerHTML) : parseFloat(x.innerHTML);
+            var yVal = n == 3 ? toHours(y.innerHTML) : parseFloat(y.innerHTML);
+            if (dir == "asc") {
+                if (xVal > yVal) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            else if (dir == "desc") {
+                if (xVal < yVal) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchCount++;
+        } else {
+            if (switchCount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+
+    $(window).trigger('resize');
+    $('body').removeClass('waiting');
+}
+
+function toHours(str) {
+    var dur = str.split(":");
+    return parseInt(dur[0]) + parseInt(dur[1]) / 60.0;
+}
+
 var data = [
+    {
+        date: '11/2/2020',
+        duration: '3:27',
+        miles: 9.5,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-7e8d7e5--21',
+        conditions: 'Sunny 60°-76°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31098315/extra_large_3dbaa1f42a41c188093bad43fe77b483.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31098312/extra_large_1f8bca551034ecca40c470cf7d8b9a3f.jpg']
+    },
     {
         date: '10/19/2020',
         duration: '3:34',
