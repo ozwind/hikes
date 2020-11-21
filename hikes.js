@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '11/21/2020',
+        duration: '2:37',
+        miles: 7.3,
+        trail: 'Willows',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-ad61ab1--19',
+        conditions: 'Sunny 52°-67°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31540833/extra_large_e6aef1f87b9394f76b31503d8c4f688b.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31540846/extra_large_056cee02fb3a9c77355083782a52354b.jpg']
+    },
+    {
         date: '11/16/2020',
         duration: '4:36',
         miles: 12.5,
