@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '12/5/2020',
+        duration: '3:33',
+        miles: 9.8,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-6add07c--21',
+        conditions: 'Sunny 45°-65°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31883811/extra_large_06384d891c011a3c3eabcadd5cc9a16d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31883810/extra_large_cba866ae07594caab418f2ba302f1422.jpg']
+    },
+    {
         date: '11/28/2020',
         duration: '3:51',
         miles: 10.7,
