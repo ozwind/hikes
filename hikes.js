@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '1/2/2021',
+        duration: '3:41',
+        miles: 9.8,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-615299a--27',
+        conditions: 'Clouds/Sun 46°-60°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32517633/extra_large_d4fc3565e12126b8cefcd2b2be44548a.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32517782/extra_large_092d862a00fdc665edfef29df01921af.jpg']
+    },
+    {
         date: '12/24/2020',
         duration: '1:59',
         miles: 4.7,
@@ -206,7 +215,7 @@ var data = [
         miles: 10.5,
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d87aa42--34',
-        conditions: 'Sun/Clouds 54°-63°',
+        conditions: 'Clouds/Sun 54°-63°',
         photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32076987/extra_large_4146a55dd3ab4e703c81683323d27fbc.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32076882/extra_large_48a1b64a8a92fb85440db81c9417bccd.jpg']
     },
     {
