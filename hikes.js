@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '2/13/2021',
+        duration: '3:43',
+        miles: 10.5,
+        trail: 'Puma Ridge',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-8b0d268--45',
+        conditions: 'Clouds 47°-61°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33640324/extra_large_949b28602e32c9cbaf21ecde7c7f47ca.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33640329/extra_large_ce896f26baa024747952f0d041ce5986.jpg']
+    },
+    {
         date: '2/6/2021',
         duration: '3:43',
         miles: 9.7,
