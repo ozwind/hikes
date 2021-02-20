@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '2/20/2021',
+        duration: '3:46',
+        miles: 10.3,
+        trail: 'Horseshoe loop',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-009c434--50',
+        conditions: 'Clouds/Sun 46°-60°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33802271/extra_large_8b57403e053e0873353c30aadc7378f4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33802277/extra_large_83747e8d703a4f4099a7061d18ed1f08.jpg']
+    },
+    {
         date: '2/13/2021',
         duration: '3:43',
         miles: 10.5,
