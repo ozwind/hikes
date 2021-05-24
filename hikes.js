@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '5/24/2021',
+        duration: '4:30',
+        miles: 12.6,
+        trail: 'Irvine Weir',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-471c50a--61',
+        conditions: 'Sunny 57°-78°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36751697/extra_large_a1af3819e7371fd90fd659fec70ee7a3.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36751696/extra_large_a978f4cece78bb342077ea4a5c02b29b.jpg']
+    },
+    {
         date: '5/17/2021',
         duration: '3:43',
         miles: 10.5,
