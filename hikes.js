@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '6/12/2021',
+        duration: '4:03',
+        miles: 11.1,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-de3f712--83',
+        conditions: 'Sunny 61°-82°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/37391001/extra_large_e41b79bdea9f8a278597f88f04b9235f.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/37391105/extra_large_f0ae9349d1891e5c4ddd218c9ea53d07.jpg']
+    },
+    {
         date: '6/7/2021',
         duration: '3:53',
         miles: 10.6,
