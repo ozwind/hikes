@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '8/16/2021',
+        duration: '4:56',
+        miles: 13.0,
+        trail: 'Irvine Weir',
+        url: 'https://www.alltrails.com/explore/recording/afternoon-hike-744878f--163',
+        conditions: 'Sunny 69°-83°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39576966/extra_large_23109155a7f667cfea8f753966dd46eb.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39576952/extra_large_b491be49e8eadaee3429f6292e48fca3.jpg']
+    },
+    {
         date: '8/7/2021',
         duration: '3:41',
         miles: 10.3,
