@@ -1,133 +1,44 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US">
 
 <head>
-    <style>
-        table {
-            float: left;
-        }
-        
-        table,
-        th,
-        td {
-            border: 1px solid gray;
-        }
-        
-        th {
-            background: #f0f0e0;
-        }
-        
-        .date,
-        .trail,
-        .conditions {
-            padding-left: 4px;
-            padding-right: 4px;
-            background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
-        }
-        
-        .mph,
-        .miles,
-        .duration {
-            text-align: right;
-            padding-right: 4px;
-            background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
-        }
-        
-        .thumb {
-            height: 100px;
-            border-style: solid;
-            border-color: white;
-            border-width: 3px 3px 0px 3px;
-        }
-        
-        .image {
-            overflow: hidden;
-            position: relative;
-        }
-        
-        .image>img {
-            width: 100%;
-            margin-left: 2px;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        .tooltip {
-            position: relative;
-            display: inline-block;
-            border-bottom: 1px dotted black;
-        }
-        
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            background-color: black;
-            color: #f0f0e0;
-            text-align: left;
-            border-radius: 6px;
-            padding: 5px;
-            /* Position the tooltip */
-            position: absolute;
-            z-index: 1;
-            top: 100%;
-            left: 50%;
-            margin-left: -60px;
-        }
-        
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-        }
-
-        .pointer,  .tooltiptext {
-            cursor: pointer;
-        }
-
-        .waiting {
-            cursor: progress;
-        }
-
-    </style>
     <meta charset="utf-8">
-    <title>CH Hikes</title>
+    <title>Storm</title>
+    <link rel="stylesheet" href="storm.css">
     <script src="jquery-2.2.4.min.js"></script>
-    <script src="jquery.lazyloadxt.js"></script>
-    <script src="hikes.js"></script>
+    <script src="stats.js"></script>
+    <script src="storm.js"></script>
     <script>
         $(function() {
-            hikes.init();
+            storm.init();
+            storm.show();
         });
 
     </script>
-
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>Date</th>
-            <th onclick="sort(1)" class="pointer">
-                <div class="tooltip">Miles<span id="thmiles" class="tooltiptext"></span></div>
-            </th>
-            <th onclick="sort(2)" class="pointer">
-                <div class="tooltip">MPH<span id="thmph" class="tooltiptext"></span></div>
-            </th>
-            <th onclick="sort(3)" class="pointer">
-                <div class="tooltip">Duration<span id="thduration" class="tooltiptext"></span></div>
-            </th>
-            <th>
-                <div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div>
-            </th>
-            <th>Trail</th>
-            <th>Photos</th>
-        </tr>
-        <tbody id="tdata">
-        </tbody>
-    </table>
-    <div class="image">
-        <img id="rollImg">
+    <h1>City Climates</h1>
+    <div>
+        <div id="myChart">
+            <canvas id="myCanvas" width="590" height="420"></canvas>
+            <canvas id="myLayer" width="590" height="420"></canvas>
+            <div class="tooltip"><span class="tooltiptext">Tooltip</span></div>
+        </div>
+        <div class="image">
+            <a id="imgUrl">
+                <img id="imgCity">
+            </a>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="previous" class="bigfont" type="button">&lt;</button>
+        <select id="cities" class="bigfont"></select>
+        <button id="next" class="bigfont" type="button">&gt;</button>
     </div>
 
+    <br>
+    <small>&copy;&nbsp;Cliff Hewitt.  1-Jul-2017, 15-Aug-2021</small>
 </body>
 
 </html>
