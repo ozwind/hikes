@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '8/28/2021',
+        duration: '2:30',
+        miles: 4.9,
+        trail: 'Peralta Hills',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-6a6610f--87',
+        conditions: 'Overcast 63°-81°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39944981/extra_large_c55b33a295f9e7d0927ef44107438c58.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39945036/extra_large_d98a33e8994fc2fca97e8ef242394da1.jpg']
+    },
+    {
         date: '8/21/2021',
         duration: '3:41',
         miles: 10.1,
