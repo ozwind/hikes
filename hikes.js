@@ -192,6 +192,42 @@ function toHours(str) {
 
 var data = [
     {
+        date: '9/11/2021',
+        duration: '3:49',
+        miles: 5.3,
+        trail: 'Chiquita',
+        url: 'https://www.alltrails.com/explore/recording/mount-chiquita-via-chapin-pass-trail-e5abba8',
+        conditions: 'Clouds/Wind',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40547215/extra_large_7378cc5de3f6f03e8462209beda4ec0e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40547266/extra_large_490661f0a49e01ab725bd6969fabe80f.jpg']
+    },
+    {
+        date: '9/10/2021',
+        duration: '3:37',
+        miles: 7.2,
+        trail: 'Sprague Lake',
+        url: 'https://www.alltrails.com/explore/recording/wind-river-storm-pass-sprague-lake-and-glacier-creek-loop-ad1f8bb',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546966/extra_large_438f313750e3317cb780c89b87abebc1.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40547094/extra_large_bb9eff871cffcc25dcc16559a556a473.jpg']
+    },
+    {
+        date: '9/9/2021',
+        duration: '4:30',
+        miles: 8.6,
+        trail: 'Gem Lake',
+        url: 'https://www.alltrails.com/explore/recording/gem-lake-trail-77ee3bc--3',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546813/extra_large_48ee1a406b0bd62e5466ca7b5a2278e0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40546879/extra_large_f0f1c6046916b2013d674d789a697002.jpg']
+    },
+    {
+        date: '9/8/2021',
+        duration: '2:50',
+        miles: 3.8,
+        trail: 'Sanitas',
+        url: 'https://www.alltrails.com/explore/recording/mount-sanitas-and-sanitas-valley-loop-trail-f18ee45--3',
+        conditions: 'Sunny',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546364/extra_large_dcd7c1df3fa02bd316c3a42453264ea3.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40546499/extra_large_e075ba9f54e12935c119bcb615649220.jpg']
+    },
+    {
         date: '8/28/2021',
         duration: '2:30',
         miles: 4.9,
