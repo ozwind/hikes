@@ -192,6 +192,15 @@ function toHours(str) {
 
 var data = [
     {
+        date: '11/27/2021',
+        duration: '3:54',
+        miles: 9.9,
+        trail: 'Weir Santiago',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-9b9b050--99',
+        conditions: 'Sunny 51°-72°',
+        photos: ['https://photos.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI4MTY3NTEvM2E2ZTlmNjIyNmE2MjQ4NmZiZjkxYTMwMGVkMTdiYzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://cdn-assets.alltrails.com/uploads/photo/image/42816740/extra_large_0ae58c7b3b8916edd734b71d1dbe8ca6.jpg']
+    },
+    {
         date: '11/15/2021',
         duration: '2:02',
         miles: 4.7,
