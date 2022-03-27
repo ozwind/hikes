@@ -88,6 +88,19 @@
             cursor: progress;
         }
 
+        .tableFixHead {
+            overflow: auto;
+            height: 100px;
+        }
+
+        #trailHead, #conditionsHead {
+            width: 1px;
+        }
+
+        .conditions, .trail {
+            text-align: center;
+        }
+
     </style>
     <meta charset="utf-8">
     <title>CH Hikes</title>
@@ -116,10 +129,10 @@
             <th onclick="sort(3)" class="pointer">
                 <div class="tooltip">Duration<span id="thduration" class="tooltiptext"></span></div>
             </th>
-            <th>
+            <th id="conditionsHead">
                 <div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div>
             </th>
-            <th>Trail</th>
+            <th id="trailHead">Trail</th>
             <th>Photos</th>
         </tr>
         <tbody id="tdata">
