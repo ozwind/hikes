@@ -199,7 +199,7 @@ function toHours(str) {
 
 var data = [
     {
-        date: '10/231/2022',
+        date: '10/31/2022',
         duration: '3:40',
         miles: 9.8,
         trail: 'Irvine Santiago',
