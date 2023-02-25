@@ -641,7 +641,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d469547--97',
         conditions: 'Sunny 49°-61°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/43056500/extra_large_d634e925cef4e36f7911599882928bf7.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/43056499/extra_large_61a27f3d79f6810a73288c001e78ca7a.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDMwNTY1MDAvZDYzNGU5MjVjZWY0ZTM2Zjc5MTE1OTk4ODI5MjhiZjcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDMwNTY0OTkvNjFhMjdmM2Q3OWY2ODEwYTczMjg4YzAwMWU3OGNhN2EuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '12/3/2021',
@@ -659,7 +659,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-9b9b050--99',
         conditions: 'Sunny 51°-72°',
-        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI4MTY3NTEvM2E2ZTlmNjIyNmE2MjQ4NmZiZjkxYTMwMGVkMTdiYzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://cdn-assets.alltrails.com/uploads/photo/image/42816740/extra_large_0ae58c7b3b8916edd734b71d1dbe8ca6.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI4MTY3NTEvM2E2ZTlmNjIyNmE2MjQ4NmZiZjkxYTMwMGVkMTdiYzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI4MTY3NDAvMGFlNThjN2IzYjg5MTZlZGQ3MzRiNzFkMWRiZThjYTYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/15/2021',
@@ -668,7 +668,7 @@ var data = [
         trail: 'Chutes',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-1bda4c7--106',
         conditions: 'Sunny 58°-65°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/42549437/extra_large_b5a401f28881220801e6537694e13677.jpg','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI1NDk0MzUvZTVlOTBjY2NjYjllY2Q3Y2RkZDNhMjMwMjEwNDJiNjguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI1NDk0MzcvYjVhNDAxZjI4ODgxMjIwODAxZTY1Mzc2OTRlMTM2NzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI1NDk0MzUvZTVlOTBjY2NjYjllY2Q3Y2RkZDNhMjMwMjEwNDJiNjguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '10/2/2021',
@@ -677,7 +677,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-c644730--99',
         conditions: 'Sunny 62°-87°',
-        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDExNjk1MjAvYTgzMjJkZTY4ZTBlMWU0ZmU3YjRjZjYxYmMyNTljODEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://cdn-assets.alltrails.com/uploads/photo/image/41169553/extra_large_bb2357f6c4b40ac575aa3da600337c62.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDExNjk1MjAvYTgzMjJkZTY4ZTBlMWU0ZmU3YjRjZjYxYmMyNTljODEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDExNjk1NTMvYmIyMzU3ZjZjNGI0MGFjNTc1YWEzZGE2MDAzMzdjNjIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/25/2021',
@@ -686,7 +686,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-e56954b--106',
         conditions: 'Sunny 63°-76°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40916056/extra_large_5ac8a316b9497a055fbdf36653ebee6f.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40916064/extra_large_d9d1bb854de881ca88804d34aad6e001.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA5MTYwNTYvNWFjOGEzMTZiOTQ5N2EwNTVmYmRmMzY2NTNlYmVlNmYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA5MTYwNjQvZDlkMWJiODU0ZGU4ODFjYTg4ODA0ZDM0YWFkNmUwMDEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/18/2021',
@@ -695,7 +695,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-ae50220--90',
         conditions: 'Overcast 60°-72°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40679577/extra_large_6722228da30d2cf54ddd35e9703f156c.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40679614/extra_large_2e5471819b90050fb958811e30a6977f.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA2Nzk1NzcvNjcyMjIyOGRhMzBkMmNmNTRkZGQzNWU5NzAzZjE1NmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA2Nzk2MTQvMmU1NDcxODE5YjkwMDUwZmI5NTg4MTFlMzBhNjk3N2YuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/11/2021',
@@ -704,7 +704,7 @@ var data = [
         trail: 'Chiquita',
         url: 'https://www.alltrails.com/explore/recording/mount-chiquita-via-chapin-pass-trail-e5abba8',
         conditions: 'Clouds/Wind',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40547215/extra_large_7378cc5de3f6f03e8462209beda4ec0e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40547266/extra_large_490661f0a49e01ab725bd6969fabe80f.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDcyMTUvNzM3OGNjNWRlM2Y2ZjAzZTg0NjIyMDliZWRhNGVjMGUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDczMTIvODM3ODllNmZjODRmYWQyMTI4YTVhOTMyMjliMWZlM2EuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/10/2021',
@@ -713,7 +713,7 @@ var data = [
         trail: 'Sprague Lake',
         url: 'https://www.alltrails.com/explore/recording/wind-river-storm-pass-sprague-lake-and-glacier-creek-loop-ad1f8bb',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546966/extra_large_438f313750e3317cb780c89b87abebc1.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40547094/extra_large_bb9eff871cffcc25dcc16559a556a473.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDY5NjYvNDM4ZjMxMzc1MGUzMzE3Y2I3ODBjODliODdhYmViYzEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDcwOTIvMWZjMDI4MDc5ZDNhOWU0OWI2MzgzOGEyMmVkNmMxODAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/9/2021',
@@ -722,7 +722,7 @@ var data = [
         trail: 'Gem Lake',
         url: 'https://www.alltrails.com/explore/recording/gem-lake-trail-77ee3bc--3',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546813/extra_large_48ee1a406b0bd62e5466ca7b5a2278e0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40546879/extra_large_f0f1c6046916b2013d674d789a697002.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDY4MTMvNDhlZTFhNDA2YjBiZDYyZTU0NjZjYTdiNWEyMjc4ZTAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDY4NzkvZjBmMWM2MDQ2OTE2YjIwMTNkNjc0ZDc4OWE2OTcwMDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/8/2021',
@@ -731,7 +731,7 @@ var data = [
         trail: 'Sanitas',
         url: 'https://www.alltrails.com/explore/recording/mount-sanitas-and-sanitas-valley-loop-trail-f18ee45--3',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/40546364/extra_large_dcd7c1df3fa02bd316c3a42453264ea3.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/40546499/extra_large_e075ba9f54e12935c119bcb615649220.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDYzNjQvZGNkN2MxZGYzZmEwMmJkMzE2YzNhNDI0NTMyNjRlYTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDA1NDY0NDUvMjc3MjFjMmEzMWRmNTY1MzhhZmM4NDgxNGIwZjg0ZmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/28/2021',
@@ -740,7 +740,7 @@ var data = [
         trail: 'Peralta Hills',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-6a6610f--87',
         conditions: 'Sunny 63°-81°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39944981/extra_large_c55b33a295f9e7d0927ef44107438c58.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39945036/extra_large_d98a33e8994fc2fca97e8ef242394da1.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk5NDQ5ODEvYzU1YjMzYTI5NWY5ZTdkMDkyN2VmNDQxMDc0MzhjNTguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk5NDUwMzYvZDk4YTMzZTg5OTRmYzJmY2E5N2U4ZWYyNDIzOTRkYTEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/21/2021',
@@ -749,7 +749,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-9a83eab--89',
         conditions: 'Overcast 67°-74°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39721289/extra_large_d65fde3bd69823f2176881bed021d78b.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39721291/extra_large_c6a825f65e82c7df18cceff767feda36.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk3MjEyODkvZDY1ZmRlM2JkNjk4MjNmMjE3Njg4MWJlZDAyMWQ3OGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk3MjEzMjYvYjBiYTM1ZTlkMTRlOTc0OTZiYjJiY2ZmMDk0MzhkMjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/16/2021',
@@ -758,7 +758,7 @@ var data = [
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/afternoon-hike-744878f--163',
         conditions: 'Sunny 69°-83°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39576966/extra_large_23109155a7f667cfea8f753966dd46eb.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39576952/extra_large_b491be49e8eadaee3429f6292e48fca3.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk1NzY5NjYvMjMxMDkxNTVhN2Y2NjdjZmVhOGY3NTM5NjZkZDQ2ZWIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk1NzY5NTIvYjQ5MWJlNDllOGVhZGFlZTM0MjlmNjI5MmU0OGZjYTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/7/2021',
@@ -767,7 +767,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-13b9194--80',
         conditions: 'Overcast 65°-77°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39260456/extra_large_711f5aa931e52f566f22f38fe2eae76d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39260449/extra_large_0914bdc6b39a49b60d3d2d41ce5d5bee.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzkyNjA0NTYvNzExZjVhYTkzMWU1MmY1NjZmMjJmMzhmZTJlYWU3NmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzkyNjA0NDkvMDkxNGJkYzZiMzlhNDliNjBkM2QyZDQxY2U1ZDViZWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/31/2021',
@@ -776,7 +776,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-3e1953b--74',
         conditions: 'Sunny 67°-86°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/39021570/extra_large_73c43795d4f21d65c9042b5f4aa74cd8.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/39021591/extra_large_3024d0f5ca221edf714ba521be8a1ec3.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzkwMjE1NzAvNzNjNDM3OTVkNGYyMWQ2NWM5MDQyYjVmNGFhNzRjZDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzkwMjE1OTEvMzAyNGQwZjVjYTIyMWVkZjcxNGJhNTIxYmU4YTFlYzMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/24/2021',
@@ -785,7 +785,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-15212f2--81',
         conditions: 'Clouds/Sun 67°-84°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/38792847/extra_large_b39813181098cd7dd15d6218cdfecaeb.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/38792848/extra_large_e8547c4ba87ae1adec912e60ea87259d.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzg3OTI4NDcvYjM5ODEzMTgxMDk4Y2Q3ZGQxNWQ2MjE4Y2RmZWNhZWIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzg3OTI4NDgvZTg1NDdjNGJhODdhZTFhZGVjOTEyZTYwZWE4NzI1OWQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/17/2021',
@@ -794,7 +794,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-e139c45--76',
         conditions: 'Sunny 66°-84°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/38559163/extra_large_5fe46f0a1cb4b92e996412b1db2d9050.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/38559228/extra_large_fd014c48ade5ef3cf959ea52ce9b589e.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzg1NTkxNjMvNWZlNDZmMGExY2I0YjkyZTk5NjQxMmIxZGIyZDkwNTAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzg1NTkyMjgvZmQwMTRjNDhhZGU1ZWYzY2Y5NTllYTUyY2U5YjU4OWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/11/2021',
@@ -803,7 +803,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-f8da71e--84',
         conditions: 'Sunny 69°-86°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/38384323/extra_large_51d72423e7d5367b5da52c566c4dadc9.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/38384300/extra_large_3aaa7025e4c49caaea50e76ff072fde3.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzgzODQzMjMvNTFkNzI0MjNlN2Q1MzY3YjVkYTUyYzU2NmM0ZGFkYzkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzgzODQzMDAvM2FhYTcwMjVlNGM0OWNhYWVhNTBlNzZmZjA3MmZkZTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/3/2021',
@@ -812,7 +812,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-ca95418--86',
         conditions: 'Clouds/Sun 64°-84°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/38079314/extra_large_e33c09674c349142bd1f8b6fcefda0d6.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/38079349/extra_large_c5264b45bde0d3dc724524acf695ad6f.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzgwNzkzMTQvZTMzYzA5Njc0YzM0OTE0MmJkMWY4YjZmY2VmZGEwZDYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzgwNzkzNDkvYzUyNjRiNDViZGUwZDNkYzcyNDUyNGFjZjY5NWFkNmYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/26/2021',
@@ -821,7 +821,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-b665bf7--78',
         conditions: 'Sunny 64°-81°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/37853236/extra_large_7925a2e0c2653bd323e4d347cb2cc428.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/37853180/extra_large_05c18e7f12add4e469785634564e404c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzc4NTMyMzYvNzkyNWEyZTBjMjY1M2JkMzIzZTRkMzQ3Y2IyY2M0MjguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzc4NTMxODAvMDVjMThlN2YxMmFkZDRlNDY5Nzg1NjM0NTY0ZTQwNGMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/19/2021',
@@ -830,7 +830,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-250dd56--63',
         conditions: 'Sunny 66°-84°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/37623012/extra_large_d24b7bb6de808a42a6c6aeb4263bd197.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/37623029/extra_large_8dee48a36720d6c83578c3cf4043e87d.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzc2MjMwMTIvZDI0YjdiYjZkZTgwOGE0MmE2YzZhZWI0MjYzYmQxOTcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzc2MjMwMjkvOGRlZTQ4YTM2NzIwZDZjODM1NzhjM2NmNDA0M2U4N2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/12/2021',
@@ -839,7 +839,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-de3f712--83',
         conditions: 'Sunny 61°-82°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/37391001/extra_large_e41b79bdea9f8a278597f88f04b9235f.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/37391105/extra_large_f0ae9349d1891e5c4ddd218c9ea53d07.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzczOTEwMDEvZTQxYjc5YmRlYTlmOGEyNzg1OTdmODhmMDRiOTIzNWYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzczOTExMDUvZjBhZTkzNDlkMTg5MWU1YzRkZGQyMThjOWVhNTNkMDcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/7/2021',
@@ -848,7 +848,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-7fc9fd4--79',
         conditions: 'Overcast 61°-64°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/37254546/extra_large_0479c5388d65745cd90e773261e8b93f.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/37254502/extra_large_171d9eebb47973a2a730ee32fd38b0d0.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzcyNTQ1NDYvMDQ3OWM1Mzg4ZDY1NzQ1Y2Q5MGU3NzMyNjFlOGI5M2YuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzcyNTQ1MDIvMTcxZDllZWJiNDc5NzNhMmE3MzBlZTMyZmQzOGIwZDAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/29/2021',
@@ -857,7 +857,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-ec73a08--67',
         conditions: 'Overcast 61°-67°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36889733/extra_large_af5fbf2fc245bfd82cd943b78d137dd5.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36889772/extra_large_eb4910582441396d713f0d4189171133.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY4ODk3MzMvYWY1ZmJmMmZjMjQ1YmZkODJjZDk0M2I3OGQxMzdkZDUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY4ODk3NzIvZWI0OTEwNTgyNDQxMzk2ZDcxM2YwZDQxODkxNzExMzMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/24/2021',
@@ -866,7 +866,7 @@ var data = [
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-471c50a--61',
         conditions: 'Sunny 57°-78°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36751697/extra_large_a1af3819e7371fd90fd659fec70ee7a3.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36751696/extra_large_a978f4cece78bb342077ea4a5c02b29b.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY3NTE2OTcvYTFhZjM4MTllNzM3MWZkOTBmZDY1OWZlYzcwZWU3YTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY3NTE2OTMvMWIwMzljZTNjMzk0OGQyOTIwMzg5MTczMDZiM2FmOGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/17/2021',
@@ -875,7 +875,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-9649dec--52',
         conditions: 'Overcast 58°-64°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36519075/extra_large_8a9ef22e9157d277424097b611cbadfd.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36519089/extra_large_64c6f604f99f2ee179c0ba767171ff24.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY1MTkwNzUvOGE5ZWYyMmU5MTU3ZDI3NzQyNDA5N2I2MTFjYmFkZmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzY1MTkwODkvNjRjNmY2MDRmOTlmMmVlMTc5YzBiYTc2NzE3MWZmMjQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/10/2021',
@@ -884,7 +884,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-44821f7--62',
         conditions: 'Overcast 62°-65°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36279358/extra_large_8015496a4001127c61c8cf3a3e53c85e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36279319/extra_large_07977112ba477eff70e8f549b59c9f12.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzYyNzkzNTgvODAxNTQ5NmE0MDAxMTI3YzYxYzhjZjNhM2U1M2M4NWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzYyNzkzMTkvMDc5NzcxMTJiYTQ3N2VmZjcwZThmNTQ5YjU5YzlmMTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/3/2021',
@@ -893,7 +893,7 @@ var data = [
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-f499d34--73',
         conditions: 'Sunny 60°-72°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/36074398/extra_large_3824444fc353c9a75e36c1b5fb26ba05.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/36074400/extra_large_4880d64f8cc3273935ed9fd626297101.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzYwNzQzOTgvMzgyNDQ0NGZjMzUzYzlhNzVlMzZjMWI1ZmIyNmJhMDUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzYwNzQ0MDAvNDg4MGQ2NGY4Y2MzMjczOTM1ZWQ5ZmQ2MjYyOTcxMDEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '4/24/2021',
@@ -902,7 +902,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-f629ed9--70',
         conditions: 'Overcast 58°-63°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/35748237/extra_large_80438f36ed41843a88f48d48099a2f2e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/35748177/extra_large_a8982d97f0fc34f325a3b7915e113026.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzU3NDgxODEvZDVkN2IwNDg4ZWY4MjIyZDI5MjAzNjI5YWVmNTA5YTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzU3NDgxNzcvYTg5ODJkOTdmMGZjMzRmMzI1YTNiNzkxNWUxMTMwMjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '4/19/2021',
@@ -911,7 +911,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-b5b0db7--64',
         conditions: 'Sunny 56°-71°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/35617937/extra_large_f195c70ed0e929c7f141cd952ecb81bf.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/35617944/extra_large_5b500e6c60f7c779b2ce310f819a2280.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzU2MTc5MzcvZjE5NWM3MGVkMGU5MjljN2YxNDFjZDk1MmVjYjgxYmYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzU2MTc5NDQvNWI1MDBlNmM2MGY3Yzc3OWIyY2UzMTBmODE5YTIyODAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '4/10/2021',
@@ -920,7 +920,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-e77910e--56',
         conditions: 'Sunny 53°-70°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/35296662/extra_large_3745de0f36f7d6fd6a6d9da79b64f208.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/35296661/extra_large_c1f7aacde2b4dcf063292a57e6415d49.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzUyOTY2NjIvMzc0NWRlMGYzNmY3ZDZmZDZhNmQ5ZGE3OWI2NGYyMDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzUyOTY2NjEvYzFmN2FhY2RlMmI0ZGNmMDYzMjkyYTU3ZTY0MTVkNDkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '4/3/2021',
@@ -929,7 +929,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-2321994--48',
         conditions: 'Overcast 50°-64°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/35042428/extra_large_421c3133baa07146150da904d88d0cf4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/35042305/extra_large_17b81f60d562e42dbb759806f80d575b.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzUwNDI0MjgvNDIxYzMxMzNiYWEwNzE0NjE1MGRhOTA0ZDg4ZDBjZjQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzUwNDI0MjcvNjM5MmVjZTFmNWRlOGE4NGUxMjFhNjU5MmQ3ZTRiMzkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '3/27/2021',
@@ -938,7 +938,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-1915523--40',
         conditions: 'Sunny 46°-66°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/34807357/extra_large_f60dcfe756077f006237afa72f952af0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/34807369/extra_large_c17251d3a8d2a7a19747c837187a462c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQ4MDczNTcvZjYwZGNmZTc1NjA3N2YwMDYyMzdhZmE3MmY5NTJhZjAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQ4MDczNjkvYzE3MjUxZDNhOGQyYTdhMTk3NDdjODM3MTg3YTQ2MmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '3/20/2021',
@@ -947,7 +947,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d8ea5f5--49',
         conditions: 'Fog 55°-62°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/34586495/extra_large_3fea272c2eafb08a1eb160bd46aff278.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/34586464/extra_large_99543ae06c4f47e85e7c749bce761912.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQ1ODY0OTUvM2ZlYTI3MmMyZWFmYjA4YTFlYjE2MGJkNDZhZmYyNzguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQ1ODY0NjQvOTk1NDNhZTA2YzRmNDdlODVlN2M3NDliY2U3NjE5MTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '3/13/2021',
@@ -956,7 +956,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-7940ab4--46',
         conditions: 'Clouds 48°-58°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/34394473/extra_large_3e60a7574a1eac4302625cd2608fb92e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/34394459/extra_large_18bdcc803b81a6ed4e7bbbfd7232373b.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQzOTQ0NzMvM2U2MGE3NTc0YTFlYWM0MzAyNjI1Y2QyNjA4ZmI5MmUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQzOTQ0NTkvMThiZGNjODAzYjgxYTZlZDRlN2JiYmZkNzIzMjM3M2IuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '3/6/2021',
@@ -965,7 +965,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-859b00a--49',
         conditions: 'Sunny 50°-65°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/34183477/extra_large_bf6b1f1d2903d9bd6536a790a2550d8c.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/34183422/extra_large_6eda86d130a18895c7e3d4e00c0f7f79.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQxODM0NzcvYmY2YjFmMWQyOTAzZDliZDY1MzZhNzkwYTI1NTBkOGMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzQxODM0MjIvNmVkYTg2ZDEzMGExODg5NWM3ZTNkNGUwMGMwZjdmNzkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '2/27/2021',
@@ -974,7 +974,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-9b86192--51',
         conditions: 'Sunny 45°-63°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33996629/extra_large_af6c51843ce8fb3cc273f64bb9aa57cd.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33996677/extra_large_95cacf96d4d3a42df451b15ffae238cd.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM5OTY2MjkvYWY2YzUxODQzY2U4ZmIzY2MyNzNmNjRiYjlhYTU3Y2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM5OTY2NzcvOTVjYWNmOTZkNGQzYTQyZGY0NTFiMTVmZmFlMjM4Y2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '2/20/2021',
@@ -983,7 +983,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-009c434--50',
         conditions: 'Clouds/Sun 46°-60°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33802271/extra_large_8b57403e053e0873353c30aadc7378f4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33802277/extra_large_83747e8d703a4f4099a7061d18ed1f08.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM4MDIyNzEvOGI1NzQwM2UwNTNlMDg3MzM1M2MzMGFhZGM3Mzc4ZjQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM4MDIyNzcvODM3NDdlOGQ3MDNhNGY0MDk5YTcwNjFkMThlZDFmMDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '2/13/2021',
@@ -992,7 +992,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-8b0d268--45',
         conditions: 'Clouds 47°-61°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33640324/extra_large_949b28602e32c9cbaf21ecde7c7f47ca.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33640329/extra_large_ce896f26baa024747952f0d041ce5986.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM2NDAzMzIvMzFlYTFhMWExZWYzODc1NDNjZmNlODQ5YWQ1OTg5YmIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM2NDAzMjkvY2U4OTZmMjZiYWEwMjQ3NDc5NTJmMGQwNDFjZTU5ODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '2/6/2021',
@@ -1001,7 +1001,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-ab24cd2--45',
         conditions: 'Sunny 48°-68°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/33477841/extra_large_4cb363a3cd8c1b0750ecb27680ab860d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/33477845/extra_large_28696098c136614c5404c497e074305e.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM0Nzc4NDEvNGNiMzYzYTNjZDhjMWIwNzUwZWNiMjc2ODBhYjg2MGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzM0Nzc4NDUvMjg2OTYwOThjMTM2NjE0YzU0MDRjNDk3ZTA3NDMwNWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '1/16/2021',
@@ -1010,7 +1010,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d14fe37--36',
         conditions: 'Sunny 56°-80°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32909630/extra_large_1c4ceee405d947dcb9906115b3b51dd6.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32909657/extra_large_c3dd07d8c3a4dd14399df285882fde8d.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI5MDk3MDgvYWMxNDI2ZmY1ZWJjMDA1Y2UyMWFkNmU5NzY2NTg4YzEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI5MDk2NTcvYzNkZDA3ZDhjM2E0ZGQxNDM5OWRmMjg1ODgyZmRlOGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '1/10/2021',
@@ -1019,7 +1019,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-0829424--47',
         conditions: 'Sunny 63°-70°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32770482/extra_large_2a8ff05c0e312d20a8c38467c09ea7d0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32770475/extra_large_a232604cd129623c42d1a1a3b71ab52c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI3NzA0ODIvMmE4ZmYwNWMwZTMxMmQyMGE4YzM4NDY3YzA5ZWE3ZDAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI3NzA0ODYvYTAzNjljMjk0ZDY5NGM0MzUwMDNkNjI5YWQ1ODU2YjQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '1/2/2021',
@@ -1028,7 +1028,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-615299a--27',
         conditions: 'Clouds/Sun 46°-60°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32517633/extra_large_d4fc3565e12126b8cefcd2b2be44548a.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32517782/extra_large_092d862a00fdc665edfef29df01921af.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI1MTc2MzMvZDRmYzM1NjVlMTIxMjZiOGNlZmNkMmIyYmU0NDU0OGEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzI1MTc3ODIvMDkyZDg2MmEwMGZkYzY2NWVkZmVmMjlkZjAxOTIxYWYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '12/24/2020',
@@ -1037,7 +1037,7 @@ var data = [
         trail: 'Chutes',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-536a76f--35',
         conditions: 'Cloudy 55°-60°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32245084/extra_large_436bd52797a3ec4e93fcf7bd8bccc41c.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32245089/extra_large_882e75946bcde0b3b82782d354bc4657.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzIyNDUwODQvNDM2YmQ1Mjc5N2EzZWM0ZTkzZmNmN2JkOGJjY2M0MWMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzIyNDUwNTQvMzcxZGJhZGRhNjMzZmJkZWM5ODBhZDU1MTMyNTc0MDMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '12/14/2020',
@@ -1046,7 +1046,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d87aa42--34',
         conditions: 'Clouds/Sun 54°-63°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/32076987/extra_large_4146a55dd3ab4e703c81683323d27fbc.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/32076882/extra_large_48a1b64a8a92fb85440db81c9417bccd.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzIwNzY5OTMvM2M5ZjZhMmMyNWQ1ZmEyZjFjYzg2NmIxNWQyYzg0ZGUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzIwNzY4NDYvYmQ4MmNiMTZhMzRlZWY4ZjY1ZGZmMjMwNGI2MGU4MDUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '12/5/2020',
@@ -1055,7 +1055,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-6add07c--21',
         conditions: 'Sunny 45°-65°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31883811/extra_large_06384d891c011a3c3eabcadd5cc9a16d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31883810/extra_large_cba866ae07594caab418f2ba302f1422.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE4ODM4MTEvMDYzODRkODkxYzAxMWEzYzNlYWJjYWRkNWNjOWExNmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE4ODM4MTAvY2JhODY2YWUwNzU5NGNhYWI0MThmMmJhMzAyZjE0MjIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/28/2020',
@@ -1064,7 +1064,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-05c7ac9--28',
         conditions: 'Sunny 56°-70°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31732482/extra_large_51583d3af2417a5634af91156eebf69c.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31732475/extra_large_ead7d51c1409db63f27a1e0c93c2e8e4.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE3MzI0ODIvNTE1ODNkM2FmMjQxN2E1NjM0YWY5MTE1NmVlYmY2OWMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE3MzI0NzUvZWFkN2Q1MWMxNDA5ZGI2M2YyN2ExZTBjOTNjMmU4ZTQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/21/2020',
@@ -1073,7 +1073,7 @@ var data = [
         trail: 'Willows',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-ad61ab1--19',
         conditions: 'Sunny 52°-67°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31540833/extra_large_e6aef1f87b9394f76b31503d8c4f688b.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31540846/extra_large_056cee02fb3a9c77355083782a52354b.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE1NDA4MzMvZTZhZWYxZjg3YjkzOTRmNzZiMzE1MDNkOGM0ZjY4OGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE1NDA4NDYvMDU2Y2VlMDJmYjNhOWM3NzM1NTA4Mzc4MmE1MjM1NGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/16/2020',
@@ -1082,7 +1082,7 @@ var data = [
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-34f9a34--23',
         conditions: 'Sunny 61°-78°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31457205/extra_large_bb689699759f3107748fa4694770547b.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31457210/extra_large_a8ae514fce163dfeb5a9199c3a1ae366.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE0NTcyMDUvYmI2ODk2OTk3NTlmMzEwNzc0OGZhNDY5NDc3MDU0N2IuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE0NTcyMTAvYThhZTUxNGZjZTE2M2RmZWI1YTkxOTljM2ExYWUzNjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/9/2020',
@@ -1091,7 +1091,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-7c792a8--20',
         conditions: 'Sunny 46°-59°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31290000/extra_large_d566f7db87f1cbff3731ab8e87f8b1bb.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31289996/extra_large_2be6e6b68b68b89edae38866ce209c62.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzEyOTAwMDAvZDU2NmY3ZGI4N2YxY2JmZjM3MzFhYjhlODdmOGIxYmIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzEyODk5OTYvMmJlNmU2YjY4YjY4Yjg5ZWRhZTM4ODY2Y2UyMDljNjIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '11/2/2020',
@@ -1100,7 +1100,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-7e8d7e5--21',
         conditions: 'Sunny 60°-76°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/31098315/extra_large_3dbaa1f42a41c188093bad43fe77b483.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/31098312/extra_large_1f8bca551034ecca40c470cf7d8b9a3f.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzEwOTgzMTMvM2E2M2ViMWU1YWZhZmIxYjc3MjM1M2Y5MDlhYWNhZjcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzEwOTgzMTIvMWY4YmNhNTUxMDM0ZWNjYTQwYzQ3MGNmN2Q4YjlhM2YuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '10/19/2020',
@@ -1109,7 +1109,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-b0eb9a9--17',
         conditions: 'Clouds/Sun 61°-71°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30732492/extra_large_5e4c1504082160269a172490e901e300.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30732504/extra_large_c52bd449b6d7cabc7995c0478a1c2ab6.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzA3MzI0OTkvNjBmYjc5ZTMyNjA3YzI2NWRjZTRkNDA2MjdlZjczYjMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzA3MzI1MDQvYzUyYmQ0NDliNmQ3Y2FiYzc5OTVjMDQ3OGExYzJhYjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '10/12/2020',
@@ -1118,7 +1118,7 @@ var data = [
         trail: 'Chutes',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-e58cc5c--24',
         conditions: 'Sunny 61°-73°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30506736/extra_large_29e1ef46dae6fa1762c3d16e6084b0fd.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30506769/extra_large_9860c45e5b9a6f999962c7c8d99eadad.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzA1MDY3MzYvMjllMWVmNDZkYWU2ZmExNzYyYzNkMTZlNjA4NGIwZmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzA1MDY3NTkvNjA2NzMwZWQyNDI3MGY1NDMzN2NhNDA2OTM1MTY0YjAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '10/5/2020',
@@ -1127,7 +1127,7 @@ var data = [
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-90a82bf--13',
         conditions: 'High Clouds 64°-81°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30276132/extra_large_be6107b86c5b17eac65a11ada3c5dff2.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30276128/extra_large_926309150ff1eef8cbd6b44ba7362265.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzAyNzYxMzIvYmU2MTA3Yjg2YzViMTdlYWM2NWExMWFkYTNjNWRmZjIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzAyNzYxMzQvYTMxMGI0MDQzZTlhZDI0NTY3ODZkODdkMDcyMWRkMTAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/28/2020',
@@ -1136,7 +1136,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-c22ad2b--23',
         conditions: 'Sunny 61°-73°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/30046361/extra_large_de2b941d5c08bc1d8d5cbc1f767bd5fc.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/30046501/extra_large_b105ffa7a81a962942a469bfb50abcf5.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzAwNDYzNjEvZGUyYjk0MWQ1YzA4YmMxZDhkNWNiYzFmNzY3YmQ1ZmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzAwNDY1MDEvYjEwNWZmYTdhODFhOTYyOTQyYTQ2OWJmYjUwYWJjZjUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/21/2020',
@@ -1145,7 +1145,7 @@ var data = [
         trail: 'Horseshoe Loop',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-d28d296--10',
         conditions: 'Overcast 63°-71°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29804859/extra_large_20449d6ac281c8ba8e1079a9750223b7.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29804853/extra_large_8d6c54f415a27d7021df727cad126ce5.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjk4MDQ4MDgvNmUwOWFiMDhlZjI4ZGVlZDE0NzM4ZmFkZTU0ZDYwN2UuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjk4MDQ4NTMvOGQ2YzU0ZjQxNWEyN2Q3MDIxZGY3MjdjYWQxMjZjZTUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/14/2020',
@@ -1154,7 +1154,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-4aaa761--9',
         conditions: 'Hazy 63°-80°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29574256/extra_large_64ef23655fdac3c6f8f3ef3b9ff3825d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29574258/extra_large_23d1684f3084f0619d71f8bf9468578c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjk1NzQyMjEvMDI1OTI1NmYzN2NjNGI1NDgxMjgzNzE2ZWJjMWVhYmYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjk1NzQyNTgvMjNkMTY4NGYzMDg0ZjA2MTlkNzFmOGJmOTQ2ODU3OGMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '9/5/2020',
@@ -1163,7 +1163,7 @@ var data = [
         trail: 'Egret',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-a8345c3--7',
         conditions: 'Sunny 73°-92°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/29221204/extra_large_fd6e3d1dad936f11fc0eaac1703c5064.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/29221573/extra_large_4654d8a74e92838f24d2d03099185731.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjkyMjEyMTcvYWQxNDBjNTJlY2I3YWIxYmFkNTUzYTQ0NGRkMTYyYjMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjkyMjEyMTgvNTQwMGZmN2FmYWMzYTE2ODUxOTQwMTMxMmMzODA3ZjcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/22/2020',
@@ -1172,7 +1172,7 @@ var data = [
         trail: 'Irvine Park',
         url: 'https://www.alltrails.com/explore/recording/morning-hike-e2e1423--6',
         conditions: 'Sunny 78°-89°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28781336/extra_large_37e62db0a1038f7a6e1238e2c568f4bc.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28781342/extra_large_969c4724c5a73b9bca244eceebc8da42.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg3ODEzNDIvOTY5YzQ3MjRjNWE3M2I5YmNhMjQ0ZWNlZWJjOGRhNDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg3ODEyOTYvYzkzZDllYzU2YTYwOWY4NGE1NTNjNGUwNWExMjUzNGEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/15/2020',
@@ -1181,7 +1181,7 @@ var data = [
         trail: 'Mt. Baldy',
         url: 'https://www.alltrails.com/explore/recording/mount-san-antonio-and-mount-baldy-notch-trail-275d7fb',
         conditions: 'Clouds 75°-94°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28575708/extra_large_874892e2e4c8ca6fcc4e7f75a9a029c4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28575849/extra_large_a7554e05bc741f716b9820e19e932ad4.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1NzU3MDgvODc0ODkyZTJlNGM4Y2E2ZmNjNGU3Zjc1YTlhMDI5YzQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1NzU4ODIvZTMxMGNjN2EyYzc1NzE5MDJlZTAyMDJlNzRmMjgxODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/10/2020',
@@ -1190,7 +1190,7 @@ var data = [
         trail: 'Sierra Peak',
         url: 'https://www.alltrails.com/explore/recording/sierra-peak-via-pipeline-trail-and-coal-canyon-trail-36e729e',
         conditions: 'Sunny 59°-85°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28421025/extra_large_203f7107533ce2cd89b6df11c6315777.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28421100/extra_large_1c32ab531fcce14694ec23d4e6c8120c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg0MjEwMjUvMjAzZjcxMDc1MzNjZTJjZDg5YjZkZjExYzYzMTU3NzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg0MjA5OTYvNzg5OWRhMDZiZjBiMjgwZmQ4NjliNWY4ZDJhYTMwNWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '8/1/2020',
@@ -1199,7 +1199,7 @@ var data = [
         trail: 'Blue Sky',
         url: 'https://www.alltrails.com/explore/recording/recording-aug-01-11-19-am-dc36381',
         conditions: 'Sunny 70°-92°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/28091348/extra_large_55f37d9221c43a0793604dd88b797f9e.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/28091373/extra_large_6ab99f11698bf459b061d1b863e7d612.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjgwOTEzNDgvNTVmMzdkOTIyMWM0M2EwNzkzNjA0ZGQ4OGI3OTdmOWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjgwOTEzNzMvNmFiOTlmMTE2OThiZjQ1OWIwNjFkMWI4NjNlN2Q2MTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/25/2020',
@@ -1208,7 +1208,7 @@ var data = [
         trail: 'Willows',
         url: 'https://www.alltrails.com/explore/recording/recording-jul-25-10-47-am-7380ad8',
         conditions: 'Cloudy 64°-76°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27921872/extra_large_17cf73d194d2cf2dde5a3555cb000240.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27921904/extra_large_2e405d6b72ad0a367ce4866731772b9e.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc5MjE4NzIvMTdjZjczZDE5NGQyY2YyZGRlNWEzNTU1Y2IwMDAyNDAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc5MjE5MTQvZGFhOTk0ZTVlYTQ5ODM2YzdhMzQyYmQxYmZhMjBlOWIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/19/2020',
@@ -1217,7 +1217,7 @@ var data = [
         trail: 'Weir Canyon',
         url: 'https://www.alltrails.com/explore/recording/recording-jul-19-9-08-am-aeefb05',
         conditions: 'Sunny 64°-74°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27800129/extra_large_88a350ecc4277d90023bb9dbf209bff1.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27800109/extra_large_f77bc72005e794c5e5a20b702ec56f8e.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc4MDAwNTEvMDc3NjVhMWNlNDExNzE5YzY1ZTdmODkzMjQ2YjkwMTcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc4MDAwODMvYTMzNjVhNjMwOWQwNjAwNWY2ZWQ3NjNiMjFkOTA3N2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/11/2020',
@@ -1226,7 +1226,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/recording-jul-11-11-46-am-f2fb9d7',
         conditions: 'Sunny 70°-91°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27621121/extra_large_082601f503b63c93fd51025b543885c6.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27621134/extra_large_d83c258e5d3a9045f1f50033c9e44590.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc2MjExMjEvMDgyNjAxZjUwM2I2M2M5M2ZkNTEwMjViNTQzODg1YzYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc2MjExMzUvNjM4YjVmYjQ5ZDg3ODVmNDFkYjJmNDExNDA1NzQzMmEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/3/2020',
@@ -1236,7 +1236,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/recording-jul-03-10-33-am-1368ba1',
         morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-BX8mFXN',
         conditions: 'Cloudy',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484419/extra_large_cc151db843cf65ce6ee97a9557423a52.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484384/extra_large_8b7a9cee0bedfa2bdb62152f43a2ee9c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQ0MTQvMzgyMjUxZWZlMzU1YjI0OGNiMWIyYTEzMzg4OWU4NzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQzODQvOGI3YTljZWUwYmVkZmEyYmRiNjIxNTJmNDNhMmVlOWMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/2/2020',
@@ -1246,7 +1246,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/recording-jul-02-9-37-am-eae27d7',
         morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-mqs72SX',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484339/extra_large_88cdbdb71858937197067185e9afc303.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484346/extra_large_1b24830b449819dc7430c65056759b5e.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQzMjcvZmMwOTA5ZDYyMTc2NWY3Y2RjN2M5ZjIwM2QwN2NhM2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQzNDYvMWIyNDgzMGI0NDk4MTlkYzc0MzBjNjUwNTY3NTliNWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/1/2020',
@@ -1255,7 +1255,7 @@ var data = [
         trail: 'Tanks',
         url: 'https://www.alltrails.com/explore/recording/capitol-gorge-to-tanks-trail-dd1016d',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484265/extra_large_e470a01db4a02ed3a69e2a1e8c5a2799.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484261/extra_large_2af6b935d63922dc1196500d9eb6dd79.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQyNjEvMmFmNmI5MzVkNjM5MjJkYzExOTY1MDBkOWViNmRkNzkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQyNjcvMWY4ZjJlZGE5NDY2Y2MyYTA5YmM0OTIwNTRkNzY3ZjUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '7/1/2020',
@@ -1265,7 +1265,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/recording-jul-01-11-42-am-42c8938',
         morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-G5C76w7',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27484108/extra_large_af2ec6098e59308b33f9f1d3ea2e4052.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27484178/extra_large_56925adc57bbaa2144a44635dc55d35d.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQxODAvMWNkNjQ5Mjc5NmMyNzdjOTkwZjQ1Yzk4YjU1ODg3OWYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODQxODMvYjg3NmJkMjEzNDMxNmY3MTA2NGIyNmZmYzM3ZTg3OWMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/30/2020',
@@ -1275,7 +1275,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/navajo-loop-and-queen-s-garden-trail-1fd09c5',
         morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-DVPS6c8',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27483918/extra_large_5146a2dadab8d14d22923d27becd3536.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27483998/extra_large_d4d394bf78e1fd796c35304c149483aa.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODM5MTgvNTE0NmEyZGFkYWI4ZDE0ZDIyOTIzZDI3YmVjZDM1MzYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODM5OTgvZDRkMzk0YmY3OGUxZmQ3OTZjMzUzMDRjMTQ5NDgzYWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/29/2020',
@@ -1285,7 +1285,7 @@ var data = [
         url: 'https://www.alltrails.com/explore/recording/recording-jun-29-10-22-am-0d770c4',
         morePhotos: 'https://chewi0.smugmug.com/Utah-2020/i-hNFKPjc',
         conditions: 'Sunny',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27483797/extra_large_a9bdfccda5c4476aeec251bef634521d.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27483686/extra_large_bc1c45071fadf901383d20d511eaebb6.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODM2ODYvYmMxYzQ1MDcxZmFkZjkwMTM4M2QyMGQ1MTFlYWViYjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjc0ODM3ODAvZjRhNjM1OThhMzNkNTEzYmEyZGQ5Y2I1ZTY1NGRhYjAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/20/2020',
@@ -1294,7 +1294,7 @@ var data = [
         trail: 'Coachwhip',
         url: 'https://www.alltrails.com/explore/recording/recording-jun-20-9-54-am-87ec2f4',
         conditions: 'Overcast 64°-65°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27170226/extra_large_e8bbf5307e0196374a9276f0baa336ab.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27170262/extra_large_2b10162003d9f502dfaaf9ff6ffe410a.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjcxNzAyNDEvNzhlYWQ1ZGFjNTZkYzUxMTZmZjY4ZTIwZWI2MGQ0Y2QuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjcxNzAyMzIvZGE2OWExM2IxYmMwYjBlMmFjZTg2MmRhZWM4MzUxZGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/13/2020',
@@ -1303,7 +1303,7 @@ var data = [
         trail: 'Weir Santiago',
         url: 'https://www.alltrails.com/explore/recording/recording-jun-13-10-45-am-6ea2ef7',
         conditions: 'Clouds 61°-72°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/27024158/extra_large_557312fbc6a114a2220954d5e15107a0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/27024055/extra_large_3973ca3a4703afc2ea7f770bc488a04c.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjcwMjQwNTUvMzk3M2NhM2E0NzAzYWZjMmVhN2Y3NzBiYzQ4OGEwNGMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjcwMjQxNjEvMTc3ZjFkYzkyNTM2MTMxMmEzNzFhNmYyODM5NGMzNDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '6/6/2020',
@@ -1312,7 +1312,7 @@ var data = [
         trail: 'Horseshoe loop',
         url: 'https://www.alltrails.com/explore/recording/recording-jun-06-10-42-am-58238e9',
         conditions: 'Drizzle 64°-66°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26884405/extra_large_cf7afd0f1c3cf06019c40b2edb7e86c6.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26884349/extra_large_f4bcc9ba2cb4e87cd680fab79e79035a.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY4ODQzNDkvZjRiY2M5YmEyY2I0ZTg3Y2Q2ODBmYWI3OWU3OTAzNWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY4ODQ0MTYvOGYxMDRhOGEwMzYyNjQyYzJlOTg3YmEyZTJhNTcyMGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/30/2020',
@@ -1321,7 +1321,7 @@ var data = [
         trail: 'Puma Ridge',
         url: 'https://www.alltrails.com/explore/recording/recording-may-30-11-10-am-61c66a2',
         conditions: 'Clouds 62°-73°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26749863/extra_large_bb2333e4766d29eaa6fbb3e443286a55.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26749858/extra_large_38ff6273ac61ca125def3f6fc2a3a0ee.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY3NDk4NjMvYmIyMzMzZTQ3NjZkMjllYWE2ZmJiM2U0NDMyODZhNTUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY3NDk3OTAvNzEwOGJhZGMxM2UzNDYyZjc0YmFjMDllNmQ0Y2RmZGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/23/2020',
@@ -1330,7 +1330,7 @@ var data = [
         trail: 'Weir Canyon',
         url: 'https://www.alltrails.com/explore/recording/recording-may-23-9-46-am-b096577',
         conditions: 'Clouds 63°-70°',
-        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/26585747/extra_large_e4ab10a7725a3a3ef4012ae6bed9169a.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/26585750/extra_large_73167f0d04a8f58990c716b834cc7dde.jpg']
+        photos: ['https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY1ODU3NDcvZTRhYjEwYTc3MjVhM2EzZWY0MDEyYWU2YmVkOTE2OWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==','https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjY1ODU4MDcvMjA3NGMxYmM1NzBjODQ5ZTM5YjVjYjEwZWU3MmZiZjMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==']
     },
     {
         date: '5/14/2020',
