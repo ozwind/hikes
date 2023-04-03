@@ -1,7 +1,6 @@
 var hikes = hikes || new Hikes();
 const spaces = "&nbsp;&nbsp;&nbsp;";
 
-
 function Hikes() {
     this.init = function () {
         var furthest = 0;
@@ -84,6 +83,7 @@ function Hikes() {
         tooltip(fastest, "mph");
         tooltip(longest, "duration");
         conditionTooltip(coldest, warmest);
+        setSize();
         setTimeout(()=>{
             $('html, body').scrollTop(0);            
         },0);
@@ -190,6 +190,35 @@ function sort(n) {
 
     $(window).trigger('resize');
     $('body').removeClass('waiting');
+}
+
+function setSize(toggle) {
+    const halfHeightName = 'halfHeight';
+    var halfHeightStore = localStorage.getItem(halfHeightName);
+    var halfHeight = false;
+
+    if (halfHeightStore != null) {
+        halfHeight = JSON.parse(halfHeightStore);
+    }
+
+    if (toggle) {
+        halfHeight = !halfHeight;
+        localStorage.setItem(halfHeightName, halfHeight);
+    }
+
+    if (halfHeight) {
+        $('.thumb').addClass('imgHalfHeight');
+    }
+    else {
+        $('.thumb').removeClass('imgHalfHeight');
+    }
+}
+
+function toggleSize() {
+    setSize(true);
+
+    $('html, body').scrollTop(1);
+    $('html, body').scrollTop(0);
 }
 
 function toHours(str) {
