@@ -233,7 +233,7 @@ function toHours(str) {
 var data = [
     {
         date: '4/10/2023',
-        duration: '5:00',
+        duration: '4:57',
         miles: 12.4,
         trail: 'Irvine Weir',
         url: 'https://www.alltrails.com/explore/recording/afternoon-hike-2d2c839--428',
