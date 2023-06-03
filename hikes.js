@@ -17,7 +17,7 @@ function Hikes() {
                         klass += ' lastThumb';
                     }
                     photos += "<a href='" + data[i].photos[j] +
-                        "'><img class='" + klass + "' onmouseover='mouseover(this)' onmouseout='mouseout(this)' src='" + data[i].photos[j] + "' idxsrc='" + i + "' idxphoto='" + j + "'></a>";
+                        "'><img class='" + klass + "' onmouseover='mouseover(this)' onmouseout='mouseout(this)' loading='lazy' src='" + data[i].photos[j] + "' idxsrc='" + i + "' idxphoto='" + j + "'></a>";
                 }
             }
             photos += "</td>";
