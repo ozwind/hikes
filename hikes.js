@@ -16,8 +16,7 @@ function Hikes() {
                     if (j === (data[i].photos.length - 1)) {
                         klass += ' lastThumb';
                     }
-                    photos += "<a href='" + data[i].photos[j] +
-                        "'><img class='" + klass + "' onmouseover='mouseover(this)' onmouseout='mouseout(this)' loading='lazy' src='" + data[i].photos[j] + "' idxsrc='" + i + "' idxphoto='" + j + "'></a>";
+                    photos += "<img class='" + klass + "' onmouseover='mouseover(this)' onmouseout='mouseout(this)' onclick='imgClick(this)' loading='lazy' src='" + data[i].photos[j] + "' idxsrc='" + i + "' idxphoto='" + j + "'>";
                 }
             }
             photos += "</td>";
@@ -91,6 +90,14 @@ function Hikes() {
         setTimeout(()=>{
             $('html, body').scrollTop(0);            
         },0);
+
+        document.addEventListener('fullscreenchange', exitFullScreenHandler);
+    }
+}
+
+function exitFullScreenHandler() {
+    if (!document.fullscreenElement) {
+        document.clicked.$img.css('border-radius', document.clicked.radius);
     }
 }
 
@@ -119,6 +126,14 @@ const animate = (tooltip, date) => {
         var elem = $("td:contains('" + date + "')");
         $('html, body').animate({scrollTop: elem.offset().top - 2}, 1000);
     });    
+}
+
+function imgClick(img) {
+    const $img = $(img);
+    const radius = $img.css('border-radius');
+    document.clicked = {$img, radius};
+    $img.css('border-radius', 'unset');
+    img.requestFullscreen();
 }
 
 function mouseover(img) {
