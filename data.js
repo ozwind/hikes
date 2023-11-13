@@ -1,5 +1,14 @@
 var data = [
     {
+        date: '11/13/2023',
+        duration: '4:07',
+        miles: 10.5,
+        trail: 'Irvine Weir',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-c1d53b7-92',
+        conditions: 'High clouds 53°/71°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/68010429/5cec82ff1b5cd2c7cbd7a687852a7ed4.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/68010414/dcb5ec2ad65822e00cf818ff3538e612.jpg']
+    },
+    {
         date: '10/13/2023',
         duration: '1:04',
         miles: 1.2,
