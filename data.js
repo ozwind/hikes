@@ -1,5 +1,14 @@
 var data = [
     {
+        date: '11/27/2023',
+        duration: '4:18',
+        miles: 11.8,
+        trail: 'Puma Mountain Goat',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-9d63484-110',
+        conditions: 'Sunny 58°/68°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/68445529/8d64b0535e2f3c106d1dc88353619684.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/68445527/6dadc71c2509ba147ab3cc9f77eed155.jpg']
+    },
+    {
         date: '11/13/2023',
         duration: '4:07',
         miles: 10.5,
