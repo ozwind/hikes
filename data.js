@@ -1,5 +1,14 @@
 var data = [
     {
+        date: '12/4/2023',
+        duration: '3:59',
+        miles: 10.6,
+        trail: 'Falcon flats',
+        url: 'https://www.alltrails.com/explore/recording/morning-hike-b928fec-105',
+        conditions: 'High clouds 50°/64°',
+        photos: ['https://cdn-assets.alltrails.com/uploads/photo/image/68609746/792519b9f1affe093d16b9f22653efb0.jpg','https://cdn-assets.alltrails.com/uploads/photo/image/68609741/016722c3e2f4af0392489d2829fa643d.jpg']
+    },
+    {
         date: '11/27/2023',
         duration: '4:18',
         miles: 11.8,
