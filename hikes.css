@@ -75,7 +75,7 @@ a:link {
     color: cornflowerblue;
 }
 
-a:visited, tbody {
+a:visited, tbody, #rollCaption {
     color: wheat;
 }
 
