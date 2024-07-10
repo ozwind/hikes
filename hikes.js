@@ -86,6 +86,7 @@ function Hikes() {
         tooltip(fastest, "mph");
         tooltip(longest, "duration");
         conditionTooltip(coldest, warmest);
+        $("#trailHead").attr("title", data.length + " hikes since 2016");
         setSize();
         setTimeout(()=>{
             $('html, body').scrollTop(0);            
