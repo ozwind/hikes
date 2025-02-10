@@ -1,247 +1,334 @@
-var hikes = hikes || new Hikes();
-const spaces = "&nbsp;&nbsp;&nbsp;";
+const HIGHLIGHT = "highlight";
+const POINTER = "pointer";
+const BORDER = "imgBorder";
+const LEFT = "#left";
+const RIGHT =  "#right";
+const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
+let sort = {name:"Date", ascending:false};
 
-function Hikes() {
-    this.init = function () {
-        var furthest = 0;
-        var fastest = 0;
-        var longest = 0;
-        var coldest = 0;
-        var warmest = 0;
-        for (var i = 0; i < data.length; i++) {
-            var photos = "<td>";
-            if (data[i].photos && data[i].photos.length > 0) {
-                for (j = 0; j < data[i].photos.length; j++) {
-                    var klass = 'thumb';
-                    if (j === (data[i].photos.length - 1)) {
-                        klass += ' lastThumb';
-                    }
-                    photos += "<img class='" + klass + "' onmouseover='mouseover(this)' onmouseout='mouseout(this)' onclick='imgClick(this)' loading='lazy' src='" + data[i].photos[j] + "' idxsrc='" + i + "' idxphoto='" + j + "'>";
-                }
-            }
-            photos += "</td>";
+function init() {
+    document.title = "CH hikes (" + hikes.length + ")";
+    initTable();
+    initHandlers();
+}
 
-            var morePhotos = "";
-            if (data[i].morePhotos && data[i].morePhotos.length > 0) {
-                morePhotos = "<br><br><a href='" + data[i].morePhotos + "'>Photos</a>";
-            }
+function initHandlers() {
+    const $doc = $(document);
 
-            if (data[i].videos) {
-                for (var j = 0; j < data[i].videos.length; j++) {
-                    morePhotos += "<br><br><a href='" + data[i].videos[j] + "'>Video</a>";
-                }
-            }
+    $doc.click(event => {
+        click(event);
+    });
 
-            if (!data[i].mph) {
-                var dur = data[i].duration.split(":");
-                var time = parseInt(dur[0]) + parseInt(dur[1]) / 60.0;
-                data[i].mph = data[i].miles / time;
-            }
+    $doc.keydown(event => {
+        keydown(event);
+    });
 
-            var html = "<tr>" +
-                "<td class='date'>" + data[i].date + "</td>" +
-                "<td class='miles'>" + data[i].miles.toFixed(1) + "</td>" +
-                "<td class='mph'>" + data[i].mph.toFixed(1) + "</td>" +
-                "<td class='duration'>" + data[i].duration + "</td>" +
-                "<td class='conditions'>" + data[i].conditions + morePhotos + "</td>" +
-                "<td class='trail'><a href='" + data[i].url + "' target='_blank'>" + data[i].trail + "</a></td>" +
-                photos +
-                "</tr>";
-            $("#tdata").append(html);
+    document.addEventListener('fullscreenchange', exitFullScreenHandler);
+}
 
-            if (data[i].miles > data[furthest].miles) {
-                furthest = i;
-            }
-            if (data[i].mph > data[fastest].mph) {
-                fastest = i;
-            }
-            if (data[i].duration > data[longest].duration) {
-                longest = i;
-            }
-            var low = 100;
-            var high = 0;
-            var temps = data[i].conditions.match(/\d+/g);
-            temps = temps ? temps.map(Number) : undefined;
-            if (temps) {
-                if (temps.length == 1) {
-                    low = temps[0];
-                    high = low;
-                }
-                else if (temps.length > 1) {
-                    low = temps[0];
-                    high = temps[1];
-                }
-            }
-            data[i].low = low;
-            data[i].high = high;
-            if (data[i].low < data[coldest].low) {
-                coldest = i;
-            }
-            if (data[i].high > data[warmest].high) {
-                warmest = i;
+function click(event) {
+    const $target = $(event.target);
+    const $tr = $target.closest("tr");
+
+    if ($tr.hasClass(HIGHLIGHT)) {
+        openUrl($tr[0].rowIndex - 1);
+    }
+    else if ($target.is("img")) {
+        $target.removeClass(BORDER);
+        $target[0].requestFullscreen();
+    }
+    else if ($tr.length > 0 && $tr[0].rowIndex > 0) {
+        hover($tr);
+    }
+    else if ($target.is("th")) {
+        const name = toName($target);
+        const $headers = $("th");
+        for (let i = 0; i < $headers.length; i++) {
+            const $th = $($headers[i]);
+            if (name === toName($th)) {
+                const ascending = sort.name === name ? !sort.ascending : "Trail" === name;
+                sort = {name, ascending};
+                break;
             }
         }
-
-        tooltip(furthest, "miles");
-        tooltip(fastest, "mph");
-        tooltip(longest, "duration");
-        conditionTooltip(coldest, warmest);
-        $("#trailHead").attr("title", data.length + " hikes since 2016");
-        setSize();
-        setTimeout(()=>{
-            $('html, body').scrollTop(0);            
-        },0);
-
-        document.addEventListener('fullscreenchange', exitFullScreenHandler);
+        applySort();
     }
+}
+
+function keydown(event) {
+    const $highlight = $(LEFT + " ." + HIGHLIGHT);
+    let index = $highlight.length > 0 ? $highlight[0].rowIndex - 1 : -1;
+
+    if ("Enter" === event.key && index >= 0) {
+        openUrl(index);
+    }
+    else if ("ArrowDown" === event.key) {
+        index++;
+        if (index >= hikes.length) {
+            index = 0;
+        }
+        highlightHike(index);
+    }
+    else if ("ArrowUp" === event.key) {
+        index--;
+        if (index < 0) {
+            index = hikes.length - 1;
+        }
+        highlightHike(index);
+    }
+    else if ("Home" === event.key) {
+        $(LEFT).scrollTop(0);
+    }
+    else if ("End" === event.key) {
+        const $left = $(LEFT);
+        $(LEFT).scrollTop($left[0].scrollHeight);
+    }
+    else if ("PageDown" === event.key) {
+        page(true);
+    }
+    else if ("PageUp" === event.key) {
+        page(false);
+    }
+}
+
+function page(down) {
+    const $left = $(LEFT);
+    const rowHeight = $('table tr').outerHeight();
+    const rowsPerPage = Math.floor($left.height() / rowHeight);
+
+    if (down) {
+        $left.scrollTop($left.scrollTop() + rowHeight * rowsPerPage);
+    }
+    else {
+        $left.scrollTop($left.scrollTop() - rowHeight * rowsPerPage);
+    }
+}
+
+function highlightHike(index) {
+    const $rows = $("tbody tr");
+    const $row = $($rows[index]);
+
+    hover($row);
+}
+
+function openUrl(index) {
+    const hike = hikes[index];
+    window.open(hike.url, "_blank");
 }
 
 function exitFullScreenHandler() {
     if (!document.fullscreenElement) {
-        document.clicked.$img.css('border-radius', document.clicked.radius);
+        $("img").addClass(BORDER);
     }
 }
 
-function tooltip(index, type) {
-    var tooltip = type + "Tooltip";
-    var date = data[index].date;
-    var html = "<div id='" + tooltip + "'>" + data[index][type] + spaces + date + "</div>";
-    $("#th" + type).html(html);
-    animate(tooltip, date);
-}
+function applySort() {
+    const $headers = $("th");
 
-function conditionTooltip(coldest, warmest) {
-    var coldTooltip = "coldTooltip";
-    var warmTooltip = "warmTooltip";
-    var coldDate = data[coldest].date;
-    var warmDate = data[warmest].date;
-    var html = "<div id='" + coldTooltip + "'>" + data[coldest].low + "°" + spaces + coldDate + "</div>"
-             + "<div id='" + warmTooltip + "'>" + data[warmest].high + "°" + spaces + warmDate + "</div>";
-    $("#thCond").html(html);
-    animate(coldTooltip, coldDate);
-    animate(warmTooltip, warmDate);
-}
+    for (let i = 0; i < $headers.length; i++) {
+        const $th = $($headers[i]);
+        let symbol = "";
 
-const animate = (tooltip, date) => {
-    $("#" + tooltip).on('click', () => {
-        var elem = $("td:contains('" + date + "')");
-        $('html, body').animate({scrollTop: elem.offset().top - 2}, 1000);
-    });    
-}
-
-function imgClick(img) {
-    const $img = $(img);
-    const radius = $img.css('border-radius');
-    document.clicked = {$img, radius};
-    $img.css('border-radius', 'unset');
-    img.requestFullscreen();
-}
-
-function mouseover(img) {
-    var windowpos = $(window).scrollTop();
-    $("#rollImg").attr("src", img.src);
-    $("#rollImg").css("display", "flex");
-    $(".image").css("top", windowpos);
-    let idxSrc = Number($(img).attr('idxsrc'));
-    let idxPhoto = Number($(img).attr('idxphoto'));
-    var caption = "";
-    if (data[idxSrc].captions && idxPhoto < data[idxSrc].captions.length) {
-        caption = data[idxSrc].captions[idxPhoto];
-    }
-    $("#rollCaption").text(caption);
-}
-
-function mouseout(img) {
-    $("#rollImg").css("display", "none");
-    $("#rollCaption").text("");
-}
-
-function sort(n) {
-    var rows;
-    var shouldSwitch;
-    var switchCount = 0;
-    var table = $("table")[0];
-    var switching = true;
-    var dir = "desc";
-
-    if (!this.sortDir) {
-        this.sortDir = {};
-    }
-    if (this.sortDir[n]) {
-        dir = this.sortDir[n] === "desc" ? "asc" : "desc";
-    }
-    this.sortDir[n] = dir;
-
-    $('body').addClass('waiting');
-
-    while (switching) {
-        switching = false;
-        rows = table.rows;
-        for (i = 1; i < (rows.length - 1); i++) {
-            shouldSwitch = false;
-            var x = rows[i].getElementsByTagName("TD")[n];
-            var y = rows[i + 1].getElementsByTagName("TD")[n];
-            var xVal = n == 3 ? toHours(x.innerHTML) : parseFloat(x.innerHTML);
-            var yVal = n == 3 ? toHours(y.innerHTML) : parseFloat(y.innerHTML);
-            if (dir == "asc") {
-                if (xVal > yVal) {
-                    shouldSwitch = true;
-                    break;
-                }
-            }
-            else if (dir == "desc") {
-                if (xVal < yVal) {
-                    shouldSwitch = true;
-                    break;
-                }
-            }
+        if (sort.name === toName($th)) {
+            symbol = sort.ascending ? " &#x25B2;" : " &#x25BC;";
         }
-        if (shouldSwitch) {
-            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-            switching = true;
-            switchCount++;
-        } else {
-            if (switchCount == 0 && dir == "asc") {
-                dir = "desc";
-                switching = true;
-            }
+
+        $th.html(HEADERS[i] + symbol);
+    }
+
+    if ("Date" === sort.name) {
+        hikes.sort(function(a, b) {
+            let dateA = new Date(a.date);
+            let dateB = new Date(b.date);
+            return sort.ascending ? dateA - dateB : dateB - dateA;
+        });
+    }
+    else if ("Miles" === sort.name) {
+        hikes.sort(function(a, b) {
+            return sort.ascending ? a.miles - b.miles : b.miles - a.miles;
+        });
+    }
+    else if ("MPH" === sort.name) {
+        hikes.sort(function(a, b) {
+            aMph = toMph(a);
+            bMph = toMph(b);
+            return sort.ascending ? aMph - bMph : bMph - aMph;
+        });
+    }
+    else if ("Time" === sort.name) {
+        hikes.sort(function(a, b) {
+            aTime = toMinutes(a.duration);
+            bTime = toMinutes(b.duration);
+            return sort.ascending ? aTime - bTime : bTime - aTime;
+        });
+    }
+    else if ("Conditions" === sort.name) {
+        hikes.sort((a, b) => {
+            let tempA = extractTemperature(a.conditions);
+            let tempB = extractTemperature(b.conditions);
+
+            if (tempA === null && tempB === null) return 0; // Both missing, keep order
+            if (tempA === null) return 1;  // Move A to the bottom
+            if (tempB === null) return -1; // Move B to the bottom
+
+            return sort.ascending ? tempA - tempB : tempB - tempA;
+        });
+    }
+    else if ("Trail" === sort.name) {
+        hikes.sort(function(a, b) {
+            let trailA = a.trail.toLowerCase();
+            let trailB = b.trail.toLowerCase();
+            return sort.ascending ? trailA.localeCompare(trailB) : trailB.localeCompare(trailA);
+        });
+    }
+
+    initTable();
+}
+
+function updateHeaders() {
+    const $headers = $("th");
+
+    for (let i = 0; i < $headers.length; i++) {
+        const $th = $($headers[i]);
+        let symbol = "";
+
+        if (sort.name === toName($th)) {
+            symbol = sort.ascending ? " &#x25B2;" : " &#x25BC;";
+        }
+
+        $th.html(HEADERS[i] + symbol);
+    }
+}
+
+function toName($target) {  // strip out any space and ascending/desceding label
+    return $target.text().split(" ")[0];
+}
+
+function toMinutes(timeStr) {
+    let parts = timeStr.split(":");
+    let hours = parseInt(parts[0], 10);
+    let minutes = parseInt(parts[1], 10);
+    return hours * 60 + minutes;
+}
+
+function extractTemperature(conditions) {
+    let match = conditions.match(/(-?\d+)°\/(-?\d+)°|(-?\d+)°/);
+    if (match) {
+        let high = match[1] !== undefined ? parseInt(match[1], 10) : null;
+        let low = match[2] !== undefined ? parseInt(match[2], 10) : null;
+        let singleTemp = match[3] !== undefined ? parseInt(match[3], 10) : null;
+
+        return sort.isAscending ? (low ?? singleTemp) : (high ?? singleTemp);
+    }
+    return null; // If no temperature found
+}
+
+function initTable() {
+    const $left = $(LEFT);
+    const $table = $("<table>");
+    const $thead = $("<thead>");
+    const $tbody = $("<tbody>");
+    const $headerRow = $("<tr>");
+
+    HEADERS.forEach(header => {
+        $headerRow.append($("<th>").html(header));
+    });
+
+    $thead.append($headerRow);
+    $table.append($thead);
+
+    hikes.forEach(hike => {
+        const $row = $("<tr>");
+        const mph = hike.mph ? hike.mph : toMph(hike);
+        const cols = [formatDate(hike.date), hike.miles.toFixed(1), mph.toFixed(1), hike.duration, hike.conditions, hike.trail];
+
+        cols.forEach(col => {
+            $row.append($("<td>").text(col));
+        });
+
+        $row.addClass(POINTER);
+        $row.attr("title", "Click for details");
+        $tbody.append($row);
+    });
+
+    $table.append($tbody);
+    $left.empty();
+    $left.append($table);
+    updateHeaders();
+
+    $('tbody tr').hover(
+        function() {
+            hover($(this));
+        }
+    );
+
+    $("thead").hover(
+        function() {
+            clearHover();
+        }
+    );
+}
+
+function toMph(hike) {
+    var dur = hike.duration.split(":");
+    var time = parseInt(dur[0]) + parseInt(dur[1]) / 60.0;
+    return hike.miles / time;
+}
+
+function formatDate(dateStr) {
+    return dateStr.replace(/(\d{1,2})\/(\d{1,2})\/(\d{4})/, function(match, m, d, y) {
+        return `${m.padStart(2, '0')}/${d.padStart(2, '0')}/${y}`;
+    });
+}
+
+function hover($this) {
+    if (document.hasFocus()) {
+        const index = $this[0].rowIndex - 1;
+        $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
+        $this.addClass(HIGHLIGHT);
+        const hike = hikes[index];
+        showPhotos(hike);
+
+        $("#focusHelper").focus(); // Redirect focus away from the scrollbar
+        $this[0].scrollIntoView({ behavior: "smooth", block: "nearest" }); // scroll to make visible
+
+        if (index === 0) {  // Make sure header shows when 1st row selected
+            $("thead")[0].scrollIntoView({ behavior: "smooth", block: "nearest" });
         }
     }
-
-    $(window).trigger('resize');
-    $('body').removeClass('waiting');
 }
 
-function setSize(toggle) {
-    const halfHeightName = 'halfHeight';
-    var halfHeightStore = localStorage.getItem(halfHeightName);
-    var halfHeight = false;
-
-    if (halfHeightStore != null) {
-        halfHeight = JSON.parse(halfHeightStore);
-    }
-
-    if (toggle) {
-        halfHeight = !halfHeight;
-        localStorage.setItem(halfHeightName, halfHeight);
-    }
-
-    if (halfHeight) {
-        $('.thumb').addClass('imgHalfHeight');
-    }
-    else {
-        $('.thumb').removeClass('imgHalfHeight');
+function clearHover() {
+    if (document.hasFocus()) {
+        $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
+        $(RIGHT).empty();
     }
 }
 
-function toggleSize() {
-    setSize(true);
+function showPhotos(hike) {
+    const $right = $(RIGHT);
+    const $photos = $('<div id="photos">');
 
-    $('html, body').scrollTop(1);
-    $('html, body').scrollTop(0);
-}
+    $right.empty();
 
-function toHours(str) {
-    var dur = str.split(":");
-    return parseInt(dur[0]) + parseInt(dur[1]) / 60.0;
+    for (let i = 0; i < hike.photos.length; i++) {
+        const url = hike.photos[i];
+        let caption = hike.captions && hike.captions[i] ? (hike.captions[i] + "\n") : "";
+        caption += "Click for full screen";
+        const $img = $("<img>").attr("src", url);
+        $img.attr("title", caption);
+        $img.addClass(BORDER);
+        $photos.append($img);
+    }
+
+    $right.append($photos);
+
+    if (hike.morePhotos) {
+        const $links = $('<div id="links">');
+        const $more = $('<a target="_blank">');
+        $more.text("More photos");
+        $more.attr("href", hike.morePhotos);
+        $links.append($more);
+        $right.append($links);
+    }
 }

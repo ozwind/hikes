@@ -1,143 +1,93 @@
 body {
     background-color: black;
+    color: antiquewhite;
+    margin: 5px;
 }
 
-table {
-    float: left;
-    margin-top: -2px;
-}
-
-table th:first-child {
-    border-radius: 10px 0 0 10px;
-}
-
-table th:last-child {
-    border-radius: 0 10px 10px 0;
-}
-
-tbody td:first-child {
-    border-radius: 10px 0 0 10px;
-}
-
-img.lastThumb {
-    border-right: 0px;
+html, body {
+    height: calc(100% - 5px);
+    overflow: hidden;
 }
 
 th {
-    background: gray;
     color: white;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
-.date,
-.trail,
-.conditions {
-    padding-left: 4px;
-    padding-right: 4px;
+th, td {
+    text-align: left;
+    padding-right: 10px;
 }
 
-.mph,
-.miles,
-.duration {
+table {
+    border-collapse: collapse;
+}
+
+td:nth-child(2), td:nth-child(3), td:nth-child(4) {
     text-align: right;
-    padding-right: 4px;
 }
 
-.thumb {
-    height: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px 3px 0px 3px;
-    border-radius: 10%;
-    cursor: pointer;
-}
-
-.image {
-    overflow: hidden;
-    position: relative;
-}
-
-.image>img {
-    width: 100%;
-    margin-left: 2px;
-}
-
-.imgHalfHeight {
-    height: 50px;
-}
-
-a {
+a:link, a:visited {
+    color: antiquewhite;
     text-decoration: none;
 }
 
-a:link {
-    color: cornflowerblue;
+.highlight {
+    background-color: blue;
+    color: white;
 }
 
-a:visited, tbody, #rollCaption {
-    color: wheat;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    background-color: black;
-    color: #f0f0e0;
-    text-align: left;
-    border-radius: 6px;
-    padding: 5px;
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.pointer,
-.tooltiptext {
+.pointer {
     cursor: pointer;
 }
 
-.waiting {
-    cursor: progress;
+.imgBorder {
+    border: 1px solid white;
 }
 
-.tableFixHead {
-    overflow: auto;
-    height: 100px;
+#container {
+    display: flex;
+    height: 100%;
+
+    width: 100%;
 }
 
-#trailHead,
-#conditionsHead {
-    width: 1px;
+#left {
+    flex: 0 0 auto;
+    overflow-y: auto;
 }
 
-.conditions,
-.trail {
-    text-align: center;
+#left table {
+    white-space: nowrap; /* Prevents text wrapping */
 }
 
-#rollCaption {
-    text-align: center;
-    padding-top: 5px;
-    font-size: 1.5em;
+#right {
+    padding-left: 5px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.grey1 {
-    background-color: rgba(128, 128, 128, .25);
+#photos {
+    display: grid;
+    gap: 8px; /* Space between images */
+    padding-right: 2px;
 }
 
-.grey2 {
-    background-color: rgba(100, 100, 100, .25);
+#photos img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
+#photos:has(img:nth-child(2)) {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+}
+
+#links {
+    padding-top: 10px;
+}
+
+#focusHelper {
+    position: absolute;
+    left: -9999px;
 }

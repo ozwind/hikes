@@ -11,7 +11,7 @@
     <script src="hikes.js"></script>
     <script>
         $(function() {
-            hikes.init();
+            init();
         });
 
     </script>
@@ -19,41 +19,11 @@
 </head>
 
 <body>
-    <table>
-        <colgroup>
-            <col class="grey1" />
-            <col class="grey2" />
-            <col class="grey1" />
-            <col class="grey2" />
-            <col class="grey1" />
-            <col class="grey2" />
-            <col />
-        </colgroup>
-        <tr>
-            <th>Date</th>
-            <th onclick="sort(1)" class="pointer">
-                <div class="tooltip">Miles<span id="thmiles" class="tooltiptext"></span></div>
-            </th>
-            <th onclick="sort(2)" class="pointer">
-                <div class="tooltip">MPH<span id="thmph" class="tooltiptext"></span></div>
-            </th>
-            <th onclick="sort(3)" class="pointer">
-                <div class="tooltip">Duration<span id="thduration" class="tooltiptext"></span></div>
-            </th>
-            <th id="conditionsHead">
-                <div class="tooltip">Conditons<span id="thCond" class="tooltiptext"></span></div>
-            </th>
-            <th id="trailHead">Trail</th>
-            <th onclick="toggleSize()">Photos</th>
-        </tr>
-        <tbody id="tdata">
-        </tbody>
-    </table>
-    <div class="image">
-        <img id="rollImg">
-        <div id="rollCaption"></div>
+    <div id="container">
+        <div id="left"></div>
+        <div id="right"></div>
     </div>
-
+    <input type="text" id="focusHelper">
 </body>
 
 </html>
