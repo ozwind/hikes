@@ -112,8 +112,14 @@ function highlightHike(index) {
 }
 
 function openUrl(index) {
-    const hike = hikes[index];
-    window.open(hike.url, "_blank");
+    if (!isMobile()) {
+        const hike = hikes[index];
+        window.open(hike.url, "_blank");
+    }
+}
+
+function isMobile() {
+    return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 }
 
 function exitFullScreenHandler() {
