@@ -67,6 +67,14 @@ a:link, a:visited {
     flex-direction: column;
 }
 
+#right table {
+    margin-left: 10px;
+}
+
+#right th:last-child {
+    text-align: center;
+}
+
 #photos {
     display: grid;
     gap: 8px; /* Space between images */

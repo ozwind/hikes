@@ -5,10 +5,12 @@ const LEFT = "#left";
 const RIGHT =  "#right";
 const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
 let sort = {name:"Date", ascending:false};
+let $myStats;
 
 function init() {
     document.title = "CH hikes (" + hikes.length + ")";
     initTable();
+    initStats();
     initHandlers();
 }
 
@@ -28,7 +30,7 @@ function initHandlers() {
 
 function click(event) {
     const $target = $(event.target);
-    const $tr = $target.closest("tr");
+    const $tr = $target.closest(LEFT + " tr");
 
     if ($tr.hasClass(HIGHLIGHT)) {
         openUrl($tr[0].rowIndex - 1);
@@ -40,9 +42,9 @@ function click(event) {
     else if ($tr.length > 0 && $tr[0].rowIndex > 0) {
         hover($tr);
     }
-    else if ($target.is("th")) {
+    else if ($target.is(LEFT + " th")) {
         const name = toName($target);
-        const $headers = $("th");
+        const $headers = $(LEFT + " th");
         for (let i = 0; i < $headers.length; i++) {
             const $th = $($headers[i]);
             if (name === toName($th)) {
@@ -93,7 +95,7 @@ function keydown(event) {
 
 function page(down) {
     const $left = $(LEFT);
-    const rowHeight = $('table tr').outerHeight();
+    const rowHeight = $(LEFT + ' table tr').outerHeight();
     const rowsPerPage = Math.floor($left.height() / rowHeight);
 
     if (down) {
@@ -105,7 +107,7 @@ function page(down) {
 }
 
 function highlightHike(index) {
-    const $rows = $("tbody tr");
+    const $rows = $(LEFT + " tbody tr");
     const $row = $($rows[index]);
 
     hover($row);
@@ -129,7 +131,7 @@ function exitFullScreenHandler() {
 }
 
 function applySort() {
-    const $headers = $("th");
+    const $headers = $(LEFT + " th");
 
     for (let i = 0; i < $headers.length; i++) {
         const $th = $($headers[i]);
@@ -192,7 +194,7 @@ function applySort() {
 }
 
 function updateHeaders() {
-    const $headers = $("th");
+    const $headers = $(LEFT + " th");
 
     for (let i = 0; i < $headers.length; i++) {
         const $th = $($headers[i]);
@@ -262,17 +264,86 @@ function initTable() {
     $left.append($table);
     updateHeaders();
 
-    $('tbody tr').hover(
+    $(LEFT + ' tbody tr').hover(
         function() {
             hover($(this));
         }
     );
 
-    $("thead").hover(
+    $(LEFT + " thead").hover(
         function() {
             clearHover();
         }
     );
+}
+
+function initStats() {
+    let list = [];
+    let entry = {};
+    let currentYear = 0;
+
+    hikes.forEach(hike => {
+        const year = hike.date.split("/")[2];
+        if (year === currentYear) {
+            entry.count++;
+            entry.miles += hike.miles;
+            entry.minutes += toMinutes(hike.duration);
+        }
+        else {
+            if (currentYear != 0) {
+                list.push(entry);
+            }
+            entry = {};
+            entry.year = year;
+            entry.count = 1;
+            entry.miles = hike.miles;
+            entry.minutes = toMinutes(hike.duration);
+            currentYear = year;
+        }
+    });
+
+    if (list.length > 0 && list[list.length -1].year != entry.year) {
+        list.push(entry);
+    }
+
+    $myStats = $("<table>");
+    const $thead = $("<thead>");
+    const $tbody = $("<tbody>");
+    const $headerRow = $("<tr>");
+    const headers = ["Year", "Hikes", "Miles", "Time"];
+
+    headers.forEach(header => {
+        $headerRow.append($("<th>").html(header));
+    });
+
+    $thead.append($headerRow);
+    $myStats.append($thead);
+
+    list.forEach(entry => {
+        const cols = [entry.year, entry.count, entry.miles.toFixed(1), minutesToTime(entry.minutes)];
+        const $row = $("<tr>");
+
+        cols.forEach(col => {
+            $row.append($("<td>").text(col));
+        });
+
+        $tbody.append($row);
+    });
+
+    $myStats.append($tbody);
+
+    $(RIGHT).append($myStats);
+}
+
+function minutesToTime(minutes) {
+    let days = Math.floor(minutes / (24 * 60));
+    let hours = Math.floor((minutes % (24 * 60)) / 60);
+    let mins = minutes % 60;
+
+    // Format HH and MM with leading zeros if needed
+    let formattedTime = `${days} days, ${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
+
+    return formattedTime;
 }
 
 function toMph(hike) {
@@ -299,23 +370,23 @@ function hover($this) {
         $this[0].scrollIntoView({ behavior: "smooth", block: "nearest" }); // scroll to make visible
 
         if (index === 0) {  // Make sure header shows when 1st row selected
-            $("thead")[0].scrollIntoView({ behavior: "smooth", block: "nearest" });
+            $(LEFT + " thead")[0].scrollIntoView({ behavior: "smooth", block: "nearest" });
         }
     }
 }
 
 function clearHover() {
     if (document.hasFocus()) {
+        const $right = $(RIGHT);
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
-        $(RIGHT).empty();
+        $right.empty();
+        $right.append($myStats);
     }
 }
 
 function showPhotos(hike) {
     const $right = $(RIGHT);
     const $photos = $('<div id="photos">');
-
-    $right.empty();
 
     for (let i = 0; i < hike.photos.length; i++) {
         const url = hike.photos[i];
@@ -327,7 +398,10 @@ function showPhotos(hike) {
         $photos.append($img);
     }
 
-    $right.append($photos);
+    setTimeout(() => {  // short timeout to remove small brief annoying display artifact
+        $right.empty();
+        $right.append($photos);
+    }, 10)
 
     if (hike.morePhotos) {
         const $links = $('<div id="links">');
