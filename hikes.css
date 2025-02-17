@@ -36,6 +36,10 @@ a:link, a:visited {
     color: white;
 }
 
+.unique {
+    color: yellow;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -44,10 +48,17 @@ a:link, a:visited {
     border: 1px solid white;
 }
 
+.has-scrollbar {
+    padding-right: 6px;
+}
+
+.no-scrollbar {
+    padding-right: 2px;
+}
+
 #container {
     display: flex;
     height: 100%;
-
     width: 100%;
 }
 
@@ -77,8 +88,8 @@ a:link, a:visited {
 
 #photos {
     display: grid;
-    gap: 8px; /* Space between images */
-    padding-right: 2px;
+    gap: 4px; /* Space between images */
+    column-gap: 6px;
 }
 
 #photos img {

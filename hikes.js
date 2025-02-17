@@ -4,14 +4,45 @@ const BORDER = "imgBorder";
 const LEFT = "#left";
 const RIGHT =  "#right";
 const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
+const HIKE_STORE = "hikeStore";
 let sort = {name:"Date", ascending:false};
 let $myStats;
 
 function init() {
-    document.title = "CH hikes (" + hikes.length + ")";
+    titleDefault();
     initTable();
     initStats();
     initHandlers();
+    selectHike();
+}
+
+function titleDefault() {
+    document.title = "CH hikes (" + hikes.length + ")";
+}
+
+function selectHike() {
+    let hikeStore = localStorage.getItem(HIKE_STORE);
+
+    if (hikeStore) {
+        hikeStore = JSON.parse(hikeStore);
+        const index = hikes.findIndex(hike => hike.date === hikeStore.date && hike.trail === hikeStore.trail);
+        if (index >= 0) {
+            highlightHike(index);
+        }
+    }
+
+}
+
+function saveHike() {
+    let hikeStore = {};
+    const $highlight = $(LEFT + " ." + HIGHLIGHT);
+
+    if ($highlight[0]) {
+        const hike = hikes[$highlight[0].rowIndex - 1];
+        hikeStore.date = hike.date;
+        hikeStore.trail = hike.trail;
+    }
+    localStorage.setItem(HIKE_STORE, JSON.stringify(hikeStore));
 }
 
 function initHandlers() {
@@ -26,6 +57,19 @@ function initHandlers() {
     });
 
     document.addEventListener('fullscreenchange', exitFullScreenHandler);
+    checkScrollbar();
+    $(window).on("resize", checkScrollbar);
+}
+
+function checkScrollbar() {
+    const $right = $(RIGHT);
+
+    if ($right[0].scrollHeight > $right.innerHeight()) {
+        $right.addClass("has-scrollbar").removeClass("no-scrollbar");
+    }
+    else {
+        $right.addClass("no-scrollbar").removeClass("has-scrollbar");
+    }
 }
 
 function click(event) {
@@ -257,6 +301,10 @@ function initTable() {
         $row.addClass(POINTER);
         $row.attr("title", "Click for details");
         $tbody.append($row);
+
+        if (hike.unique) {
+            $row.addClass('unique');
+        }
     });
 
     $table.append($tbody);
@@ -270,7 +318,7 @@ function initTable() {
         }
     );
 
-    $(LEFT + " thead").hover(
+    $(LEFT + " thead tr").hover(
         function() {
             clearHover();
         }
@@ -324,7 +372,7 @@ function initStats() {
         const $row = $("<tr>");
 
         cols.forEach(col => {
-            $row.append($("<td>").text(col));
+            $row.append($("<td>").html(col));
         });
 
         $tbody.append($row);
@@ -339,9 +387,10 @@ function minutesToTime(minutes) {
     let days = Math.floor(minutes / (24 * 60));
     let hours = Math.floor((minutes % (24 * 60)) / 60);
     let mins = minutes % 60;
+    let dayStr = days === 1 ? "day, &nbsp;" : "days,";
 
     // Format HH and MM with leading zeros if needed
-    let formattedTime = `${days} days, ${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
+    let formattedTime = `${days} ${dayStr} ${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
 
     return formattedTime;
 }
@@ -359,7 +408,7 @@ function formatDate(dateStr) {
 }
 
 function hover($this) {
-    if (document.hasFocus()) {
+    if (document.hasFocus() && !$this.hasClass(HIGHLIGHT)) {
         const index = $this[0].rowIndex - 1;
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $this.addClass(HIGHLIGHT);
@@ -381,6 +430,8 @@ function clearHover() {
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $right.empty();
         $right.append($myStats);
+        saveHike();
+        titleDefault();
     }
 }
 
@@ -388,6 +439,7 @@ function showPhotos(hike) {
     const $right = $(RIGHT);
     const $photos = $('<div id="photos">');
 
+    document.title = "CH hike " + hike.date;
     for (let i = 0; i < hike.photos.length; i++) {
         const url = hike.photos[i];
         let caption = hike.captions && hike.captions[i] ? (hike.captions[i] + "\n") : "";
@@ -401,14 +453,15 @@ function showPhotos(hike) {
     setTimeout(() => {  // short timeout to remove small brief annoying display artifact
         $right.empty();
         $right.append($photos);
-    }, 10)
+        saveHike();
 
-    if (hike.morePhotos) {
-        const $links = $('<div id="links">');
-        const $more = $('<a target="_blank">');
-        $more.text("More photos");
-        $more.attr("href", hike.morePhotos);
-        $links.append($more);
-        $right.append($links);
-    }
+        if (hike.morePhotos) {
+            const $links = $('<div id="links">');
+            const $more = $('<a target="_blank">');
+            $more.text("More photos");
+            $more.attr("href", hike.morePhotos);
+            $links.append($more);
+            $right.append($links);
+        }
+    }, 10);
 }
