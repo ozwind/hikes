@@ -80,6 +80,11 @@ a:link, a:visited {
 
 #right table {
     margin-left: 10px;
+    font-size: xx-large;
+}
+
+#right tr * {
+    padding-right: 30px;
 }
 
 #right th:last-child {

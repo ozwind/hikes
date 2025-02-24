@@ -27,7 +27,7 @@ function selectHike() {
         hikeStore = JSON.parse(hikeStore);
         const index = hikes.findIndex(hike => hike.date === hikeStore.date && hike.trail === hikeStore.trail);
         if (index >= 0) {
-            highlightHike(index);
+            highlightHike(index, true);  // true = center highlight
         }
     }
 
@@ -135,6 +135,9 @@ function keydown(event) {
     else if ("PageUp" === event.key) {
         page(false);
     }
+    else if ("Escape" === event.key) {
+        clearHover();
+    }
 }
 
 function page(down) {
@@ -150,11 +153,11 @@ function page(down) {
     }
 }
 
-function highlightHike(index) {
+function highlightHike(index, center) {
     const $rows = $(LEFT + " tbody tr");
     const $row = $($rows[index]);
 
-    hover($row);
+    hover($row, center);
 }
 
 function openUrl(index) {
@@ -266,11 +269,11 @@ function toMinutes(timeStr) {
 function extractTemperature(conditions) {
     let match = conditions.match(/(-?\d+)°\/(-?\d+)°|(-?\d+)°/);
     if (match) {
-        let high = match[1] !== undefined ? parseInt(match[1], 10) : null;
-        let low = match[2] !== undefined ? parseInt(match[2], 10) : null;
+        let low = match[1] !== undefined ? parseInt(match[1], 10) : null;
+        let high = match[2] !== undefined ? parseInt(match[2], 10) : null;
         let singleTemp = match[3] !== undefined ? parseInt(match[3], 10) : null;
 
-        return sort.isAscending ? (low ?? singleTemp) : (high ?? singleTemp);
+        return sort.ascending ? (low ?? singleTemp) : (high ?? singleTemp);
     }
     return null; // If no temperature found
 }
@@ -407,16 +410,17 @@ function formatDate(dateStr) {
     });
 }
 
-function hover($this) {
+function hover($this, center) {
     if (document.hasFocus() && !$this.hasClass(HIGHLIGHT)) {
         const index = $this[0].rowIndex - 1;
+        const block = center ? "center" : "nearest";
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $this.addClass(HIGHLIGHT);
         const hike = hikes[index];
         showPhotos(hike);
 
         $("#focusHelper").focus(); // Redirect focus away from the scrollbar
-        $this[0].scrollIntoView({ behavior: "smooth", block: "nearest" }); // scroll to make visible
+        $this[0].scrollIntoView({ behavior: "smooth", block }); // scroll to make visible
 
         if (index === 0) {  // Make sure header shows when 1st row selected
             $(LEFT + " thead")[0].scrollIntoView({ behavior: "smooth", block: "nearest" });
