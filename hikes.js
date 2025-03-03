@@ -7,8 +7,11 @@ const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
 const HIKE_STORE = "hikeStore";
 let sort = {name:"Date", ascending:false};
 let $myStats;
+let $filter;
+let fHikes;
 
 function init() {
+    initFilters();
     titleDefault();
     initTable();
     initStats();
@@ -17,7 +20,7 @@ function init() {
 }
 
 function titleDefault() {
-    document.title = "CH hikes (" + hikes.length + ")";
+    document.title = "CH hikes (" + fHikes.length + ")";
 }
 
 function selectHike() {
@@ -25,7 +28,7 @@ function selectHike() {
 
     if (hikeStore) {
         hikeStore = JSON.parse(hikeStore);
-        const index = hikes.findIndex(hike => hike.date === hikeStore.date && hike.trail === hikeStore.trail);
+        const index = fHikes.findIndex(hike => hike.date === hikeStore.date && hike.trail === hikeStore.trail);
         if (index >= 0) {
             highlightHike(index, true);  // true = center highlight
         }
@@ -38,7 +41,7 @@ function saveHike() {
     const $highlight = $(LEFT + " ." + HIGHLIGHT);
 
     if ($highlight[0]) {
-        const hike = hikes[$highlight[0].rowIndex - 1];
+        const hike = fHikes[$highlight[0].rowIndex - 1];
         hikeStore.date = hike.date;
         hikeStore.trail = hike.trail;
     }
@@ -110,7 +113,7 @@ function keydown(event) {
     }
     else if ("ArrowDown" === event.key) {
         index++;
-        if (index >= hikes.length) {
+        if (index >= fHikes.length) {
             index = 0;
         }
         highlightHike(index);
@@ -118,7 +121,7 @@ function keydown(event) {
     else if ("ArrowUp" === event.key) {
         index--;
         if (index < 0) {
-            index = hikes.length - 1;
+            index = fHikes.length - 1;
         }
         highlightHike(index);
     }
@@ -137,6 +140,9 @@ function keydown(event) {
     }
     else if ("Escape" === event.key) {
         clearHover();
+    }
+    else if ("filter" === event.target.id) {
+        applyFilter();
     }
 }
 
@@ -162,7 +168,7 @@ function highlightHike(index, center) {
 
 function openUrl(index) {
     if (!isMobile()) {
-        const hike = hikes[index];
+        const hike = fHikes[index];
         window.open(hike.url, "_blank");
     }
 }
@@ -192,33 +198,33 @@ function applySort() {
     }
 
     if ("Date" === sort.name) {
-        hikes.sort(function(a, b) {
+        fHikes.sort(function(a, b) {
             let dateA = new Date(a.date);
             let dateB = new Date(b.date);
             return sort.ascending ? dateA - dateB : dateB - dateA;
         });
     }
     else if ("Miles" === sort.name) {
-        hikes.sort(function(a, b) {
+        fHikes.sort(function(a, b) {
             return sort.ascending ? a.miles - b.miles : b.miles - a.miles;
         });
     }
     else if ("MPH" === sort.name) {
-        hikes.sort(function(a, b) {
+        fHikes.sort(function(a, b) {
             aMph = toMph(a);
             bMph = toMph(b);
             return sort.ascending ? aMph - bMph : bMph - aMph;
         });
     }
     else if ("Time" === sort.name) {
-        hikes.sort(function(a, b) {
+        fHikes.sort(function(a, b) {
             aTime = toMinutes(a.duration);
             bTime = toMinutes(b.duration);
             return sort.ascending ? aTime - bTime : bTime - aTime;
         });
     }
     else if ("Conditions" === sort.name) {
-        hikes.sort((a, b) => {
+        fHikes.sort((a, b) => {
             let tempA = extractTemperature(a.conditions);
             let tempB = extractTemperature(b.conditions);
 
@@ -230,7 +236,7 @@ function applySort() {
         });
     }
     else if ("Trail" === sort.name) {
-        hikes.sort(function(a, b) {
+        fHikes.sort(function(a, b) {
             let trailA = a.trail.toLowerCase();
             let trailB = b.trail.toLowerCase();
             return sort.ascending ? trailA.localeCompare(trailB) : trailB.localeCompare(trailA);
@@ -278,6 +284,38 @@ function extractTemperature(conditions) {
     return null; // If no temperature found
 }
 
+function initFilters() {
+    hikes.forEach(hike => {
+        if (!hike.tags) {
+            hike.tags = [];
+        }
+        hike.tags.push(hike.trail);
+        hike.tags.push(hike.conditions);
+        if (hike.unique) {
+            hike.tags.push("unique");
+        }
+    });
+
+    fHikes = hikes.slice();
+}
+
+function applyFilter() {
+    setTimeout(() => {
+        const val = $filter.val().trim().toLowerCase();
+
+        fHikes = [];
+        for (let i = 0; i < hikes.length; i++) {
+            const tags = hikes[i].tags;
+            if (val.length < 1 || tags.some(tag => tag.toLowerCase().startsWith(val))) {
+                fHikes.push(hikes[i]);
+            }
+        }
+
+        applySort();
+        titleDefault();
+    }, 0);
+}
+
 function initTable() {
     const $left = $(LEFT);
     const $table = $("<table>");
@@ -292,7 +330,7 @@ function initTable() {
     $thead.append($headerRow);
     $table.append($thead);
 
-    hikes.forEach(hike => {
+    fHikes.forEach(hike => {
         const $row = $("<tr>");
         const mph = hike.mph ? hike.mph : toMph(hike);
         const cols = [formatDate(hike.date), hike.miles.toFixed(1), mph.toFixed(1), hike.duration, hike.conditions, hike.trail];
@@ -333,7 +371,7 @@ function initStats() {
     let entry = {};
     let currentYear = 0;
 
-    hikes.forEach(hike => {
+    fHikes.forEach(hike => {
         const year = hike.date.split("/")[2];
         if (year === currentYear) {
             entry.count++;
@@ -363,6 +401,10 @@ function initStats() {
     const $headerRow = $("<tr>");
     const headers = ["Year", "Hikes", "Miles", "Time"];
 
+    if (!isMobile()) {
+        $myStats.addClass("statsTable");
+    }
+
     headers.forEach(header => {
         $headerRow.append($("<th>").html(header));
     });
@@ -383,7 +425,12 @@ function initStats() {
 
     $myStats.append($tbody);
 
-    $(RIGHT).append($myStats);
+    const $right = $(RIGHT);
+    $right.append($myStats);
+
+    $filter = $("<input id='filter'>");
+    $filter.attr("title", "Filter by Condition, Trail, or tag such as:\nLarry, Kevin, Taiwan, Utah, Unique, Snake, Deer");
+    $right.append($filter);
 }
 
 function minutesToTime(minutes) {
@@ -416,7 +463,7 @@ function hover($this, center) {
         const block = center ? "center" : "nearest";
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $this.addClass(HIGHLIGHT);
-        const hike = hikes[index];
+        const hike = fHikes[index];
         showPhotos(hike);
 
         $("#focusHelper").focus(); // Redirect focus away from the scrollbar
@@ -434,6 +481,7 @@ function clearHover() {
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $right.empty();
         $right.append($myStats);
+        $right.append($filter);
         saveHike();
         titleDefault();
     }

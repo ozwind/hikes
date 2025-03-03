@@ -32,7 +32,7 @@ a:link, a:visited {
 }
 
 .highlight {
-    background-color: blue;
+    background-color: dimgray;
     color: white;
 }
 
@@ -56,6 +56,10 @@ a:link, a:visited {
     padding-right: 2px;
 }
 
+.statsTable {
+    font-size: xx-large;
+}
+
 #container {
     display: flex;
     height: 100%;
@@ -76,11 +80,11 @@ a:link, a:visited {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #right table {
     margin-left: 10px;
-    font-size: xx-large;
 }
 
 #right tr * {
@@ -114,4 +118,11 @@ a:link, a:visited {
 #focusHelper {
     position: absolute;
     left: -9999px;
+}
+
+#filter {
+    color: white;
+    background-color: transparent;
+    margin-bottom: 2px;
+    margin-left: 5px;
 }
