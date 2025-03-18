@@ -3,11 +3,13 @@ const POINTER = "pointer";
 const BORDER = "imgBorder";
 const LEFT = "#left";
 const RIGHT =  "#right";
+const CLEAR = "filterClear";
 const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
 const HIKE_STORE = "hikeStore";
 let sort = {name:"Date", ascending:false};
 let $myStats;
 let $filter;
+let $filterBox;
 let fHikes;
 
 function init() {
@@ -15,6 +17,7 @@ function init() {
     titleDefault();
     initTable();
     initStats();
+    initFilter();
     initHandlers();
     selectHike();
 }
@@ -101,6 +104,10 @@ function click(event) {
             }
         }
         applySort();
+    }
+    else if ($target[0].id === CLEAR) {
+        $filter.val('');
+        applyFilter();
     }
 }
 
@@ -302,11 +309,19 @@ function initFilters() {
 function applyFilter() {
     setTimeout(() => {
         const val = $filter.val().trim().toLowerCase();
+        const $clear = $("#" + CLEAR);
+
+        if (val.length > 0) {
+            $clear.show();
+        }
+        else {
+            $clear.hide();
+        }
 
         fHikes = [];
         for (let i = 0; i < hikes.length; i++) {
             const tags = hikes[i].tags;
-            if (val.length < 1 || tags.some(tag => tag.toLowerCase().startsWith(val))) {
+            if (val.length < 1 || tags.some(tag => tag.toLowerCase().includes(val))) {
                 fHikes.push(hikes[i]);
             }
         }
@@ -424,13 +439,21 @@ function initStats() {
     });
 
     $myStats.append($tbody);
+    $(RIGHT).append($myStats);
+}
 
+function initFilter() {
     const $right = $(RIGHT);
-    $right.append($myStats);
 
+    $filterBox = $("<div id='filterBox'>");
     $filter = $("<input id='filter'>");
+    const $filterClear = $("<span id='" + CLEAR + "'>");
     $filter.attr("title", "Filter by Condition, Trail, or tag such as:\nLarry, Kevin, Taiwan, Utah, Unique, Snake, Deer");
-    $right.append($filter);
+    $filterBox.append($filter);
+    $filterClear.html("X");
+    $filterClear.attr("title", "Clear filter");
+    $filterBox.append($filterClear);
+    $right.append($filterBox);
 }
 
 function minutesToTime(minutes) {
@@ -481,7 +504,7 @@ function clearHover() {
         $("." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $right.empty();
         $right.append($myStats);
-        $right.append($filter);
+        $right.append($filterBox);
         saveHike();
         titleDefault();
     }
