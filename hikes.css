@@ -60,6 +60,14 @@ a:link, a:visited {
     font-size: xx-large;
 }
 
+#stats {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
 #container {
     display: flex;
     height: 100%;
@@ -67,11 +75,17 @@ a:link, a:visited {
 }
 
 #left {
-    flex: 0 0 auto;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-#left table {
+#htable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+#htable table {
     white-space: nowrap; /* Prevents text wrapping */
 }
 
@@ -80,18 +94,19 @@ a:link, a:visited {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
 }
 
-#right table {
+#stats table {
     margin-left: 10px;
+    width: auto;
 }
 
-#right tr * {
+#stats tr * {
     padding-right: 30px;
 }
 
-#right th:last-child {
+#stats th:last-child {
     text-align: center;
 }
 
@@ -121,24 +136,35 @@ a:link, a:visited {
 }
 
 #filterBox {
+    padding-top: 4px;
+    padding-right: 6px;
     position: relative;
-    overflow: hidden;
 }
 
 #filter {
     color: white;
     background-color: transparent;
-    margin-bottom: 2px;
-    margin-left: 5px;
     width: 100%;
 }
 
 #filterClear {
     position: absolute;
     right: 5px;
-    top: 50%;
+    top: 57%;
     transform: translateY(-50%);
     display: none;
     color: gray;
     cursor: pointer;
+}
+
+#chart {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+
+#myCanvas {
+    width: 100%;
+    display: block;
 }
