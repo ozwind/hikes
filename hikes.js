@@ -541,7 +541,11 @@ function initChart() {
         type: 'bar',
         data: {
             labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            datasets: [{ label: 'Values', data: [], backgroundColor: 'darkGray' }]
+            datasets: [{
+                label: 'Values',
+                data: [],
+                backgroundColor: 'darkGray'
+            }]
         },
         options: {
             responsive: true,
@@ -565,6 +569,21 @@ function initChart() {
                     },
                     display: function(context) {
                         return context.dataset.data[context.dataIndex] !== 0; // Hide if value is 0
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        display: true, // Show horizontal grid lines (default is true)
+                        color: 'darkGreen',
+                        lineWidth: 1 // Thin line; adjust as needed
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false // Hide vertical grid lines if not wanted
                     }
                 }
             }
