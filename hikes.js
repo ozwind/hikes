@@ -8,7 +8,11 @@ const HTABLE = "#htable";
 const CLEAR = "filterClear";
 const HEADERS = ["Date", "Miles", "MPH", "Time", "Conditions", "Trail"];
 const HIKE_STORE = "hikeStore";
-const milesPerYear = getMonthlyMilesByYear();
+const FILTER = "#filter";
+const FOCUS = "#focusHelper";
+const DIALOG = "#dlgInfo";
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const stats = {};
 let sort = {name:"Date", ascending:false};
 let $myStats;
 let $filter;
@@ -17,6 +21,7 @@ let myChart;
 
 function init() {
     initFilters();
+    initInfoDialog();
     titleDefault();
     initTable();
     initFilter();
@@ -62,12 +67,6 @@ function initHandlers() {
 
     $doc.keydown(event => {
         keydown(event);
-    });
-
-    $doc.keyup(event => {
-        if ('f' === event.key.toLowerCase()) {
-            $("#filter").focus();
-        }
     });
 
     document.addEventListener('fullscreenchange', exitFullScreenHandler);
@@ -121,26 +120,72 @@ function click(event) {
     }
 }
 
-function keydown(event) {
-    const $highlight = $(LEFT + " ." + HIGHLIGHT);
-    let index = $highlight.length > 0 ? $highlight[0].rowIndex - 1 : -1;
+function getTableHighlightIndex(side) {
+    const $hl = $(side + " ." + HIGHLIGHT);
+    return $hl.length > 0 ? $hl[0].rowIndex - 1 : -1;
+}
 
-    if ("Enter" === event.key && index >= 0) {
+function down(side, idx, max) {
+    if (side && idx >= 0) {
+        idx++;
+        if (idx >= max) {
+            idx = 0;
+        }
+        if (LEFT === side) {
+            highlightHike(idx);
+        }
+        else {
+            highlightYear(idx);
+        }
+    }
+}
+
+function up(side, idx, max) {
+    if (side && idx >= 0) {
+        idx--;
+        if (idx < 0) {
+            idx = max - 1;
+        }
+        if (LEFT === side) {
+            highlightHike(idx);
+        }
+        else {
+            highlightYear(idx);
+        }
+    }
+}
+
+function keydown(event) {
+    let side = undefined;
+    let index = getTableHighlightIndex(LEFT);
+    let max = fHikes.length;
+
+    if (index >= 0) {
+        side = LEFT;
+    }
+    else {
+        index = getTableHighlightIndex(RIGHT);
+        if (index >= 0) {
+            side = RIGHT;
+            max = stats.years.data.length;
+        }
+    }
+
+    if ("Enter" === event.key && side === LEFT && index >= 0) {
         openUrl(index);
     }
     else if ("ArrowDown" === event.key) {
-        index++;
-        if (index >= fHikes.length) {
-            index = 0;
-        }
-        highlightHike(index);
+        down(side, index, max);
     }
     else if ("ArrowUp" === event.key) {
-        index--;
-        if (index < 0) {
-            index = fHikes.length - 1;
-        }
-        highlightHike(index);
+        up(side, index, max);
+    }
+    else if ("ArrowLeft" === event.key && LEFT !== side) {
+        highlightHike(0);
+    }
+    else if ("ArrowRight" === event.key && RIGHT !== side) {
+        clearHover();
+        highlightYear(0);
     }
     else if ("Home" === event.key) {
         $(HTABLE).scrollTop(0);
@@ -156,10 +201,23 @@ function keydown(event) {
         page(false);
     }
     else if ("Escape" === event.key) {
+        $(FOCUS).focus();  // move focus away from filter
+        $(FILTER).val("");
+        applyFilter();
         clearHover();
     }
     else if ("filter" === event.target.id) {
         applyFilter();
+    }
+    else if ('f' === event.key.toLowerCase()) {
+        setTimeout(function () {
+            const $filter = $(FILTER);
+            $filter.val("");
+            $filter.focus();            
+        }, 10);
+    }
+    else if ('i' === event.key.toLowerCase()) {
+        $(DIALOG).dialog('open');
     }
 }
 
@@ -181,6 +239,13 @@ function highlightHike(index, center) {
     const $row = $($rows[index]);
 
     hover($row, center);
+}
+
+function highlightYear(index) {
+    const $rows = $(RIGHT + " tbody tr");
+    const $row = $($rows[index]);
+
+    yearHover($row);
 }
 
 function openUrl(index) {
@@ -452,6 +517,9 @@ function initStats() {
     $thead.append($headerRow);
     $table.append($thead);
 
+    const years = [];
+    const miles = [];
+
     list.forEach(entry => {
         const cols = [entry.year, entry.count, entry.miles.toFixed(1), minutesToTime(entry.minutes)];
         const $row = $("<tr>");
@@ -461,7 +529,12 @@ function initStats() {
         });
 
         $tbody.append($row);
+        years.push(entry.year);
+        miles.push(entry.miles.toFixed(1));
     });
+
+    stats.years = {data: miles, labels: years};
+    stats.months = getMonthlyMilesByYear();
 
     $table.append($tbody);
     $myStats.append($table);
@@ -491,9 +564,9 @@ function yearHover($row) {
 
         $(RIGHT + " ." + HIGHLIGHT).removeClass(HIGHLIGHT);
         $row.addClass(HIGHLIGHT);
-        myChart.data.datasets[0].data = milesPerYear[year];
+        myChart.data.labels = stats.months.labels;
+        myChart.data.datasets[0].data = stats.months.data[year];
         myChart.update();
-        $(CHART).show();
     }
 }
 
@@ -522,7 +595,7 @@ function getMonthlyMilesByYear() {
         );
     });
 
-    return yearlyMiles;
+    return {data: yearlyMiles, labels: MONTHS};
 }
 
 function initChart() {
@@ -540,7 +613,7 @@ function initChart() {
     myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            labels: [],
             datasets: [{
                 label: 'Values',
                 data: [],
@@ -590,11 +663,11 @@ function initChart() {
         }
     });
 
-    $chart.hide();
+    chartMilesPerYear();
 }
 
 function initFilter() {
-    const $filterBox = $("<div id='filterBox'>");
+    const $filterBox = $("<div id='filterBox' spellcheck='false'>");
     $filter = $("<input id='filter'>");
     const $filterClear = $("<span id='" + CLEAR + "'>");
     $filter.attr("title", "Filter by Condition, Trail, or tag such as:\nLarry, Kevin, Taiwan, Utah, Unique, Snake, Deer");
@@ -602,7 +675,48 @@ function initFilter() {
     $filterClear.html("X");
     $filterClear.attr("title", "Clear filter");
     $filterBox.append($filterClear);
+    const $info = $("<span id='info'>");
+    $info.html("&#x1F6C8");
+    $info.attr("title", "Info about web-app");
+    $filterBox.append($info);
     $(LEFT).append($filterBox);
+
+    $info.click(() => {
+        $(DIALOG).dialog('open');
+    });
+}
+
+function initInfoDialog() {
+    const $dlg = $(DIALOG);
+    const lines = [
+        {key: "Arrow Left", val: "Select top hike"},
+        {key: "Arrow Right", val:"Select top year"},
+        {key: "Arrow Down", val:"Select next hike or year"},
+        {key: "Arrow Up", val:"Select previous hike or year"},
+        {key: "ESC", val:"Clear"},
+        {key: "PgDn", val:"Scroll table down one page"},
+        {key: "PgUp", val:"Scroll table up one page"},
+        {key: "Home", val:"Show beginning of table"},
+        {key: "End", val:"Show end of table"},
+        {key: "Enter", val:"Show more info for selected hike"},
+        {key: "I", val:"Show this info dialog"},
+        {key: "F", val:"Enter filter (Cliff, Unique, Snake, Utah, Taiwan)"},
+        {key: "Yellow text", val:"Unique hike"},
+        {key: "Click photo", val:"Show photo full screen"}
+    ];
+
+    lines.forEach((line) => {
+        const $div = $("<div>");
+        const text = "<b>" + line.key + "</b>: " + line.val;
+        $div.html(text);
+        $dlg.append($div);
+    });
+
+    $dlg.dialog({
+        autoOpen: false,
+        modal: true,
+        width: 'auto'
+    });
 }
 
 function minutesToTime(minutes) {
@@ -638,7 +752,7 @@ function hover($this, center) {
         const hike = fHikes[index];
         showPhotos(hike);
 
-        $("#focusHelper").focus(); // Redirect focus away from the scrollbar
+        $(FOCUS).focus(); // Redirect focus away from the scrollbar
         $this[0].scrollIntoView({ behavior: "smooth", block }); // scroll to make visible
 
         if (index === 0) {  // Make sure header shows when 1st row selected
@@ -655,9 +769,15 @@ function clearHover() {
         $right.append($myStats);
         saveHike();
         titleDefault();
-        $(CHART).hide();
+        chartMilesPerYear();
         initYearHoverListener();
     }
+}
+
+function chartMilesPerYear() {
+    myChart.data.labels = stats.years.labels;
+    myChart.data.datasets[0].data = stats.years.data;
+    myChart.update();
 }
 
 function showPhotos(hike) {
