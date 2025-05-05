@@ -529,8 +529,8 @@ function initStats() {
         });
 
         $tbody.append($row);
-        years.push(entry.year);
-        miles.push(entry.miles.toFixed(1));
+        years.unshift(entry.year);
+        miles.unshift(entry.miles.toFixed(1));
     });
 
     stats.years = {data: miles, labels: years};
