@@ -13,13 +13,21 @@ const FOCUS = "#focusHelper";
 const DIALOG = "#dlgInfo";
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const stats = {};
+const IMGC = '#imgContainer';
+const TITLE = '#title';
+const PAUSED = 'paused';
+const MILLIS = 3000;
 let sort = {name:"Date", ascending:false};
 let $myStats;
 let $filter;
 let fHikes;
 let myChart;
+let imgSlides = {};
+let container = {};
+let intervalId;
 
 function init() {
+    initContainer();
     initFilters();
     initInfoDialog();
     titleDefault();
@@ -28,6 +36,11 @@ function init() {
     initStats();
     initHandlers();
     selectHike();
+}
+
+function initContainer() {
+    container.width = window.screen.width;
+    container.height = window.screen.height - $(TITLE).outerHeight(true);
 }
 
 function titleDefault() {
@@ -91,12 +104,16 @@ function click(event) {
     const $target = $(event.target);
     const $tr = $target.closest(LEFT + " tr");
 
-    if ($tr.hasClass(HIGHLIGHT)) {
+    if (document.fullscreen) {
+        return;
+    }
+    else if ($tr.hasClass(HIGHLIGHT)) {
         openUrl($tr[0].rowIndex - 1);
     }
     else if ($target.is("img")) {
-        $target.removeClass(BORDER);
-        $target[0].requestFullscreen();
+        const idxPhoto = $target.parent().children().index($target);
+        imgSlides.auto = false;
+        showSlides(idxPhoto);
     }
     else if ($tr.length > 0 && $tr[0].rowIndex > 0) {
         hover($tr);
@@ -117,6 +134,72 @@ function click(event) {
     else if ($target[0].id === CLEAR) {
         $filter.val('');
         applyFilter();
+    }
+}
+
+function showSlides(idxPhoto) {
+    let idxHike = getTableHighlightIndex(LEFT);
+    const photos = [];
+
+    if (idxHike >= 0) {
+        imgSlides.index = idxPhoto === undefined ? 0 : idxPhoto;
+        fHikes[idxHike].photos.forEach(photo => {
+            photos.push({photo, idxHike});
+        });
+    }
+    else {
+        for (let i = 0; i < fHikes.length; i++) {
+            fHikes[i].photos.forEach(photo => {
+                photos.push({photo, idxHike: i});
+            });
+        }
+        imgSlides.index = 0;
+        randomize(photos);
+    }
+
+    imgSlides.photos = photos;
+    $(IMGC)[0].requestFullscreen();
+    showSlide();
+
+    intervalId = setInterval(function() {
+        if (document.fullscreen && imgSlides.auto) {
+            advanceImage();
+        }
+    }, MILLIS);
+}
+
+function randomize(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }    
+}
+
+function showSlide() {
+    const $img = $("#image");
+
+    $img[0].onload = function() {
+        const hike = fHikes[imgSlides.photos[imgSlides.index].idxHike];
+        const title = hike.date + " " + hike.conditions + " " + hike.trail + "&nbsp;&nbsp;" + (imgSlides.index + 1) + "/" + imgSlides.photos.length;
+        $(TITLE).html(title);
+        alignImage($img);
+    }
+
+    updatePausedIndicator();
+    $img.attr('src', imgSlides.photos[imgSlides.index].photo);
+}
+
+function alignImage($img) {
+    let imgWidth = $img.prop('naturalWidth');
+    let imgHeight = $img.prop('naturalHeight');
+    let arImg = imgWidth / imgHeight;
+    let arScr = container.width / container.height;
+
+    if (arImg <= arScr) {
+        $img.css({width:'unset', height:container.height + 'px'});
+    }
+    else {
+        $img.css({width:container.width + 'px', height:'unset'});
     }
 }
 
@@ -156,6 +239,7 @@ function up(side, idx, max) {
 }
 
 function keydown(event) {
+    const key = event.key.toLowerCase();
     let side = undefined;
     let index = getTableHighlightIndex(LEFT);
     let max = fHikes.length;
@@ -171,7 +255,10 @@ function keydown(event) {
         }
     }
 
-    if ("Enter" === event.key && side === LEFT && index >= 0) {
+    if (document.fullscreen) {
+        advanceImage(event);
+    }
+    else if ("Enter" === event.key && side === LEFT && index >= 0) {
         openUrl(index);
     }
     else if ("ArrowDown" === event.key) {
@@ -209,15 +296,63 @@ function keydown(event) {
     else if ("filter" === event.target.id) {
         applyFilter();
     }
-    else if ('f' === event.key.toLowerCase()) {
+    else if ('f' === key) {
         setTimeout(function () {
             const $filter = $(FILTER);
             $filter.val("");
             $filter.focus();            
         }, 10);
     }
-    else if ('i' === event.key.toLowerCase()) {
+    else if ('i' === key) {
         $(DIALOG).dialog('open');
+    }
+    else if ('s' === key) {
+        imgSlides.auto = true;
+        showSlides();
+    }
+}
+
+function advanceImage(event) {
+    const key = event ? event.key : "ArrowRight";
+
+    if (document.fullscreen && imgSlides.photos && imgSlides.photos.length > 1) {
+        let index = imgSlides.index;
+        if ("ArrowRight" === key) {
+            index++;
+            if (index >= imgSlides.photos.length) {
+                index = 0;
+            }
+        }
+        else if ("ArrowLeft" === key) {
+            index--;
+            if (index < 0) {
+                index = imgSlides.photos.length - 1;
+            }
+        }
+        else if ("s" === event.key.toLowerCase()) {
+            imgSlides.auto = !imgSlides.auto;
+            updatePausedIndicator();
+            return;
+        }
+        else {
+            return;
+        }
+
+        if (event) {
+            imgSlides.auto = false;
+        }
+
+        imgSlides.index = index;
+        showSlide();
+    }
+}
+
+function updatePausedIndicator() {
+    if (imgSlides.auto) {
+        $(TITLE).removeClass(PAUSED);                
+    }
+    else {
+        $(TITLE).addClass(PAUSED);
     }
 }
 
@@ -261,7 +396,14 @@ function isMobile() {
 
 function exitFullScreenHandler() {
     if (!document.fullscreenElement) {
-        $("img").addClass(BORDER);
+        clearInterval(intervalId);
+        intervalId = undefined;
+        clearHover();
+        $(TITLE).text("");
+        const index = imgSlides.photos[imgSlides.index].idxHike;
+        setTimeout(() => {
+            highlightHike(index);
+        }, 0)
     }
 }
 
@@ -690,19 +832,20 @@ function initInfoDialog() {
     const $dlg = $(DIALOG);
     const lines = [
         {key: "Arrow Left", val: "Select top hike"},
-        {key: "Arrow Right", val:"Select top year"},
-        {key: "Arrow Down", val:"Select next hike or year"},
-        {key: "Arrow Up", val:"Select previous hike or year"},
-        {key: "ESC", val:"Clear"},
-        {key: "PgDn", val:"Scroll table down one page"},
-        {key: "PgUp", val:"Scroll table up one page"},
-        {key: "Home", val:"Show beginning of table"},
-        {key: "End", val:"Show end of table"},
-        {key: "Enter", val:"Show more info for selected hike"},
-        {key: "I", val:"Show this info dialog"},
-        {key: "F", val:"Enter filter (Cliff, Unique, Snake, Utah, Taiwan)"},
-        {key: "Yellow text", val:"Unique hike"},
-        {key: "Click photo", val:"Show photo full screen"}
+        {key: "Arrow Right", val: "Select top year"},
+        {key: "Arrow Down", val: "Select next hike or year"},
+        {key: "Arrow Up", val: "Select previous hike or year"},
+        {key: "ESC", val :"Clear"},
+        {key: "PgDn", val: "Scroll table down one page"},
+        {key: "PgUp", val: "Scroll table up one page"},
+        {key: "Home", val: "Show beginning of table"},
+        {key: "End", val: "Show end of table"},
+        {key: "Enter", val: "Show more info for selected hike"},
+        {key: "I", val: "Show this info dialog"},
+        {key: "F", val: "Enter filter (Cliff, Unique, Snake, Utah, Taiwan)"},
+        {key: "S", val: "Slideshow"},
+        {key: "Yellow text", val :"Unique hike"},
+        {key: "Click photo", val:" Show photo full screen"}
     ];
 
     lines.forEach((line) => {
