@@ -842,8 +842,8 @@ function initInfoDialog() {
         {key: "End", val: "Show end of table"},
         {key: "Enter", val: "Show more info for selected hike"},
         {key: "I", val: "Show this info dialog"},
-        {key: "F", val: "Enter filter (Cliff, Unique, Snake, Utah, Taiwan)"},
         {key: "S", val: "Slideshow"},
+        {key: "F", val: "Enter filter or tag:<br> " + getTags()},
         {key: "Yellow text", val :"Unique hike"},
         {key: "Click photo", val:" Show photo full screen"}
     ];
@@ -860,6 +860,39 @@ function initInfoDialog() {
         modal: true,
         width: 'auto'
     });
+}
+
+function getTags() {
+    let tagStr = "";
+    let tagRow = "";
+    let tags = [];
+
+    hikes.forEach(hike => {
+        if (hike.tags) {
+            hike.tags.forEach(tag => {
+                if (!(tag === hike.trail || tag === hike.conditions) && !tags.includes(tag)) {
+                    tags.push(tag);
+                }
+            });
+        }
+    });
+
+    tags.sort();
+
+    for (let i = 0; i < tags.length; i++) {
+        tagRow += tags[i];
+
+        if (i < (tags.length - 1)) {
+            tagRow += ", ";
+        }
+
+        if ((i + 1) % 5 === 0 || i === (tags.length - 1)) {
+            tagStr += "<ul>" + tagRow + "</ul>";
+            tagRow = "";
+        }
+    }
+
+    return tagStr;
 }
 
 function minutesToTime(minutes) {
