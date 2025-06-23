@@ -515,9 +515,6 @@ function initFilters() {
         }
         hike.tags.push(hike.trail);
         hike.tags.push(hike.conditions);
-        if (hike.unique) {
-            hike.tags.push("unique");
-        }
     });
 
     fHikes = hikes.slice();
@@ -585,7 +582,7 @@ function initTable(sort) {
         $row.attr("title", "Click for details");
         $tbody.append($row);
 
-        if (hike.unique) {
+        if (hike.tags && hike.tags.includes('unique')) {
             $row.addClass('unique');
         }
     });
