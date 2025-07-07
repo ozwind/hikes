@@ -779,6 +779,9 @@ function initChart() {
                     font: {
                         weight: 'bold'
                     },
+                    formatter: function(value) {
+                        return Number(value).toFixed(1);
+                    },
                     display: function(context) {
                         return context.dataset.data[context.dataIndex] !== 0; // Hide if value is 0
                     }
