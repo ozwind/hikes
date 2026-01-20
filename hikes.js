@@ -899,10 +899,9 @@ function minutesToTime(minutes) {
     let days = Math.floor(minutes / (24 * 60));
     let hours = Math.floor((minutes % (24 * 60)) / 60);
     let mins = minutes % 60;
-    let dayStr = days === 1 ? "day, &nbsp;" : "days,";
 
     // Format HH and MM with leading zeros if needed
-    let formattedTime = `${days} ${dayStr} ${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
+    let formattedTime = `${days}d ${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
 
     return formattedTime;
 }
