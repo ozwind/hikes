@@ -221,6 +221,9 @@ function down(side, idx, max) {
             highlightYear(idx);
         }
     }
+    else {
+        highlightHike(0);
+    }
 }
 
 function up(side, idx, max) {
