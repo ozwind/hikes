@@ -22,6 +22,16 @@ Tags:  Unique, Snake, Deer, Taiwan, Utah, Kevin
 
 var hikes = [
 {
+    date: '5/11/2026',
+    duration: '3:46',
+    miles: 11.02,
+    trail: 'Irvine Weir',
+    url: 'https://www.alltrails.com/explore/recording/morning-hike-bf60c2d',
+    conditions: 'Sunny 59°/69°',
+    photos: [
+'https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTI3MzcxMDc3LzEyNzkwYWUxZTM4NGY5ZWRlYWRjYjdlNjBkYzI5MjlkLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6MjA0OCwiaGVpZ2h0IjoyMDQ4LCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=']
+},
+{
     date: '5/4/2026',
     duration: '3:57',
     miles: 10.49,
