@@ -22,6 +22,17 @@ Tags:  Unique, Snake, Deer, Taiwan, Utah, Kevin
 
 var hikes = [
 {
+    date: '10/19/2026',
+    duration: '3:42',
+    miles: 10.48,
+    trail: 'Lower Puma',
+    url: 'https://www.alltrails.com/explore/recording/morning-hike-c6af4c5',
+    conditions: 'Sunny 65°/77°',
+    photos: [
+'https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTQxMzI3NjIwLzI0NGU4MDA5MjAxZWFiYjZhNjIyYjk2NzEyYTc3MjJmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjIwNDgiLCJoZWlnaHQiOiIyMDQ4IiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19',
+'https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTQxMzI3NjIyLzRhMDNkZjlmYWNjMGYyYmQyZjEyNTdmZGJlOWYyNmNhLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjIwNDgiLCJoZWlnaHQiOiIyMDQ4IiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19']
+},
+{
     date: '10/5/2026',
     duration: '4:00',
     miles: 10.84,
